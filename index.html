@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bloom Trend Detective</title>
+<meta name="description" content="Satellites say Florida's lakes are getting greener. We cross-examined the satellite bloom record against field water samples, lake by lake.">
+<script src="vendor/plotly-2.35.2.min.js"></script>
+<style>
+:root{
+  --bg:#f7f8f6; --surface:#ffffff; --ink:#18201d; --muted:#5b6762; --line:#dfe4e1;
+  --accent:#0f6e6a; --accent-ink:#ffffff; --bloom:#4d8b1f; --up:#c2410c; --maybe:#b7791f; --none:#6b7c86; --na:#b8c2c7;
+  --warm:#c2410c; --rain:#1d5fa7; --epa:#7c3aed; --pers:#0f6e6a; --pers2:#5fb3ad;
+  --chip:#eef3f1; --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 16px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1513; --surface:#161e1b; --ink:#e7ece9; --muted:#9aa8a2; --line:#2a3531;
+  --accent:#4fb3ac; --accent-ink:#06201e; --bloom:#8cc657; --up:#fb8a4c; --maybe:#e0b04a; --none:#93a4ad; --na:#4b575d;
+  --warm:#fb8a4c; --rain:#6aa7ec; --epa:#b394f5; --pers:#4fb3ac; --pers2:#2f7d77; --chip:#1d2824; --shadow:none;}}
+:root[data-theme="dark"]{
+  --bg:#0f1513; --surface:#161e1b; --ink:#e7ece9; --muted:#9aa8a2; --line:#2a3531;
+  --accent:#4fb3ac; --accent-ink:#06201e; --bloom:#8cc657; --up:#fb8a4c; --maybe:#e0b04a; --none:#93a4ad; --na:#4b575d;
+  --warm:#fb8a4c; --rain:#6aa7ec; --epa:#b394f5; --pers:#4fb3ac; --pers2:#2f7d77; --chip:#1d2824; --shadow:none;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding:40px 0 20px}
+.kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em}
+h2{font-size:clamp(22px,3.2vw,28px);margin:0 0 10px;letter-spacing:-.01em}
+h3{font-size:17px;margin:0 0 6px}
+.lede{font-size:18px;max-width:760px;color:var(--ink);margin:0}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+section{padding:28px 0;border-top:1px solid var(--line)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:820px){.grid2,.grid3{grid-template-columns:1fr}}
+.step{display:flex;gap:10px;align-items:baseline;margin:0 0 10px}
+.step b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:14px;flex:none}
+select{width:100%;font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.vars{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:520px){.vars{grid-template-columns:1fr}}
+.var{border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;background:var(--surface);text-align:left;font:inherit;color:inherit}
+.var:hover{border-color:var(--accent)}
+.var[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.var .src{font-size:12px;color:var(--muted);display:block;margin-top:4px}
+.var .nm{font-weight:600}
+.examples{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chipbtn{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chipbtn:hover{border-color:var(--accent)}
+.verdict{font-size:clamp(20px,3vw,26px);font-weight:700;margin:2px 0 8px;line-height:1.25}
+.v-up{color:var(--up)} .v-down{color:var(--rain)} .v-maybe{color:var(--maybe)} .v-none{color:var(--none)} .v-na{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}
+@media (max-width:520px){.stats{grid-template-columns:1fr}}
+.stat{background:var(--chip);border-radius:10px;padding:10px}
+.stat .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.stat .v{font-size:18px;font-weight:650;font-variant-numeric:tabular-nums}
+.chart{width:100%;height:360px}
+.chart.tall{height:420px}
+.chart.map{height:420px}
+.note{border-left:3px solid var(--maybe);padding:8px 12px;background:var(--chip);border-radius:0 10px 10px 0;margin:12px 0}
+.note.good{border-left-color:var(--accent)}
+.big{font-size:clamp(30px,5vw,40px);font-weight:750;line-height:1;font-variant-numeric:tabular-nums}
+.toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:6px 0 10px}
+.toggle button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--ink);padding:6px 14px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+figure{margin:0} figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+img.sat{width:100%;height:auto;border-radius:12px;display:block}
+ul.tight{margin:6px 0;padding-left:20px} ul.tight li{margin:3px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+footer{padding:28px 0 48px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--muted);margin-top:6px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+#loading{padding:20px 0}
+.tagc{display:inline-block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.vars{grid-template-columns:1fr 1fr}
+@media (max-width:520px){figure.card{grid-template-columns:1fr !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="kicker">NASA Space Apps 2026 · Be An Earth System Trend Detective!</p>
+  <h1>Bloom Trend Detective: Florida Lakes</h1>
+  <p class="lede">Satellites say Florida's lakes are getting greener. A good detective doesn't stop at one witness. We cross‑examined the satellite record with <b id="h-n"></b> field water samples, lake by lake.</p>
+</header>
+
+<div id="loading" class="muted">Loading data…</div>
+
+<section id="case" hidden>
+  <h2>The case in three findings</h2>
+  <div class="grid3">
+    <div class="card"><span class="tagc">Witness 1 · the satellite</span>
+      <p class="big" style="color:var(--bloom)"><span id="c1a"></span> → <span id="c1b"></span></p>
+      <p class="small">Share of warm‑season weeks the satellite flagged as blooming, averaged over lakes, 2020 → 2026. <b id="c1c"></b> lakes show a significant rise in bloom extent; none a fall.</p></div>
+    <div class="card"><span class="tagc">Witness 2 · field samples</span>
+      <p class="big" style="color:var(--accent)">+<span id="c2a"></span>% / yr</p>
+      <p class="small">Field chlorophyll rose too, 2020–2025 (95% CI <span id="c2b"></span>; <span id="c2c"></span> lakes, <span id="c2d"></span> up). By the rule we fixed in advance, the satellite rise is <b>corroborated</b>.</p></div>
+    <div class="card"><span class="tagc">The twist</span>
+      <p class="big" style="color:var(--up)">+<span id="c3a"></span> pts / yr</p>
+      <p class="small">For the <i>same</i> field chlorophyll, the satellite reads higher every year (95% CI <span id="c3b"></span>; <span id="c3c"></span> same‑week matchups). Field chlorophyll eased after 2023; the satellite kept climbing.</p></div>
+  </div>
+  <p class="note" style="margin-top:16px"><b>Verdict so far.</b> The rise through 2023 looks real. The satellite's continued climb since then is not confirmed by field data. It could be instrument or processing drift, a real shift toward cyanobacteria that total chlorophyll can't see, or a change in sampling. See <a href="#cross">the cross‑examination</a>.</p>
+</section>
+
+<section id="tool" hidden>
+  <h2>Investigate a lake yourself</h2>
+  <div class="grid2">
+    <div>
+      <div class="step"><b>1</b><h3>Pick a lake</h3></div>
+      <select id="lake" aria-label="Lake"></select>
+      <div id="map" class="chart map" aria-label="Map of Florida lakes coloured by bloom-week trend"></div>
+      <div class="legend">
+        <span><span class="dot" style="background:var(--up)"></span>Significant rise in bloom weeks</span>
+        <span><span class="dot" style="background:var(--maybe)"></span>Possible trend</span>
+        <span><span class="dot" style="background:var(--none)"></span>No clear trend yet</span>
+        <span><span class="dot" style="background:var(--na)"></span>Not enough clear‑sky data</span>
+      </div>
+      <p class="small muted">Tap a dot on the map to choose that lake.</p>
+    </div>
+    <div>
+      <div class="step"><b>2</b><h3>Pick a variable</h3></div>
+      <div class="vars" role="group" aria-label="Variable">
+        <button class="var" data-v="V1_bloom_share"><span class="nm">Bloom weeks</span><br><span class="small">Share of May–Oct weeks the satellite flagged the lake as blooming.</span><span class="src">Cyanobacteria Index · CyAN (EPA, NASA, NOAA, USGS) · ESA Sentinel‑3 · 2020–2026</span></button>
+        <button class="var" data-v="V2_extent"><span class="nm">Bloom extent</span><br><span class="small">Average share of the lake's area above the bloom threshold, May–Oct.</span><span class="src">Cyanobacteria Index · CyAN · 2020–2026</span></button>
+        <button class="var" data-v="V5_field"><span class="nm">Field chlorophyll</span><br><span class="small">What boats and volunteers measured in water samples, May–Oct.</span><span class="src">Water Quality Portal · LAKEWATCH, FDEP, counties · 2000–2025</span></button>
+        <button class="var" data-v="V3_t2m"><span class="nm">Warm‑season air temperature</span><br><span class="small">Average air temperature 2 m above ground, May–Oct.</span><span class="src">NASA MERRA‑2 via NASA POWER · 1981–2025</span></button>
+        <button class="var" data-v="V3_rain"><span class="nm">Warm‑season rainfall</span><br><span class="small">Total rain from May to October.</span><span class="src">NASA MERRA‑2 via NASA POWER · 1981–2025</span></button>
+      </div>
+      <p class="small muted" style="margin:12px 0 4px">Or try a worked example:</p>
+      <div class="examples">
+        <button class="chipbtn" data-ex="Eagle Lake (FL)|V1_bloom_share">A lake getting greener</button>
+        <button class="chipbtn" data-ex="Lake Apopka|V5_field">Lake Apopka: 15 seasons of field data</button>
+        <button class="chipbtn" data-ex="Lake Okeechobee|V1_bloom_share">Okeechobee: no clear trend</button>
+        <button class="chipbtn" data-ex="Lake Okeechobee|V3_t2m">Okeechobee: 45 years of warming</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:20px">
+    <div class="step"><b>3</b><h3 id="rtitle">Result</h3></div>
+    <div id="verdict" class="verdict"></div>
+    <div id="explain"></div>
+    <div class="stats">
+      <div class="stat"><div class="k">Rate of change</div><div class="v" id="s-rate"></div></div>
+      <div class="stat"><div class="k">95% range of the rate</div><div class="v" id="s-ci"></div></div>
+      <div class="stat"><div class="k">Chance a no‑trend world looks like this</div><div class="v" id="s-p"></div></div>
+    </div>
+    <div id="chart" class="chart"></div>
+    <div id="xbox" class="note good" style="margin-top:10px"></div>
+    <details id="weeklybox" style="margin-top:8px"><summary>See every week (satellite bloom extent)</summary>
+      <div id="weekly" class="chart"></div>
+      <p class="small muted">Bars are weekly composites; green bars are weeks whose lake‑median index crossed the bloom threshold. Gaps are weeks with too much cloud or no data (less than half the lake visible).</p>
+    </details>
+    <details style="margin-top:8px"><summary>How the detective decides</summary>
+      <ul class="tight small">
+        <li><b>Trend size</b> is Sen's slope: the median of the slopes between every pair of years. One odd year can't drag it around.</li>
+        <li><b>Is it real?</b> The Mann‑Kendall test asks: if there were no trend, how often would years line up this consistently? That chance is the p‑value. Below 5% we call it significant.</li>
+        <li><b>Testing many lakes at once</b> means a few would look significant by luck. For the bloom and field variables we correct for that (Benjamini–Hochberg).</li>
+        <li><b>Seven seasons is short.</b> “No clear trend yet” means <i>not proven</i>, not <i>proven flat</i>. Published work suggests about a decade of imagery is needed.</li>
+        <li><b>Significant isn't the same as real.</b> A satellite record can drift. That is why each lake also shows the field record where one exists.</li>
+        <li>All rules were written down before the results were computed (protocol Amendments 2–4).</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="cross" hidden>
+  <h2>The cross‑examination</h2>
+  <div class="grid2">
+    <div>
+      <h3>Do the two witnesses tell the same story?</h3>
+      <div id="xchart" class="chart"></div>
+      <p class="small muted">Lakes with all six seasons in both records (<span id="x-n"></span> lakes). Each line is shown relative to its 2020 value. Exploratory.</p>
+    </div>
+    <div>
+      <h3>For the same field chlorophyll, what does the satellite read?</h3>
+      <div id="dchart" class="chart"></div>
+      <p class="small muted">Extra satellite bloom extent compared with 2020, holding field chlorophyll, lake and month fixed. Bars are 95% ranges (lakes resampled). <span id="d-n"></span> same‑week matchups in <span id="d-l"></span> lakes.</p>
+    </div>
+  </div>
+  <h3 style="margin-top:18px">The suspects</h3>
+  <div class="grid2">
+    <div class="card small">
+      <table>
+        <tr><th>Suspect</th><th>Evidence</th></tr>
+        <tr><td><b>Real greening</b></td><td>Supported through 2023: field chlorophyll rose in <span id="s-up"></span> of <span id="s-all"></span> lakes, and the satellite tracks the field year to year in <span id="s-rho"></span> of lakes.</td></tr>
+        <tr><td><b>Instrument or processing drift</b></td><td>Not ruled out: the satellite reads higher each year at the same field chlorophyll. NASA reprocessed this sensor's data in 2022, and the lake data service reports no product version.</td></tr>
+        <tr><td><b>More cyanobacteria at the same total chlorophyll</b></td><td>Would leave the same fingerprint. Needs pigment or cell‑count data to test.</td></tr>
+        <tr><td><b>Changes in sampling</b></td><td>Possible: 2025 field data are still arriving (fewer sampling dates per lake).</td></tr>
+      </table>
+      <p class="muted" style="margin-bottom:0">The long field record adds context: <span id="lr-n"></span> lakes have 6 or more well‑sampled seasons since 2000, and none shows a significant long‑term trend after the many‑lake check.</p>
+    </div>
+    <div class="card">
+      <h3>What NASA's 45‑year record says</h3>
+      <p class="big" style="color:var(--warm)">+<span id="t-med"></span> °C</p>
+      <p class="small muted" style="margin-top:4px">per decade, median warm‑season warming across lakes, 1981–2025</p>
+      <p class="small">All <b id="t-sig"></b> lakes show significant warm‑season warming in NASA's MERRA‑2 reanalysis; rainfall shows no clear trend at most (<b id="r-sig"></b> significant). MERRA‑2 cells are about 50 km wide, so the lakes fall into only <b id="t-cells"></b> distinct cells: regional air, not lake water. We have not tested whether warming explains the bloom signal.</p>
+    </div>
+  </div>
+  <figure class="card" style="margin-top:18px;display:grid;grid-template-columns:minmax(0,220px) 1fr;gap:16px;align-items:center">
+    <img class="sat" src="img/okeechobee_modis_terra_2023-06-20.jpg" alt="True-colour MODIS Terra image of Lake Okeechobee on 20 June 2023 with scattered clouds; the lake appears dark." width="480" height="480">
+    <figcaption style="font-size:15px">Lake Okeechobee, 20 June 2023 — NASA MODIS Terra true colour (NASA Worldview / GIBS). That week the cyanobacteria index flagged 94% of the lake's clear pixels above the bloom threshold. Our eyes can't see it at this resolution; the index can. That power is why it matters whether the index holds steady over the years.</figcaption>
+  </figure>
+</section>
+
+<section id="decision" hidden>
+  <h2>So, is the weekly bloom warning worth acting on? It depends who grades it.</h2>
+  <p>EPA publishes a weekly bloom forecast for these lakes. The simplest rival is <b>last week's satellite view</b>. We compared them twice, with plans written before the results.</p>
+  <div class="grid2">
+    <div class="card">
+      <span class="tagc">Graded against the satellite's own labels · 6,980 lake‑weeks</span>
+      <h3>Last week's view looks clearly better</h3>
+      <table class="small">
+        <tr><th></th><th>Brier score (lower is better)</th></tr>
+        <tr><td>EPA weekly forecast</td><td id="b-epa"></td></tr>
+        <tr><td>Last week's satellite view</td><td id="b-per"></td></tr>
+      </table>
+      <p class="small muted">But the answer key and the rival come from the same instrument, which flatters the rival.</p>
+      <details><summary class="small">Value across action costs (satellite‑graded)</summary>
+        <div class="toggle" role="group" aria-label="Which weeks"><button data-sub="all" aria-pressed="true">All weeks</button><button data-sub="onset" aria-pressed="false">Weeks before a new bloom</button></div>
+        <div id="revchart" class="chart tall"></div>
+        <p class="small muted">Horizontal: cost of acting ÷ loss avoided. Vertical: relative economic value (1 = perfect foresight, 0 = no better than always or never acting).</p>
+      </details>
+    </div>
+    <div class="card">
+      <span class="tagc">Graded against field samples · <span id="e-n"></span> lake‑weeks in <span id="e-l"></span> lakes</span>
+      <h3>No clear winner</h3>
+      <div id="aucchart" class="chart" style="height:250px"></div>
+      <p class="small">Ranking skill for “will a field sample that week find chlorophyll ≥ 12 µg/L?” (1 = perfect, 0.5 = coin flip). Forecast minus last week's view: <b id="e-d"></b>.</p>
+    </div>
+  </div>
+  <div class="note good"><b>What this means.</b> Against independent field samples, the forecast and last week's satellite view are equally good guides to where a sampling crew will find high chlorophyll. Our first comparison overstated the difference because it graded the satellite against itself. Scoring a satellite‑trained forecast only against satellite labels can mislead; field truth is the fairer judge. We report no dollar savings: no Florida action has a documented cost ratio yet.</div>
+</section>
+
+<section id="about" hidden>
+  <h2>Data, methods and limits</h2>
+  <div class="grid3">
+    <div class="card small">
+      <h3>Data</h3>
+      <ul class="tight">
+        <li><b>Cyanobacteria Index</b> — CyAN project (EPA, NASA, NOAA, USGS), weekly lake histograms from cyan.epa.gov; ESA/EUMETSAT Sentinel‑3 OLCI; archived at NASA OB.DAAC (DOI 10.5067/S3A/OLCI/L3M/ILW/5.0).</li>
+        <li><b>NASA MERRA‑2</b> temperature and precipitation via the NASA POWER API.</li>
+        <li><b>NASA MODIS Terra</b> true colour via NASA Worldview/GIBS.</li>
+        <li><b>Field chlorophyll‑a</b> (corrected for pheophytin) — Water Quality Portal (USGS/EPA): Florida LAKEWATCH, FDEP, counties, water management districts; <span id="a-rows"></span> Florida lake records downloaded for 2000–2026, of which <span id="a-used"></span> fall in the 115 lakes studied.</li>
+        <li><b>EPA weekly cyanoHAB forecast</b>, archived 2025–26.</li>
+      </ul>
+    </div>
+    <div class="card small">
+      <h3>Methods</h3>
+      <ul class="tight">
+        <li>Bloom = lake‑median index ≥ 130 (≈ 12 µg/L chlorophyll‑a), EPA's threshold. Weeks with under half the lake visible are “unknown”.</li>
+        <li>Field stations are assigned to lakes by their position inside the lake outline (150 m tolerance): <span id="a-st"></span> stations in <span id="a-lk"></span> lakes.</li>
+        <li>Trends: Mann‑Kendall, Sen's slope, Benjamini–Hochberg across lakes.</li>
+        <li>Cross‑check: per‑lake slopes 2020–2025, lake‑resampled intervals; drift model with lake and month fixed effects.</li>
+        <li>Forecast test: ROC‑AUC against field chlorophyll ≥ 12 µg/L, lake‑resampled intervals.</li>
+      </ul>
+    </div>
+    <div class="card small">
+      <h3>Limits</h3>
+      <ul class="tight">
+        <li>Nothing here is about toxins, health or whether water is safe. Check your local health department.</li>
+        <li>Field samples measure total chlorophyll at points; the satellite measures a cyanobacteria‑related signal over the surface.</li>
+        <li>Lakes share weather, so intervals are too narrow. 2025–26 field data are still arriving.</li>
+        <li>No dollar savings, no causes proven, nothing outside Florida's satellite‑visible lakes.</li>
+        <li>Not a criticism of EPA's national model: we tested one state.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><b>Use of AI.</b> Code, analysis and text for this project were written with the help of an AI assistant (Anthropic's Claude) and checked against the source data. No images on this page are AI‑generated.</p>
+    <p>All data are public. Results are reproducible from the project repository (Python; tests included). Satellite image courtesy NASA Worldview / GIBS. The Cyanobacteria Index is a satellite estimate of chlorophyll from cyanobacteria; it is not a toxin measurement.</p>
+  </div>
+</footer>
+<script>
+const $ = s => document.querySelector(s);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+let D, lake, vkey = "V1_bloom_share", sub = "all";
+const pct = s => (Math.pow(10, s) - 1) * 100;
+const VARS = {
+  V1_bloom_share:{label:"Bloom weeks (share of May–Oct)", src:"cyan", field:"bloom_share", scale:100, color:"--bloom", unit:"% of weeks", many:true,
+    rate:s=>`${fmtSigned(s*100,1)} pts/yr`, rateLong:s=>`${fmtSigned(s*26,1)} bloom weeks per season, per year (≈26‑week season)`},
+  V2_extent:{label:"Bloom extent (share of lake area, May–Oct)", src:"cyan", field:"extent", scale:100, color:"--bloom", unit:"% of lake area", many:true,
+    rate:s=>`${fmtSigned(s*100,1)} pts/yr`, rateLong:s=>`${fmtSigned(s*100,1)} percentage points of lake area per year`},
+  V5_field:{label:"Field chlorophyll (µg/L, May–Oct median)", src:"field", field:"chl", scale:1, color:"--accent", unit:"µg/L", many:true,
+    rate:s=>`${fmtSigned(pct(s),1)} %/yr`, rateLong:s=>`${fmtSigned(pct(s),1)}% per year`},
+  V3_t2m:{label:"Warm‑season air temperature (°C)", src:"merra", field:"t2m", scale:1, color:"--warm", unit:"°C", many:false,
+    rate:s=>`${fmtSigned(s*10,2)} °C/decade`, rateLong:s=>`${fmtSigned(s*10,2)} °C per decade`},
+  V3_rain:{label:"Warm‑season rainfall (mm)", src:"merra", field:"rain", scale:1, color:"--rain", unit:"mm", many:false,
+    rate:s=>`${fmtSigned(s*10,0)} mm/decade`, rateLong:s=>`${fmtSigned(s*10,0)} mm per decade`},
+};
+function fmtSigned(x,d){ if(x==null||isNaN(x)) return "—"; const r=Number(Math.abs(x).toFixed(d)); return (r===0?"":(x>0?"+":"−"))+Math.abs(x).toFixed(d); }
+function fmtP(p){ if(p==null) return "—"; if(p<0.001) return "< 0.1%"; return (p*100).toFixed(p<0.01?2:1)+"%"; }
+function vclass(v){ if(!v) return "v-na"; if(v.startsWith("Significant upward")) return "v-up"; if(v.startsWith("Significant downward")) return "v-down"; if(v.startsWith("Possible")) return "v-maybe"; if(v.startsWith("No clear")) return "v-none"; return "v-na"; }
+function catColor(t){ if(!t||!t.tested) return css("--na"); const c=vclass(t.verdict); return css({ "v-up":"--up","v-down":"--rain","v-maybe":"--maybe","v-none":"--none"}[c]||"--na"); }
+function layoutBase(extra={}){
+  return Object.assign({paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)", font:{color:css("--ink"), family:"system-ui, sans-serif", size:13},
+    margin:{l:56,r:16,t:16,b:44}, xaxis:{gridcolor:css("--line"), zeroline:false}, yaxis:{gridcolor:css("--line"), zeroline:false},
+    showlegend:false, hoverlabel:{bgcolor:css("--surface"), bordercolor:css("--line"), font:{color:css("--ink")}}}, extra);
+}
+const CFG = {displayModeBar:false, responsive:true, topojsonURL:"vendor/topojson/"};
+
+function drawMap(){
+  const L = D.lakes;
+  Plotly.react("map", [{type:"scattergeo", lon:L.map(l=>l.lon), lat:L.map(l=>l.lat), text:L.map(l=>`${l.name}<br>${(l.trends.V1_bloom_share||{}).verdict||""}`),
+    hoverinfo:"text", customdata:L.map(l=>l.name),
+    marker:{size:L.map(l=>l.name===lake.name?15:8), color:L.map(l=>catColor(l.trends.V1_bloom_share)), line:{width:L.map(l=>l.name===lake.name?2.5:0.5), color:css("--ink")}}}],
+    {geo:{scope:"usa", resolution:50, fitbounds:"locations",
+      showland:true, landcolor:css("--chip"), showlakes:false, subunitcolor:css("--line"), countrycolor:css("--line"), coastlinecolor:css("--line"), bgcolor:"rgba(0,0,0,0)"},
+     margin:{l:0,r:0,t:0,b:0}, paper_bgcolor:"rgba(0,0,0,0)", showlegend:false, hoverlabel:{bgcolor:css("--surface"),font:{color:css("--ink")}}}, CFG);
+  const m=document.getElementById("map");
+  if(!m._bound){ m.on("plotly_click", e=>{ select(e.points[0].customdata, vkey); }); m._bound=true; }
+}
+
+function series(V){
+  if (V.src==="cyan") return {x: lake.cyan.year.filter((_,i)=>lake.cyan.ok[i]), y: lake.cyan[V.field].filter((_,i)=>lake.cyan.ok[i])};
+  if (V.src==="field") return {x: lake.field.year, y: lake.field.chl};
+  return {x: lake.merra.year, y: lake.merra[V.field]};
+}
+function render(){
+  const V = VARS[vkey], t = lake.trends[vkey] || {tested:false};
+  $("#rtitle").textContent = `${lake.name} — ${V.label}`;
+  const vd = $("#verdict"); vd.className = "verdict " + vclass(t.verdict);
+  vd.textContent = t.verdict || "Not tested";
+  const {x, y} = series(V);
+  let ex = "";
+  if (t.tested){
+    $("#s-rate").textContent = V.rate(t.slope);
+    $("#s-ci").textContent = (t.lo==null||t.hi==null) ? "—" : `${V.rate(t.lo).replace(/\s.*$/,"")} to ${V.rate(t.hi)}`;
+    $("#s-p").textContent = V.many ? `${fmtP(t.p)} (${fmtP(t.p_adj)} after many‑lake check)` : fmtP(t.p);
+    const span = x.length ? `${Math.min(...x)}–${Math.max(...x)}` : "";
+    const where = `measured over ${t.n} ${V.src==="merra"?"years":"seasons"} (${span})`;
+    if (t.verdict.startsWith("Significant")) ex = `Trend: ${V.rateLong(t.slope)}, ${where}. A pattern this consistent would be very unlikely if nothing were changing.`;
+    else if (t.verdict.startsWith("Possible")) ex = `Trend: ${V.rateLong(t.slope)}, ${where}. Taken alone this lake looks like it's trending, but we tested many lakes, and a few would look like this by luck. More seasons will tell.`;
+    else ex = `Trend: ${V.rateLong(t.slope)}, ${where}. The ups and downs are too irregular to call a trend yet. That isn't proof of no change: a longer record could reveal one.`;
+    if (V.src==="merra") ex += " MERRA‑2 is regional air above a ~50 km grid cell, not the lake water.";
+    if (V.src==="field") ex += " Field samples are taken at fixed points, usually monthly.";
+  } else {
+    ["#s-rate","#s-ci","#s-p"].forEach(s=>$(s).textContent="—");
+    ex = V.src==="field" ? (t.verdict || "No field record for this lake.") + "." : "Too few well‑observed seasons (clouds, or the lake is too small for the satellite) to test this lake.";
+  }
+  $("#explain").innerHTML = `<p style="margin:0">${ex}</p>`;
+  const col = css(V.color), dec = V.src==="merra" || V.src==="field" ? 1 : 0;
+  const traces = [{x, y:y.map(v=>v==null?null:v*V.scale), mode:"lines+markers", line:{color:col, width:1.5}, marker:{size:8, color:col},
+    hovertemplate:`%{x}: %{y:.${dec}f} ${V.unit}<extra></extra>`}];
+  if (t.tested && x.length){
+    const x0=Math.min(...x), x1=Math.max(...x), xs=[], ys=[];
+    for (let k=0;k<=20;k++){ const xx=x0+(x1-x0)*k/20; xs.push(xx); const lin=t.intercept+t.slope*xx; ys.push(V.src==="field"?Math.pow(10,lin):lin*V.scale); }
+    traces.push({x:xs, y:ys, mode:"lines", line:{color:css("--ink"), width:2, dash:"dash"}, hoverinfo:"skip"});
+  }
+  Plotly.react("chart", traces, layoutBase({yaxis:{title:{text:V.unit}, gridcolor:css("--line"), zeroline:false, rangemode: V.src==="merra"?"normal":"tozero"},
+    xaxis:{gridcolor:css("--line"), dtick: V.src==="cyan"?1:(x.length>12?5:1)}}), CFG);
+  const xb=$("#xbox"), c=lake.xcheck;
+  if (V.src==="merra") xb.hidden = true;
+  else { xb.hidden = false;
+    xb.innerHTML = c ? `<b>Second opinion for this lake, 2020–2025: ${c.direction.toLowerCase()}.</b> Satellite bloom extent ${fmtSigned(c.sat_pts,1)} points per year; field chlorophyll ${fmtSigned(c.field_pct,1)}% per year.`+(c.rho!=null?` Year‑to‑year agreement between the two: ${c.rho.toFixed(2)} (1 = perfect).`:"")+` These are directions, not significance tests.`
+      : `<b>No second opinion for this lake.</b> It lacks five well‑sampled field seasons or five well‑observed satellite seasons in 2020–2025.`; }
+  const wb=$("#weeklybox"); wb.hidden = V.src!=="cyan";
+  if (V.src==="cyan" && wb.open) drawWeekly();
+}
+function drawWeekly(){
+  const w = lake.weekly, b = css("--bloom"), n = css("--na");
+  Plotly.react("weekly", [{type:"bar", x:w.start, y:w.extent.map(v=>v==null?null:v*100), marker:{color:w.state.map(s=>s===1?b:n)},
+    hovertemplate:"Week of %{x}: %{y:.0f}% of lake above threshold<extra></extra>"}],
+    layoutBase({yaxis:{title:{text:"% of lake above threshold"}, range:[0,100], gridcolor:css("--line")}, bargap:0}), CFG);
+}
+
+function drawCross(){
+  const b = D.cross.balanced, f0=b.field_geomean_chl[0], s0=b.sat_bloom_share[0];
+  Plotly.react("xchart", [
+    {x:b.year, y:b.field_geomean_chl.map(v=>v/f0*100), name:"Field chlorophyll", mode:"lines+markers", line:{color:css("--accent"), width:3}, marker:{size:8},
+      customdata:b.field_geomean_chl, hovertemplate:"%{x}: %{customdata:.1f} µg/L<extra>Field</extra>"},
+    {x:b.year, y:b.sat_bloom_share.map(v=>v/s0*100), name:"Satellite bloom weeks", mode:"lines+markers", line:{color:css("--bloom"), width:3}, marker:{size:8},
+      customdata:b.sat_bloom_share.map(v=>v*100), hovertemplate:"%{x}: %{customdata:.0f}% of weeks<extra>Satellite</extra>"}],
+    layoutBase({showlegend:true, legend:{orientation:"h", y:-0.18}, margin:{l:56,r:16,t:16,b:70}, xaxis:{dtick:1, gridcolor:css("--line")},
+      yaxis:{title:{text:"2020 = 100"}, gridcolor:css("--line")}}), CFG);
+  const e = D.cross.drift.year_effects;
+  Plotly.react("dchart", [{x:e.map(r=>r.year), y:e.map(r=>r.effect), type:"bar", marker:{color:css("--up")},
+    error_y:{type:"data", symmetric:false, array:e.map(r=>r.hi-r.effect), arrayminus:e.map(r=>r.effect-r.lo), color:css("--ink"), thickness:1.5, width:5},
+    hovertemplate:"%{x}: %{y:+.1f} points vs 2020<extra></extra>"}],
+    layoutBase({xaxis:{dtick:1}, yaxis:{title:{text:"Extra bloom extent vs 2020 (points)"}, gridcolor:css("--line"), zeroline:true, zerolinecolor:css("--muted")}}), CFG);
+}
+function drawRev(){
+  const r = D.rev[sub];
+  const name = {EPA_forecast:"EPA weekly forecast", persistence:"Last week's satellite view", persistence_lag2:"Satellite view from 2 weeks ago"};
+  const colv = {EPA_forecast:css("--epa"), persistence:css("--pers"), persistence_lag2:css("--pers2")};
+  const tr = Object.keys(name).filter(k=>r[k]).map(k=>({x:r[k].alpha, y:r[k].rev.map(v=>v==null?null:Math.max(v,-1)), name:name[k], mode:"lines+markers",
+    line:{color:colv[k], width:k==="persistence_lag2"?1.5:2.5, dash:k==="persistence_lag2"?"dot":"solid"}, marker:{size:5},
+    hovertemplate:`${name[k]}<br>cost ratio %{x}: value %{y:.2f}<extra></extra>`}));
+  Plotly.react("revchart", tr, layoutBase({showlegend:true, legend:{orientation:"h", y:-0.22}, margin:{l:56,r:16,t:16,b:90},
+    xaxis:{title:{text:"Cost of acting ÷ loss avoided (C / L)"}, type:"log", tickvals:[0.01,0.02,0.05,0.1,0.2,0.5,0.9], gridcolor:css("--line")},
+    yaxis:{title:{text:"Relative economic value"}, range:[-1.05,1], gridcolor:css("--line"), zeroline:true, zerolinecolor:css("--muted")}}), CFG);
+}
+function drawAuc(){
+  const m = D.cross.e3.metrics, pick = [["EPA forecast","EPA weekly forecast","--epa"],["Last week's satellite extent","Last week's satellite view","--pers"],
+    ["Seasonal average (climatology) [secondary]","Seasonal average","--none"]];
+  const rows = pick.map(([k,n,c])=>({n, c:css(c), v:(m.find(r=>r.signal===k)||{}).roc_auc})).filter(r=>r.v!=null).reverse();
+  Plotly.react("aucchart", [{type:"bar", orientation:"h", y:rows.map(r=>r.n), x:rows.map(r=>r.v), marker:{color:rows.map(r=>r.c)},
+    text:rows.map(r=>r.v.toFixed(2)), textposition:"outside", cliponaxis:false, hovertemplate:"%{y}: %{x:.3f}<extra></extra>"}],
+    layoutBase({margin:{l:170,r:40,t:8,b:36}, xaxis:{range:[0.5,1], title:{text:"Ranking skill (ROC‑AUC)"}, gridcolor:css("--line")}, yaxis:{automargin:true}}), CFG);
+}
+function fillStatic(){
+  const X = D.cross, P = X.primary, s = D.statewide, c = D.summary.cyan, m = D.summary.merra;
+  const f = P.P1_field_median_pct_per_year, dr = X.drift.year_slope, fs = P.field_slope_signs;
+  set("h-n", X.audit.records_in_matched_lakes.toLocaleString());
+  set("c1a", Math.round(s.mean_bloom_share[0]*100)+"%"); set("c1b", Math.round(s.mean_bloom_share[s.mean_bloom_share.length-1]*100)+"%");
+  set("c1c", c.V2_extent.fdr_sig+" of "+c.V2_extent.lakes_tested);
+  set("c2a", f.median.toFixed(1)); set("c2b", `${f.lo.toFixed(1)} to ${f.hi.toFixed(1)}`); set("c2c", P.lakes); set("c2d", fs.pos);
+  set("c3a", dr.est.toFixed(1)); set("c3b", `${dr.lo.toFixed(1)} to ${dr.hi.toFixed(1)}`); set("c3c", X.drift.n_matchups.toLocaleString());
+  set("x-n", X.balanced.lakes[0]); set("d-n", X.drift.n_matchups.toLocaleString()); set("d-l", X.drift.lakes);
+  set("s-up", fs.pos); set("s-all", P.lakes); set("s-rho", Math.round(P.P3_within_lake_rho.share_positive*100)+"%");
+  set("lr-n", X.field_tool.lakes);
+  set("t-med", m.V3_t2m.median_slope_per_decade.toFixed(2)); set("t-sig", m.V3_t2m.sig_up+" of "+m.V3_t2m.n);
+  set("r-sig", (m.V3_rain.sig_up+m.V3_rain.sig_down)+" of "+m.V3_rain.n); set("t-cells", m.distinct_power_series);
+  const met = D.metrics.filter(r=>r.block==="primary"&&r.subset==="all"&&String(r.year)==="all");
+  set("b-epa", met.find(r=>r.policy==="EPA_forecast").brier.toFixed(3)); set("b-per", met.find(r=>r.policy==="persistence").brier.toFixed(3));
+  const d = X.e3.primary_auc_diff_epa_minus_lastweek;
+  set("e-n", X.e3.windows); set("e-l", X.e3.lakes); set("e-d", `${fmtSigned(d.est,2)} (95% CI ${fmtSigned(d.lo,2)} to ${fmtSigned(d.hi,2)})`);
+  set("a-rows", X.audit.rows.toLocaleString()); set("a-used", X.audit.records_in_matched_lakes.toLocaleString()); set("a-st", X.audit.stations_matched.toLocaleString()); set("a-lk", X.audit.lakes_with_station);
+}
+function select(name, v){
+  lake = D.lakes.find(l=>l.name===name) || lake; vkey = v || vkey;
+  $("#lake").value = lake.name;
+  document.querySelectorAll(".var").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.v===vkey)));
+  render(); drawMap();
+}
+function drawAll(){ render(); drawMap(); drawCross(); drawRev(); drawAuc(); if(!$("#weeklybox").hidden && $("#weeklybox").open) drawWeekly(); }
+
+fetch("data/site.json").then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
+  D = d;
+  const sel = $("#lake");
+  D.lakes.forEach(l=>{ const o=document.createElement("option"); o.value=l.name; o.textContent=l.name; sel.appendChild(o); });
+  sel.addEventListener("change", e=>select(e.target.value));
+  document.querySelectorAll(".var").forEach(b=>b.addEventListener("click", ()=>select(lake.name, b.dataset.v)));
+  document.querySelectorAll("[data-ex]").forEach(b=>b.addEventListener("click", ()=>{ const [n,v]=b.dataset.ex.split("|"); select(n,v); $("#rtitle").scrollIntoView({behavior:"smooth",block:"start"}); }));
+  document.querySelectorAll("[data-sub]").forEach(b=>b.addEventListener("click", ()=>{ sub=b.dataset.sub; document.querySelectorAll("[data-sub]").forEach(x=>x.setAttribute("aria-pressed",String(x===b))); drawRev(); }));
+  $("#weeklybox").addEventListener("toggle", ()=>{ if($("#weeklybox").open) drawWeekly(); });
+  document.querySelectorAll("details").forEach(dt=>dt.addEventListener("toggle", ()=>{ if(dt.open && dt.querySelector("#revchart")) drawRev(); }));
+  ["#case","#tool","#cross","#decision","#about"].forEach(s=>$(s).hidden=false); $("#loading").remove();
+  lake = D.lakes.find(l=>l.name==="Lake Okeechobee") || D.lakes[0];
+  fillStatic(); select(lake.name, vkey); drawCross(); drawAuc(); drawRev();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawAll);
+}).catch(err=>{ console.error(err); const el=$("#loading")||document.body.appendChild(document.createElement("p")); el.hidden=false; el.textContent = "Could not load data (" + err.message + "). If you opened this file directly, serve the folder over http."; });
+</script>
+</body>
+</html>
