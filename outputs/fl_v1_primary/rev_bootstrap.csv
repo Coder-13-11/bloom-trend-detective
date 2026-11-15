@@ -1,0 +1,11 @@
+data_mode,subset,alpha,rev_epa_minus_persistence_p2_5,median,p97_5
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,all,0.05,-0.28069454430097096,-0.04794235674919159,0.13714154947116788
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,all,0.1,-0.37391156892483995,-0.21962257046668848,-0.09564771511947963
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,all,0.2,-0.32297829018512153,-0.22262399500926877,-0.14355916560033596
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,all,0.3,-0.3013868672622591,-0.2114662405018865,-0.14417516894189092
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,all,0.5,-0.46142328033860147,-0.3264492927593294,-0.23261884818146153
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,onset,0.05,0.11546571004835801,0.32244699216502143,0.48066185363907277
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,onset,0.1,-0.3317707212649861,-0.043749321168676025,0.17997479343020686
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,onset,0.2,-1.0186180069930066,-0.5973539933120772,-0.25140592882836577
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,onset,0.3,-1.5325727632051742,-0.9890433096315451,-0.5262608631969534
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,onset,0.5,-2.8354460495686706,-1.8602343990953019,-1.0896115953012502

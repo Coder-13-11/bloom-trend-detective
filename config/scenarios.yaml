@@ -1,0 +1,14 @@
+# Action scenarios. Every number cites docs/cost_ledger.csv. All values are MODELED
+# (USGS SIR 2024-5091, 2018 event, 2018 USD). None is an observed expenditure.
+habitats_2018_transfer:
+  description: >
+    Hypothetical 90-day HABITATS deployment at Caloosahatchee + St Lucie discharge sites,
+    1-week setup/teardown, 24 h/d (SIR 2024-5091 p.20). Decision = mobilise for an episode.
+  L_total_musd: 7.837          # CL01..CL04
+  scenarios:
+    HAB_basic_DDC0.25: {e: 0.235, C: 4.56, anc: 0.61, benefit_reported: 1.83}
+    HAB_RAFT_DDC1.4:  {e: 0.66,  C: 7.11, anc: 1.80, benefit_reported: 5.14}
+    HAB_basic_DDC2:   {e: 0.76,  C: 7.77, anc: 2.11, benefit_reported: 5.97}
+    HAB_RAFT_DDC3:    {e: 0.87,  C: 8.36, anc: 2.39, benefit_reported: 6.80}
+  # e = Table 8 removal %, site-averaged (23/24%); benefit_reported (Table 16) is used for eL
+  # directly to avoid re-deriving USGS rounding. anc treated as event-conditional revenue.

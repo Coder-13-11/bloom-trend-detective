@@ -1,0 +1,18 @@
+# Protocol Amendment 2 (pre-registered 2026-11-15, before any trend was computed).
+root: .
+output_dir: outputs/trends_v1
+lake_map_csv: data/interim/fl_lake_map.csv
+cyan_raw_dir: data/raw/D03_cyan
+forecast_csv: data/raw/D01_forecasts/AllWeeks_CyanForecasts.csv   # lake centroids for NASA POWER
+min_valid_fraction: 0.5
+season_months: [5, 6, 7, 8, 9, 10]
+min_known_weeks: 13
+cyan_years: [2020, 2026]
+min_years: 6
+fdr_q: 0.05
+power:
+  raw_dir: data/raw/D09_power
+  years: [1981, 2025]
+  parameters: [T2M, PRECTOTCORR]
+  community: AG
+  workers: 4

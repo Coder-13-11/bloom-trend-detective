@@ -1,0 +1,310 @@
+{
+ "E2_primary": {
+  "outcome": "extent",
+  "n_matchups": 2541,
+  "lakes": 106,
+  "per_year": {
+   "2020": 401,
+   "2021": 380,
+   "2022": 512,
+   "2023": 494,
+   "2024": 424,
+   "2025": 330
+  },
+  "year_slope": {
+   "est": 2.4588485420506987,
+   "lo": 1.4035344446730438,
+   "hi": 3.6145691128823496
+  },
+  "log_chl_coef": {
+   "est": 16.264581919304202,
+   "lo": 12.033993453270476,
+   "hi": 20.805212806137224
+  },
+  "year_effects": [
+   {
+    "year": 2020,
+    "effect": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "year": 2021,
+    "effect": -0.24043157895975403,
+    "lo": -3.9371266328047643,
+    "hi": 2.9998023228827386
+   },
+   {
+    "year": 2022,
+    "effect": 4.908839742614133,
+    "lo": 1.4264542027423925,
+    "hi": 8.783568370904849
+   },
+   {
+    "year": 2023,
+    "effect": 7.152594945600849,
+    "lo": 2.378884895544622,
+    "hi": 12.383594171665514
+   },
+   {
+    "year": 2024,
+    "effect": 8.170884453688672,
+    "lo": 3.602583168687732,
+    "hi": 13.325038302325005
+   },
+   {
+    "year": 2025,
+    "effect": 11.97361961076554,
+    "lo": 6.45584692260787,
+    "hi": 17.831434948675984
+   }
+  ],
+  "verdict": "The satellite reads higher for the same field chlorophyll in later years"
+ },
+ "E2_sens_median_dn": {
+  "outcome": "median_dn",
+  "n_matchups": 2541,
+  "lakes": 106,
+  "per_year": {
+   "2020": 401,
+   "2021": 380,
+   "2022": 512,
+   "2023": 494,
+   "2024": 424,
+   "2025": 330
+  },
+  "year_slope": {
+   "est": 4.917104403614777,
+   "lo": 3.0815143739264186,
+   "hi": 6.84485749060304
+  },
+  "log_chl_coef": {
+   "est": 41.0771080958381,
+   "lo": 31.781945027143536,
+   "hi": 51.030754279993666
+  },
+  "year_effects": [
+   {
+    "year": 2020,
+    "effect": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "year": 2021,
+    "effect": -0.03538578512104577,
+    "lo": -7.669049133023872,
+    "hi": 7.450511433850872
+   },
+   {
+    "year": 2022,
+    "effect": 12.912391901264085,
+    "lo": 5.978343270429803,
+    "hi": 20.818917330681288
+   },
+   {
+    "year": 2023,
+    "effect": 13.74792509535039,
+    "lo": 4.815960696573581,
+    "hi": 23.13415417585763
+   },
+   {
+    "year": 2024,
+    "effect": 16.297561365265025,
+    "lo": 7.708293870030298,
+    "hi": 25.887211582527037
+   },
+   {
+    "year": 2025,
+    "effect": 25.384303527585683,
+    "lo": 15.09405411351423,
+    "hi": 36.01379025889591
+   }
+  ],
+  "verdict": "The satellite reads higher for the same field chlorophyll in later years"
+ },
+ "E2_sens_lakes_5of6_years": {
+  "outcome": "extent",
+  "n_matchups": 2479,
+  "lakes": 88,
+  "per_year": {
+   "2020": 390,
+   "2021": 368,
+   "2022": 506,
+   "2023": 484,
+   "2024": 413,
+   "2025": 318
+  },
+  "year_slope": {
+   "est": 2.469431181441774,
+   "lo": 1.392536428647568,
+   "hi": 3.675204286796899
+  },
+  "log_chl_coef": {
+   "est": 16.405531542954296,
+   "lo": 12.288404379573993,
+   "hi": 20.634650905370695
+  },
+  "year_effects": [
+   {
+    "year": 2020,
+    "effect": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "year": 2021,
+    "effect": -0.43924755865034265,
+    "lo": -4.00508380761885,
+    "hi": 2.9705857809325815
+   },
+   {
+    "year": 2022,
+    "effect": 4.837735039499663,
+    "lo": 1.3440539823381532,
+    "hi": 8.805617737074662
+   },
+   {
+    "year": 2023,
+    "effect": 7.068581078369088,
+    "lo": 2.368905723649709,
+    "hi": 12.327963966772025
+   },
+   {
+    "year": 2024,
+    "effect": 8.166237307510617,
+    "lo": 3.6122053097413267,
+    "hi": 13.44513165524069
+   },
+   {
+    "year": 2025,
+    "effect": 11.94889333820857,
+    "lo": 6.427976340975251,
+    "hi": 18.076153421625563
+   }
+  ],
+  "verdict": "The satellite reads higher for the same field chlorophyll in later years"
+ },
+ "E3_primary_12ugL": {
+  "threshold_ugL": 12.0,
+  "windows": 506,
+  "lakes": 86,
+  "field_events": 231,
+  "base_rate": 0.45652173913043476,
+  "by_year": {
+   "2025": 411,
+   "2026": 95
+  },
+  "metrics": [
+   {
+    "signal": "EPA forecast",
+    "n": 506,
+    "roc_auc": 0.7593467138921685,
+    "pr_auc": 0.7180173004964263
+   },
+   {
+    "signal": "Last week's satellite extent",
+    "n": 506,
+    "roc_auc": 0.7520503738685558,
+    "pr_auc": 0.6545245912007736
+   },
+   {
+    "signal": "Last week's satellite bloom state",
+    "n": 506,
+    "roc_auc": 0.6891774891774891,
+    "pr_auc": 0.6110618160307602
+   },
+   {
+    "signal": "Same-week satellite bloom state (reference, not a forecast)",
+    "n": 506,
+    "roc_auc": 0.6855411255411256,
+    "pr_auc": 0.6062315030039757
+   },
+   {
+    "signal": "Seasonal average (climatology) [secondary]",
+    "n": 506,
+    "roc_auc": 0.7453443526170798,
+    "pr_auc": 0.745716007066155
+   },
+   {
+    "signal": "Logistic on last week's satellite state [secondary]",
+    "n": 506,
+    "roc_auc": 0.7625344352617079,
+    "pr_auc": 0.6862217013798042
+   }
+  ],
+  "primary_auc_diff_epa_minus_lastweek": {
+   "est": 0.00729634002361268,
+   "lo": -0.038765885313315526,
+   "hi": 0.050051911792282716,
+   "n_boot": 2000
+  },
+  "secondary_auc_diff_logistic_minus_epa": {
+   "est": 0.003187721369539487,
+   "lo": -0.03936896268407085,
+   "hi": 0.052736321517433966
+  },
+  "verdict": "No difference shown between the forecast and last week's satellite view"
+ },
+ "E3_sens_20ugL": {
+  "threshold_ugL": 20.0,
+  "windows": 506,
+  "lakes": 86,
+  "field_events": 166,
+  "base_rate": 0.32806324110671936,
+  "by_year": {
+   "2025": 411,
+   "2026": 95
+  },
+  "metrics": [
+   {
+    "signal": "EPA forecast",
+    "n": 506,
+    "roc_auc": 0.8218905031892275,
+    "pr_auc": 0.6960611369378682
+   },
+   {
+    "signal": "Last week's satellite extent",
+    "n": 506,
+    "roc_auc": 0.8100017717930545,
+    "pr_auc": 0.6076785545977819
+   },
+   {
+    "signal": "Last week's satellite bloom state",
+    "n": 506,
+    "roc_auc": 0.7652905740609497,
+    "pr_auc": 0.5760750511929139
+   },
+   {
+    "signal": "Same-week satellite bloom state (reference, not a forecast)",
+    "n": 506,
+    "roc_auc": 0.7623493975903615,
+    "pr_auc": 0.5703160857499203
+   },
+   {
+    "signal": "Seasonal average (climatology) [secondary]",
+    "n": 506,
+    "roc_auc": 0.815326009922041,
+    "pr_auc": 0.7264934867526958
+   },
+   {
+    "signal": "Logistic on last week's satellite state [secondary]",
+    "n": 506,
+    "roc_auc": 0.8252657689581856,
+    "pr_auc": 0.6439854510918432
+   }
+  ],
+  "primary_auc_diff_epa_minus_lastweek": {
+   "est": 0.011888731396172969,
+   "lo": -0.035731106374628334,
+   "hi": 0.055612884293876404,
+   "n_boot": 2000
+  },
+  "secondary_auc_diff_logistic_minus_epa": {
+   "est": 0.00337526576895808,
+   "lo": -0.040176908149870134,
+   "hi": 0.050060259231036526
+  },
+  "verdict": "No difference shown between the forecast and last week's satellite view"
+ }
+}

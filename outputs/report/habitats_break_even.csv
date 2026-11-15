@@ -1,0 +1,5 @@
+data_mode,scenario,C_musd,avoided_damage_eL_musd,ancillary_musd,p_star_no_ancillary,p_star_with_ancillary,oracle_net_per_event_no_anc,oracle_net_per_event_with_anc,epa_okeechobee_max_weekly_p_2025_26,weeks_p_above_pstar_with_anc
+SCENARIO (modeled USGS 2018 costs/effects) x REAL EPA 2025-26 forecast probabilities,HAB_basic_DDC0.25,4.56,1.83,0.61,2.4918032786885242,1.8688524590163933,-2.7299999999999995,-2.1199999999999997,0.23379999999999998,0
+SCENARIO (modeled USGS 2018 costs/effects) x REAL EPA 2025-26 forecast probabilities,HAB_RAFT_DDC1.4,7.11,5.14,1.8,1.3832684824902726,1.0244956772334295,-1.9700000000000006,-0.17000000000000082,0.23379999999999998,0
+SCENARIO (modeled USGS 2018 costs/effects) x REAL EPA 2025-26 forecast probabilities,HAB_basic_DDC2,7.77,5.97,2.11,1.3015075376884422,0.9616336633663366,-1.7999999999999998,0.3100000000000005,0.23379999999999998,0
+SCENARIO (modeled USGS 2018 costs/effects) x REAL EPA 2025-26 forecast probabilities,HAB_RAFT_DDC3,8.36,6.8,2.39,1.2294117647058822,0.9096844396082698,-1.5599999999999996,0.8300000000000001,0.23379999999999998,0

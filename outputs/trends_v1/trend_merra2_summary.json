@@ -1,0 +1,17 @@
+{
+ "V3_rain": {
+  "sig_up": 5,
+  "sig_down": 0,
+  "n": 121,
+  "median_slope_per_decade": 2.172788461538462,
+  "autocorr_flagged": 0
+ },
+ "V3_t2m": {
+  "sig_up": 121,
+  "sig_down": 0,
+  "n": 121,
+  "median_slope_per_decade": 0.2833333333333357,
+  "autocorr_flagged": 0
+ },
+ "distinct_power_series": 26
+}

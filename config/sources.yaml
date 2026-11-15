@@ -1,0 +1,15 @@
+root: .
+manifest: docs/source_manifest.csv
+raw_dir: data/raw
+lakes:
+  - name: Lake Okeechobee
+    cyan_objectid: 6624886   # verified via https://cyan.epa.gov/waterbody/search/?name=Okeechobee (2026-11-14)
+    nhd_reachcode: "03090201000436"
+    gnis_id: "00307550"
+    start_year: 2016          # Sentinel-3A OLCI launched 2016; CyAN OLCI record starts 2016
+    end_year: 2026
+multi_lake:                   # Florida forecast lakes mapped by src/bloom/lakemap.py
+  lake_map_csv: data/interim/fl_lake_map.csv
+  start_year: 2020            # CyAN API returned 0 weekly records for 2016-2019 (Okeechobee, 2026-11-14)
+  end_year: 2026
+  year_order: [2025, 2026, 2023, 2022, 2024, 2021, 2020]

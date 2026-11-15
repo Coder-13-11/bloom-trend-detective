@@ -1,0 +1,15 @@
+# Prespecified 2026-11-14 BEFORE running the Florida multi-lake evaluation.
+# (Okeechobee-only descriptive join had already been inspected; disclosed in protocol.md.)
+root: .
+output_dir: outputs/fl_v1
+lake_map_csv: data/interim/fl_lake_map.csv
+cyan_raw_dir: data/raw/D03_cyan
+forecast_csv: data/raw/D01_forecasts/AllWeeks_CyanForecasts.csv
+min_valid_fraction: 0.5        # < 50% of lake water pixels valid -> outcome 'unknown'
+train_end: "2023-12-31"        # climatology + logistic fit on 2020-2023
+validation_year: 2024          # reserved for any recalibration; no threshold tuning on 2025-26
+clim_prior_strength: 5
+alphas: [0.01, 0.02, 0.03, 0.05, 0.075, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+bootstrap_alphas: [0.05, 0.1, 0.2, 0.3, 0.5]
+n_boot: 1000
+seed: 20261114

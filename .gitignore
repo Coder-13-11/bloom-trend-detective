@@ -1,0 +1,12 @@
+.venv/
+data/raw/
+outputs/_smoke/
+__pycache__/
+*.part
+.DS_Store
+.pytest_cache/
+.claude/
+# internal planning notes (contain local file paths) and an unsent draft letter
+research_notes/
+reports/NASA Space Apps submission strategy.md
+docs/epa_data_request_draft.md

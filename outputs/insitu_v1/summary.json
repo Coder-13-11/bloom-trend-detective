@@ -1,0 +1,143 @@
+{
+ "primary_2020_2025": {
+  "years": [
+   2020,
+   2025
+  ],
+  "lakes": 45,
+  "P1_field_median_pct_per_year": {
+   "median": 7.496769977313988,
+   "lo": 2.6151512096810325,
+   "hi": 13.198216511641792
+  },
+  "P1_sat_median_pts_per_year": {
+   "median": 0.3508253362911914,
+   "lo": 0.08592217671501559,
+   "hi": 1.7713935001169043
+  },
+  "field_slope_signs": {
+   "pos": 33,
+   "neg": 12,
+   "zero": 0
+  },
+  "sat_slope_signs": {
+   "pos": 32,
+   "neg": 4,
+   "zero": 9
+  },
+  "P2_spearman_slopes": {
+   "rho": 0.12262001307394653,
+   "lo": -0.1712908075784606,
+   "hi": 0.39325013611962406
+  },
+  "P3_within_lake_rho": {
+   "median": 0.3,
+   "lo": 0.2571428571428572,
+   "hi": 0.48571428571428577,
+   "share_positive": 0.8095238095238095,
+   "lakes": 42
+  },
+  "verdict": "Corroborated: field chlorophyll also rose, and field and satellite agree"
+ },
+ "sensitivity_2020_2026": {
+  "years": [
+   2020,
+   2026
+  ],
+  "lakes": 30,
+  "P1_field_median_pct_per_year": {
+   "median": 5.461454103760543,
+   "lo": -0.8458999247168086,
+   "hi": 10.584183360867927
+  },
+  "P1_sat_median_pts_per_year": {
+   "median": 0.22807925622290615,
+   "lo": 0.026559660932694944,
+   "hi": 1.2889112179839968
+  },
+  "field_slope_signs": {
+   "pos": 19,
+   "neg": 11,
+   "zero": 0
+  },
+  "sat_slope_signs": {
+   "pos": 21,
+   "neg": 2,
+   "zero": 7
+  },
+  "P2_spearman_slopes": {
+   "rho": -0.06514567201510801,
+   "lo": -0.4474864211212045,
+   "hi": 0.34056681247385046
+  },
+  "P3_within_lake_rho": {
+   "median": 0.2857142857142857,
+   "lo": 0.04012891301651156,
+   "hi": 0.4392857142857144,
+   "share_positive": 0.8214285714285714,
+   "lakes": 28
+  },
+  "verdict": "Not corroborated: the satellite signal rose but field chlorophyll did not"
+ },
+ "long_record": {
+  "years_available": [
+   2000,
+   2026
+  ],
+  "lakes": 13,
+  "sig_up": 0,
+  "sig_down": 0,
+  "median_pct_per_year": -0.979669131494032
+ },
+ "field_tool_trends": {
+  "lakes": 65,
+  "fdr_sig_up": 0,
+  "fdr_sig_down": 0
+ },
+ "time_to_detect": {
+  "lakes": 87,
+  "median_years": 4.909686325879396,
+  "share_need_more_than_7": 0.20168067226890757
+ },
+ "audit": {
+  "rows": 146396,
+  "non_numeric": 2288,
+  "unknown_unit": 1,
+  "non_positive": 2200,
+  "kept": 141907,
+  "files": [
+   "result_2000.csv",
+   "result_2001.csv",
+   "result_2002.csv",
+   "result_2003.csv",
+   "result_2004.csv",
+   "result_2005.csv",
+   "result_2006.csv",
+   "result_2007.csv",
+   "result_2008.csv",
+   "result_2009.csv",
+   "result_2010.csv",
+   "result_2011.csv",
+   "result_2012.csv",
+   "result_2013.csv",
+   "result_2014.csv",
+   "result_2015.csv",
+   "result_2016.csv",
+   "result_2017.csv",
+   "result_2018.csv",
+   "result_2019.csv",
+   "result_2020.csv",
+   "result_2021.csv",
+   "result_2022.csv",
+   "result_2023.csv",
+   "result_2024.csv",
+   "result_2025.csv",
+   "result_2026.csv"
+  ],
+  "stations_total": 13247,
+  "stations_matched": 2993,
+  "lakes_with_station": 115,
+  "records_in_matched_lakes": 26629,
+  "records_in_matched_lakes_2020_2025_season": 5812
+ }
+}

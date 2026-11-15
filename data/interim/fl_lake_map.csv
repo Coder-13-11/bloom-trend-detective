@@ -1,0 +1,133 @@
+COMID,name,status,cyan_objectid,cyan_name,cyan_area_km2,dist_km,tol_km,n_candidates
+84918,Rodgers River Bay,no_candidate,,,,,,
+86672,West Lake,matched,2890643.0,West Lake,8.44089254,0.005,3.0,1.0
+86678,Cuthbert Lake,matched,8367705.0,Cuthbert Lake,4.06412044,0.006,3.0,1.0
+86706,Seven Palm Lake,matched,2650004.0,Seven Palm Lake,5.88183379,0.032,3.0,1.0
+86758,Monroe Lake (Everglades),matched,8367702.0,Monroe Lake,2.23591539,0.431,3.0,1.0
+86782,Bear Lake (FL),matched,18346449.0,Bear Lake,4.15825463,0.289,3.0,2.0
+89704,Coot Bay,no_candidate,,,,,,
+91346,Lake Ingraham,matched,18346689.0,Lake Ingraham,3.85063512,1.625,3.0,1.0
+2066026,Cherry Lake (FL),too_far,6388018.0,Cherry Lake,1.16618979,234.984,3.0,2.0
+2134810,Dead Lakes,matched,6743932.0,Dead Lakes,12.08572847,0.612,3.0,2.0
+2161664,Santa Fe Lake,matched,2769778.0,Santa Fe Lake,20.90211724,0.374,3.0,1.0
+2176781,Compass Lake,matched,4521407.0,Compass Lake,2.35519114,0.009,3.0,1.0
+2241295,Pate Lake,matched,8039587.0,Pate Lake,1.55112282,0.629,3.0,1.0
+2243757,Big Blue Lake,matched,4117408.0,Big Blue Lake,2.556,0.021,3.0,1.0
+2298144,Lake Wimico,matched,6507526.0,Lake Wimico,16.42939113,0.007,3.0,1.0
+10363726,Lake Talquin,matched,3009456.0,Lake Talquin,32.83243952,0.183,3.44,1.0
+10988693,Lake Kerr,matched,4697391.0,Lake Kerr,11.74584074,0.637,3.0,2.0
+10988775,Lake George (FL),matched,7717292.0,Lake George,175.92218149,0.175,7.96,2.0
+10988999,"Lake Woodruff, Lake Dexter",no_candidate,,,,,,
+10990355,Loughman Lake,matched,3973917.0,Loughman Lake,2.64525565,0.117,3.0,1.0
+10991931,Lake Norris,matched,6508417.0,Lake Norris,4.697,0.039,3.0,1.0
+10992413,Konomac Lake,matched,1466412.0,Konomac Lake,4.36883518,0.046,3.0,1.0
+10993179,Lake Jesup,matched,3009470.0,Lake Jesup,32.60912776,0.066,3.43,1.0
+10996843,Lake Ashby,matched,6628741.0,Lake Ashby,3.72622271,0.133,3.0,1.0
+10996865,Lake Monroe,matched,2649014.0,Lake Monroe,35.49635575,0.077,3.57,1.0
+10996929,Lake Harney,matched,3250413.0,Lake Harney,25.100962,0.539,3.01,1.0
+10998129,Lake Poinsett (FL),matched,2287386.0,Lake Poinsett,16.72820772,0.117,3.0,1.0
+10998171,Taylor Creek,matched,6166951.0,Taylor Creek Reservoir,12.6538563,1.239,3.0,1.0
+10998263,Lake Winder,matched,6144636.0,Lake Winder,5.91087321,0.069,3.0,1.0
+10998421,Lake Washington (FL),matched,6748389.0,Lake Washington,12.15968696,0.061,3.0,1.0
+11010401,Blue Cypress Lake,matched,2045898.0,Blue Cypress Lake,26.97703112,0.033,3.12,1.0
+16628898,Mud Lake (FL),matched,5178932.0,Mud Lake,1.85825544,0.042,3.0,4.0
+16629010,Lake Bryant,matched,3610263.0,Lake Bryant,3.13217472,0.791,3.0,1.0
+16630838,Lake Yale,matched,717475.0,Lake Yale,16.35502083,0.035,3.0,1.0
+16631062,Lake Eustis,matched,6747154.0,Lake Eustis,31.45816411,0.024,3.37,1.0
+16631376,Lake Dora/Beauclair/Carlton,no_candidate,,,,,,
+16631538,Lake Ola,matched,6022668.0,Lake Ola,1.73287405,0.025,3.0,1.0
+16632086,Lake Apopka,matched,6385272.0,Lake Apopka,125.3783507,0.034,6.72,1.0
+16632718,Lake Minneola,matched,7593563.0,Lake Minneola,7.71716752,0.026,3.0,1.0
+16632942,Johns Lake,matched,1197606.0,Johns Lake,9.89766288,0.127,3.0,1.0
+16636112,Lake Griffin,matched,719192.0,Lake Griffin,38.33686867,3.218,3.72,1.0
+16636168,Lake Harris,matched,4575572.0,Lake Harris,74.52675974,0.171,5.18,1.0
+16636326,Lake Minnehaha,matched,2527717.0,Lake Minnehaha,9.36100127,0.206,3.0,1.0
+16642706,Lake Lowery,matched,1925176.0,Lake Lowery,3.61552274,0.008,3.0,1.0
+16661857,Georges Lake,matched,4288191.0,Georges Lake,3.3191371,0.011,3.0,1.0
+16666733,"Disston, Lake",no_candidate,,,,,,
+16667851,Lake Dias,matched,6388382.0,Lake Dias,2.814,0.023,3.0,1.0
+16697315,Banana River,no_candidate,,,,,,
+16757722,Lake Trafford,matched,3733042.0,Lake Trafford,6.59818196,0.037,3.0,1.0
+16769912,Alligator Bay/Dads Bay,no_candidate,,,,,,
+16793567,Lake Arietta,matched,1224184.0,Lake Arietta,2.99032551,0.011,3.0,1.0
+16793577,Lake Alfred,matched,4357055.0,Lake Alfred,2.73754798,0.03,3.0,1.0
+16793645,Lake Haines,matched,6045520.0,Lake Haines,2.71809596,0.006,3.0,1.0
+16793651,Lake Henry (FL),matched,1344440.0,Lake Henry,3.27874406,0.01,3.0,1.0
+16793707,Lake Parker,matched,6267034.0,Lake Parker,8.53325298,0.049,3.0,1.0
+16793717,Lake Ariana,matched,1585924.0,Lake Ariana,4.12303824,0.019,3.0,1.0
+16793769,Lake Rochelle,matched,4960597.0,Lake Rochelle,2.08856849,0.046,3.0,1.0
+16793819,Lake Hamilton,matched,6025755.0,Lake Hamilton,8.66813769,0.017,3.0,2.0
+16794057,Lake Howard,matched,1586007.0,Lake Howard,2.51577798,0.014,3.0,1.0
+16798595,Lake Hancock,matched,1083834.0,Lake Hancock,18.54918596,0.033,3.0,2.0
+16798691,Lake Eloise,matched,3855491.0,Lake Eloise,4.68009852,0.008,3.0,1.0
+16798773,Lake Winterset,matched,2188592.0,Lake Winterset,2.2016809,0.011,3.0,1.0
+16798811,Lake McLeod,matched,239390.0,Lake McLeod,1.81693538,0.013,3.0,1.0
+16799991,Lake Buffum,matched,6528299.0,Lake Buffum,5.13268325,0.014,3.0,1.0
+16802699,Lake Garfield,matched,5683659.0,Lake Garfield,2.55126114,0.066,3.0,1.0
+16835656,Lake Myakka,matched,18601705.0,Lake Myakka,3.34996074,0.077,3.0,1.0
+16835838,Lower Myakka Lake,matched,233110.0,Lower Myakka Lake,2.29539747,0.109,3.0,1.0
+16875752,Lake Manatee,matched,5417756.0,Lake Manatee,5.09058217,0.894,3.0,1.0
+16883070,Lake Parrish,no_candidate,,,,,,
+16905639,Lake Thonotosassa,matched,862709.0,Lake Thonotosassa,3.52888441,0.02,3.0,1.0
+16915600,Lake Tarpon,matched,4449936.0,Lake Tarpon,10.29406153,0.006,3.0,1.0
+16944276,Lake Rousseau,matched,1321033.0,Lake Rousseau,10.91065297,1.205,3.0,1.0
+16946112,Lake Deaton,matched,7719338.0,Lake Deaton,2.14517331,0.186,3.0,1.0
+16949596,Lake Panasoffkee,matched,480980.0,Lake Panasoffkee,13.18681544,0.085,3.0,1.0
+16952608,Lake Juliana,matched,6046901.0,Lake Juliana,3.74047318,0.005,3.0,1.0
+16952822,Lake Van,matched,7256253.0,Lake Van,2.41,0.01,3.0,1.0
+21473030,Lake Conway,matched,5924169.0,Lake Conway,4.369,0.493,3.0,2.0
+21473054,Lake Tibet,matched,1082156.0,Lake Tibet,4.36359805,0.256,3.0,1.0
+21473290,Big Sand Lake (FL),matched,5924181.0,Big Sand Lake,4.131163380000001,0.776,3.0,1.0
+21473308,Lake Sheen,matched,3853719.0,Lake Sheen,2.306,0.001,3.0,1.0
+21473632,Lake Hart,matched,7496516.0,Lake Hart,7.61349337,0.017,3.0,2.0
+21473686,Lake Mary Jane,matched,5924183.0,Lake Mary Jane,4.530254100000002,0.035,3.0,1.0
+21474332,Lake Center,matched,3271642.0,Lake Center,1.65347684,0.014,3.0,1.0
+21474500,Lake Lizzie (FL),matched,379483.0,Lake Lizzie,3.2955609,0.021,3.0,1.0
+21474650,Alligator Lake (FL),matched,2308642.0,Alligator Lake,13.9045551,0.022,3.0,1.0
+21475068,Brick Lake,matched,4356417.0,Brick Lake,2.59418455,0.012,3.0,1.0
+21475236,Lake Mattie,matched,2763232.0,Lake Mattie,4.28007172,0.034,3.0,1.0
+21475262,Lake Gentry,matched,4356424.0,Lake Gentry,7.28166119,0.006,3.0,1.0
+21475362,Lake Russell,matched,6165432.0,Lake Russell,3.019,0.004,3.0,1.0
+21475612,Lake Marion (FL),matched,1223662.0,Lake Marion,12.226186,0.05,3.0,1.0
+21475652,Cypress Lake,matched,379521.0,Cypress Lake,12.91782787,0.217,3.0,2.0
+21477420,East Lake Tohopekaliga,matched,2287888.0,East Lake Tohopekaliga,47.51796254,0.173,4.14,1.0
+21477442,Lake Tohopekaliga,matched,358322.0,Lake Tohopekaliga,75.38271464,0.124,5.21,2.0
+21477494,Lake Conlin,matched,6627052.0,Lake Conlin,5.72336041,0.922,3.0,1.0
+21477508,Cat Lake,matched,4335523.0,Cat Lake,1.7390695,1.001,3.0,2.0
+21479670,Lake Rosalie,matched,4939063.0,Lake Rosalie,18.35861135,0.025,3.0,1.0
+21480204,Lake Leonore,matched,4838929.0,Lake Leonore,1.592,0.009,3.0,1.0
+21480292,Reedy Lake,matched,500235.0,Reedy Lake,14.192,0.015,3.0,1.0
+21480294,Lake Clinch,matched,6769313.0,Lake Clinch,4.93489499,0.023,3.0,1.0
+21480390,Lake Arbuckle,matched,2067321.0,Lake Arbuckle,15.41298817,0.007,3.0,1.0
+21480452,Lake Livingston,matched,6869561.0,Lake Livingston,4.608000000000002,0.041,3.0,1.0
+21480832,Lake Lotela,matched,3995401.0,Lake Lotela,2.72460521,0.054,3.0,1.0
+21483782,Tiger Lake,matched,2188035.0,Tiger Lake,8.44266077,0.042,3.0,1.0
+21483808,Lake Marian,matched,4818156.0,Lake Marian,18.88145348,0.188,3.0,1.0
+21483822,Lake Kissimmee,matched,3612440.0,Lake Kissimmee,127.00387936,0.09,6.76,1.0
+21483830,Lake Weohyakapka,matched,479406.0,Lake Weohyakapka,30.54971344,0.017,3.32,1.0
+21484390,Crooked Lake (FL),matched,237743.0,Crooked Lake,16.885792340000002,0.949,3.0,2.0
+21489652,Lake Josephine,matched,6044964.0,Lake Josephine,5.15577169,0.017,3.0,1.0
+21489752,Lake Francis (FL),matched,1826474.0,Lake Francis,2.207,0.026,3.0,1.0
+21489802,Lake June in Winter,matched,4236141.0,Lake June in Winter,15.091000000000003,0.022,3.0,1.0
+21489832,Lake Huntley,matched,4335563.0,Lake Huntley,2.70342476,0.006,3.0,1.0
+21489874,Lake Placid,matched,3151095.0,Lake Placid,13.73273063,0.008,3.0,1.0
+21491302,Lake Istokpoga,matched,7109714.0,Lake Istokpoga,96.57482335,0.143,5.9,1.0
+120052387,Lake Beresford,matched,3393575.0,Lake Beresford,3.24905342,0.034,3.0,1.0
+120052399,Lake Louisa,matched,6264857.0,Lake Louisa,12.81974894,0.148,3.0,1.0
+120052768,Lake Pierce,matched,7133008.0,Lake Pierce,15.60450793,0.063,3.0,1.0
+120053158,Lake Dorr,matched,4697288.0,Lake Dorr,6.96883509,0.006,3.0,1.0
+166757573,Orange Lake (FL),matched,6262859.0,Orange Lake,29.46448806,0.444,3.26,2.0
+166757574,Lochloosa Lake,matched,7714922.0,Lochloosa Lake,22.08000922,1.142,3.0,3.0
+166757576,Lake Ocklawaha,too_far,5299182.0,Lake Ocklawaha,23.09608147,3.305,3.0,1.0
+166757578,Lake Weir,matched,6143964.0,Lake Weir,22.75941448,0.298,3.0,2.0
+166757596,Swan Lake (FL),matched,18278210.0,Swan Lake,1.52504466,0.286,3.0,1.0
+166757600,Lowry Lake,matched,5132804.0,Lowry Lake,5.04926275,0.004,3.0,1.0
+166757602,Crescent Lake (FL),matched,2169007.0,Crescent Lake,69.40200451,0.211,5.0,1.0
+166757631,Lake Butler,matched,5301185.0,Lake Butler,7.02176927,0.01,3.0,1.0
+166757632,Lake Down,matched,4818190.0,Lake Down,3.68000794,0.02,3.0,1.0
+166757639,"Buck Lake, Lake Nona, Red Lake",no_candidate,,,,,,
+166757640,Lake Hatchineha,matched,6044909.0,Lake Hatchineha,23.76502742,0.068,3.0,1.0
+166757642,Lake Jackson,matched,18201.0,Lake Jackson,13.601,0.113,3.0,3.0
+166757656,Lake Okeechobee,matched,6624886.0,Lake Okeechobee,1296.12021059,3.644,21.6,1.0
+166758437,Eagle Lake (FL),matched,3513218.0,Eagle Lake,2.58531025,0.004,3.0,1.0
+166758657,Lake Miccosukee,matched,2040253.0,Lake Miccosukee,20.263,0.38,3.0,1.0

@@ -1,0 +1,22 @@
+data_mode,bin,n,mean_p,obs_freq,policy,block
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.0, 0.05)",3442,0.011818710052295177,0.025857059848925043,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.05, 0.1)",506,0.07273122529644269,0.14031620553359683,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.1, 0.2)",476,0.14600252100840339,0.21428571428571427,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.2, 0.3)",304,0.247175,0.3059210526315789,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.3, 0.5)",396,0.3953621212121212,0.46464646464646464,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.5, 0.7)",357,0.6043168067226891,0.5462184873949579,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.7, 1.0)",1499,0.9050739159439626,0.8272181454302868,EPA_forecast,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.0, 0.05)",4568,0.036206823468321825,0.05604203152364273,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.05, 0.1)",267,0.07616092122144517,0.33707865168539325,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.1, 0.2)",341,0.14479903048601522,0.3519061583577713,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.2, 0.3)",397,0.2502508507316908,0.7103274559193955,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.3, 0.5)",643,0.3986493509621951,0.8009331259720062,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.5, 0.7)",299,0.5829211104202252,0.8729096989966555,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.7, 1.0)",465,0.7762744959973519,0.967741935483871,climatology,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.0, 0.05)",4552,0.005066330885701588,0.008347978910369069,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.05, 0.1)",166,0.07161255991021273,0.15060240963855423,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.1, 0.2)",102,0.1384073523732934,0.20588235294117646,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.2, 0.3)",70,0.24845069873296532,0.35714285714285715,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.3, 0.5)",106,0.38627212933866845,0.33962264150943394,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.5, 0.7)",116,0.6288334503677706,0.603448275862069,logistic_lag1,secondary_common
+REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites,"[0.7, 1.0)",1868,0.9119643908846055,0.9416488222698073,logistic_lag1,secondary_common

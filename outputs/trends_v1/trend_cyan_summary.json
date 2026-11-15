@@ -1,0 +1,62 @@
+{
+ "config": {
+  "root": ".",
+  "output_dir": "outputs/trends_v1",
+  "lake_map_csv": "data/interim/fl_lake_map.csv",
+  "cyan_raw_dir": "data/raw/D03_cyan",
+  "forecast_csv": "data/raw/D01_forecasts/AllWeeks_CyanForecasts.csv",
+  "min_valid_fraction": 0.5,
+  "season_months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "min_known_weeks": 13,
+  "cyan_years": [
+   2020,
+   2026
+  ],
+  "min_years": 6,
+  "fdr_q": 0.05,
+  "power": {
+   "raw_dir": "data/raw/D09_power",
+   "years": [
+    1981,
+    2025
+   ],
+   "parameters": [
+    "T2M",
+    "PRECTOTCORR"
+   ],
+   "community": "AG",
+   "workers": 4
+  }
+ },
+ "summary": {
+  "V1_bloom_share": {
+   "lakes_tested": 119,
+   "lakes_not_tested": 2,
+   "raw_p_lt_05": 20,
+   "fdr_sig": 2,
+   "fdr_sig_up": 2,
+   "fdr_sig_down": 0,
+   "slope_pos": 45,
+   "slope_neg": 1,
+   "slope_zero": 73
+  },
+  "V2_extent": {
+   "lakes_tested": 119,
+   "lakes_not_tested": 2,
+   "raw_p_lt_05": 25,
+   "fdr_sig": 10,
+   "fdr_sig_up": 10,
+   "fdr_sig_down": 0,
+   "slope_pos": 81,
+   "slope_neg": 6,
+   "slope_zero": 32
+  }
+ }
+}

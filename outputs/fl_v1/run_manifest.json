@@ -1,0 +1,76 @@
+{
+ "data_mode": "REAL: EPA archived forecasts (Qlik export) + CyAN API weekly composites",
+ "config": {
+  "root": ".",
+  "output_dir": "outputs/fl_v1",
+  "lake_map_csv": "data/interim/fl_lake_map.csv",
+  "cyan_raw_dir": "data/raw/D03_cyan",
+  "forecast_csv": "data/raw/D01_forecasts/AllWeeks_CyanForecasts.csv",
+  "min_valid_fraction": 0.5,
+  "train_end": "2023-12-31",
+  "validation_year": 2024,
+  "clim_prior_strength": 5,
+  "alphas": [
+   0.01,
+   0.02,
+   0.03,
+   0.05,
+   0.075,
+   0.1,
+   0.15,
+   0.2,
+   0.25,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9
+  ],
+  "bootstrap_alphas": [
+   0.05,
+   0.1,
+   0.2,
+   0.3,
+   0.5
+  ],
+  "n_boot": 1000,
+  "seed": 20261114
+ },
+ "audit": {
+  "forecast_rows": 8228,
+  "no_observation": 462,
+  "outcome_unknown": 294,
+  "lag1_unknown": 492,
+  "eligible": 6980,
+  "lakes": 120,
+  "events": 1974,
+  "onset_windows": 5007,
+  "onsets": 152,
+  "secondary_eligible": 6980,
+  "secondary_events": 1974,
+  "secondary_baselines": true
+ },
+ "logistic": {
+  "lag1_dn_s": 4.3617,
+  "lag1_frac": 7.3993,
+  "lag1_bloom": 0.1529,
+  "sin_w": 0.0952,
+  "cos_w": -0.0993,
+  "intercept": -5.847758810993705,
+  "n_train": 22881,
+  "train_years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ]
+ },
+ "python": "3.13.5",
+ "packages": {
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1"
+ }
+}

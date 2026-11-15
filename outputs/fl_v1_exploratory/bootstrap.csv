@@ -1,0 +1,21 @@
+data_mode,subset,alpha,comparison,p2_5,median,p97_5
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.01,hybrid_persist_or_EPA - persistence,1.5819016734619067,2.3481160465214557,3.2621091879500597
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.02,hybrid_persist_or_EPA - persistence,0.5807504278725245,0.9622165101374831,1.3964218661887573
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.03,hybrid_persist_or_EPA - persistence,0.27472915649097285,0.5207513297515574,0.8003731902434994
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.05,hybrid_persist_or_EPA - persistence,0.054501178206875896,0.18747337078181037,0.3426966304144522
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.075,hybrid_persist_or_EPA - persistence,-0.03877137837655693,0.04758964988075404,0.1420687772939377
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.1,hybrid_persist_or_EPA - persistence,-0.0745710576523625,-0.009371907680980118,0.0579171186790402
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.15,hybrid_persist_or_EPA - persistence,-0.11401750763314124,-0.06608828787848581,-0.02033049332703234
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.2,hybrid_persist_or_EPA - persistence,-0.11286457690049383,-0.07164874645680597,-0.0316388776131398
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.3,hybrid_persist_or_EPA - persistence,-0.1311653686131621,-0.07902141381398464,-0.03814336991207222
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,all,0.5,hybrid_persist_or_EPA - persistence,-0.23802503725408322,-0.14131959072635292,-0.07646548073445726
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.01,EPA_forecast - persistence,0.6562761781449328,1.1410977760911352,1.7213735562570354
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.02,EPA_forecast - persistence,0.21702033085961647,0.4148216429428915,0.6147695137197187
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.03,EPA_forecast - persistence,0.016197379725086065,0.24183393037818918,0.4109729771946266
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.05,EPA_forecast - persistence,-0.36750226860254104,-0.08890977443609033,0.12572125422996608
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.075,EPA_forecast - persistence,-0.7358623935982425,-0.3739107960419435,-0.10842480942480948
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.1,EPA_forecast - persistence,-1.00956541218638,-0.5962081128747796,-0.30238330696202526
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.15,EPA_forecast - persistence,-1.6297522489795375,-1.0800542740841244,-0.7132448546794603
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.2,EPA_forecast - persistence,-2.0372647299509,-1.3823529411764706,-0.9217711629746838
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.3,EPA_forecast - persistence,-2.832284968782033,-1.8987019788276664,-1.2693474536216474
+EXPLORATORY (post hoc) on REAL data — not a confirmatory result,new_episode_onset,0.5,EPA_forecast - persistence,-4.904274706457925,-3.154700854700855,-1.8844178082191785

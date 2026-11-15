@@ -1,0 +1,2829 @@
+
+=====PAGE 1=====
+Prepared in cooperation with the U.S. Department of the Interior Office of Policy Analysis
+Societal Benefits of Cyanobacteria Harmful Algal Bloom
+Management in Lake Okeechobee in Florida—Potential
+Damages Avoided During the 2018 Event Under U.S. Army
+Corps of Engineers Harmful Algal Bloom Interception,
+Treatment, and Transformation System Scenarios
+Scientific Investigations Report 2024–5091
+U.S. Department of the Interior
+U.S. Geological Survey
+
+=====PAGE 2=====
+Cover. Aerial photograph showing clouds of bright green cyanobacteria in a harmful algal bloom in
+Lake Okeechobee, Florida, in July 2016. Photograph by Nicholas Aumen, U.S. Geological Survey.
+
+=====PAGE 3=====
+Societal Benefits of Cyanobacteria
+Harmful Algal Bloom Management in
+Lake Okeechobee in Florida—Potential
+Damages Avoided During the 2018 Event
+Under U.S. Army Corps of Engineers
+Harmful Algal Bloom Interception,
+Treatment, and Transformation System
+Scenarios
+By Inoussa Boubacar, Emily Pindilli, Ellie Brown, Benjamin Simon, Kristin Skrabis,
+and Ian Luby
+Prepared in cooperation with the
+U.S. Department of the Interior Office of Policy Analysis
+Scientific Investigations Report 2024–5091
+U.S. Department of the Interior
+U.S. Geological Survey
+
+=====PAGE 4=====
+U.S. Geological Survey, Reston, Virginia: 2024
+For more information on the USGS—the Federal source for science about the Earth, its natural and living resources,
+natural hazards, and the environment—visit https://www.usgs.gov or call 1–888–392–8545.
+For an overview of USGS information products, including maps, imagery, and publications, visit https://store.usgs.gov/
+or contact the store at 1–888–275–8747.
+Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the
+U.S. Government.
+Although this information product, for the most part, is in the public domain, it also may contain copyrighted materials
+as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner.
+Suggested citation:
+Boubacar, I., Pindilli, E., Brown, E., Simon, B., Skrabis, K., and Luby, I., 2024, Societal benefits of cyanobacteria
+harmful algal bloom management in Lake Okeechobee in Florida—Potential damages avoided during the 2018
+event under U.S. Army Corps of Engineers Harmful Algal Bloom Interception, Treatment, and Transformation System
+scenarios: U.S. Geological Survey Scientific Investigations Report 2024–5091, 45 p., https://doi.org/ 10.3133/
+sir20245091.
+ISSN 2328-0328 (online)
+
+=====PAGE 5=====
+iii
+Acknowledgments
+Funding for this research was provided by the U.S. Army Corps of Engineers. Additionally,
+Martin Page and Marissa Campobasso of the U.S. Army Corps of Engineers, Engineer
+Research and Development Center, provided substantial information on the technical
+specifics, costs, and scenarios related to the Harmful Algal Bloom Interception, Treatment, and
+Transformation System.
+The authors would like to acknowledge Christopher Pettit, Director of the Office of Agricultural
+Water Policy for the Florida Department of Agriculture and Consumer Services, for providing
+multiple sources of information on consumptive water use in South Florida; the Florida
+Department of Revenue for providing property sales data; James Eash, Supervisor of the
+Caloosahatchee Regional Park and Alva Community Park, for providing data on Alva Park’s
+boating trips; and finally, Sergio Alvarez of the University of Central Florida for his guidance on
+the impact of cyanobacteria harmful algal blooms (cyanoHABs) on recreation.
+Additional expertise in the science and management of cyanoHABs was provided by U.S.
+Geological Survey scientists Keith Loftin and Viviana Mazzei of the Toxins and Harmful Algal
+Blooms Science Team, which is part of the Environmental Health Program of the Ecosystems
+Mission Area. We thank Keith Loftin, Christa Court, and staff of the U.S. Army Corps of
+Engineers, Jacksonville District, for helpful reviews.
+
+=====PAGE 6=====
+
+
+=====PAGE 7=====
+v
+Contents
+Acknowledgments ........................................................................................................................................iii
+Abstract ...........................................................................................................................................................1
+Introduction.....................................................................................................................................................1
+Overview of CyanoHAB Societal Impacts .................................................................................................2
+Overview of the Harmful Algal Bloom Interception, Treatment, and Transformation System ..........2
+Purpose and Scope .......................................................................................................................................4
+Methods...........................................................................................................................................................4
+Site and Event Description ...........................................................................................................................6
+Benefits Estimation ........................................................................................................................................8
+Quantifying Impacts on Recreation ...................................................................................................9
+Quantifying Impacts on Aesthetics ..................................................................................................10
+Quantifying Impacts on Water Use ..................................................................................................12
+Quantifying Impacts on Commercial Fisheries and Aquaculture ...............................................14
+Quantifying Impacts on Human Health ...........................................................................................17
+Aggregate Value of CyanoHAB Impacts and Benefit of HABITATS Use ............................................17
+Value of Ancillary Products from the HABITATS Process ....................................................................18
+Cost of Deploying HABITATS .....................................................................................................................19
+Net Benefits ..................................................................................................................................................22
+Discussion .....................................................................................................................................................22
+Conclusions...................................................................................................................................................23
+References Cited..........................................................................................................................................23
+Appendix 1. Changes in Property Values in Four Counties in Florida ..............................................29
+Figures
+1. Flowchart showing the impacts of harmful algal blooms ......................................................3
+2. Photographs showing an overview of the three key steps in the HABITATS
+approach for intercepting, treating, and transforming algae-laden waters .......................3
+3. Satellite images showing the dynamics of algal bloom formation in Lake
+Okeechobee in Florida from June to November 2018 .............................................................5
+4. Aerial photograph of an interesting alternative-format shipboard HABITATS
+prototype being tested in Chautauqua Lake, New York, in September 2020 ......................6
+5. Map showing the study area, Lake Okeechobee in Florida ..................................................7
+6. Aerial photographs showing the planned shore-based HABITATS pilot
+demonstration site at the Port Mayaca lock and dam on the east side of Lake
+Okeechobee in Florida .................................................................................................................8
+7. Aerial photographs showing the shore-based HABITATS pilot demonstration
+site at the Moore Haven lock and dam on the west side of Lake Okeechobee
+in Florida .........................................................................................................................................9
+8. Bar chart showing the number of freshwater commercial fishing licenses
+issued in Glades, Lee, Martin, and Saint Lucie Counties, Florida, by county
+in 2017–19 .....................................................................................................................................14
+9. Bar chart showing the volumes of oysters and clams produced in aquaculture
+operations on Florida’s gulf coast during 2015–19 ................................................................15
+
+=====PAGE 8=====
+vi
+10. Bar chart showing the values of oysters and clams produced in aquaculture
+operations on Florida’s gulf coast during 2015–19 ................................................................15
+11. Bar chart showing landing volumes of shellfish caught by commercial fishers in
+Lee County, Florida, during 2015–19 .........................................................................................15
+12. Bar chart showing landing volumes of shellfish caught by commercial fishers in
+Martin County, Florida, during 2015–19 ...................................................................................15
+13. Bar chart showing landing volumes of shellfish caught by commercial fishers in
+Saint Lucie County, Florida, during 2015–19 ...........................................................................15
+14. Bar chart showing percentage change from previous year of commercial
+landing volumes of crabs in Lee, Martin, and Saint Lucie Counties, Florida, by
+county, during 2016–19 ...............................................................................................................16
+15. Bar chart showing percentage change from previous year of commercial
+landing volumes of lobsters in Lee, Martin, and Saint Lucie Counties, Florida. by
+county, during 2016–19 ...............................................................................................................16
+16. Bar chart showing percentage change from previous year of commercial
+landing volumes of shrimp in Lee County, Florida, during 2016–19 ....................................17
+17. Bar chart showing percentage change from previous year of commercial
+landing volumes of oysters in Lee County, Florida, during 2016–19 ...................................17
+Tables
+1. Monthly boating trips and monthly value of lost consumer surplus caused by
+boat ramp closures in Glades, Lee, Martin, and Saint Lucie Counties, Florida, by
+county, for July, August, and September 2018 .......................................................................10
+2. Summary statistics for single-family property sales in Glades, Lee, Martin, and
+Saint Lucie Counties, Florida, during July–September 2018 ...............................................11
+3. Number of single-family property sales in Glades, Lee, Martin, and Saint
+Lucie Counties, Florida, by county and distance from the water, during July–
+September 2018 ...........................................................................................................................11
+4. Percentage change in sales prices for single-family properties in Florida
+resulting from an additional foot of Secchi disk depth, by river and distance
+from the water .............................................................................................................................12
+5. Aggregate losses in single-family property sales for Glades, Lee, Martin, and
+Saint Lucie Counties, Florida, by county and distance from the water along the
+Caloosahatchee and Saint Lucie Rivers, during the 2018 cyanoHAB ................................12
+6. Summary of 2017 county profiles from the Census of Agriculture for Glades,
+Lee, Martin, and Saint Lucie Counties, Florida ......................................................................13
+7. Agricultural water withdrawals in Glades, Lee, Martin, and Saint Lucie
+Counties, Florida, by county in 2010 .........................................................................................13
+8. Estimated percentage of algae removed by basic HABITATS and enhanced
+HABITATS under scenarios of low and high depth-dilution coefficients in a
+simulation based on the 2018 cyanoHAB event in Florida, by deployment site ...............18
+9. Estimated total economic benefits of deploying basic HABITATS and enhanced
+HABITATS under scenarios of low and high depth-dilution coefficients in a
+simulation based on the 2018 cyanoHAB event in Florida, by deployment site ...............19
+10. Estimated quantity and economic value of biocrude production by basic
+HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event
+in Florida, by deployment site ...................................................................................................19
+
+=====PAGE 9=====
+vii
+11. Estimated quantity and economic value of nitrogen production by basic
+HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event
+in Florida, by deployment site ...................................................................................................20
+12. Estimated quantity and economic value of phosphorus production by basic
+HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event
+in Florida, by deployment site ...................................................................................................20
+13. Estimated capital expenditures for deploying basic HABITATS and enhanced
+HABITATS under scenarios of low and high depth-dilution coefficients in a
+simulation based on the 2018 cyanoHAB event in Florida, by deployment site ...............21
+14. Estimated operating and maintenance expenditures for deploying basic
+HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event
+in Florida, by deployment site ...................................................................................................21
+15. Estimated total costs for deploying basic HABITATS and enhanced HABITATS
+under scenarios of low and high depth-dilution coefficients in a simulation
+based on the 2018 cyanoHAB event in Florida, by deployment site ...................................21
+16. Estimated net societal benefits from deploying basic HABITATS and enhanced
+HABITATS under scenarios of low and high depth-dilution coefficients in a
+simulation based on the 2018 cyanoHAB event in Florida ...................................................22
+Conversion Factors
+U.S. customary units to International System of Units
+Multiply By To obtain
+Length
+foot (ft) 0.3048 meter (m)
+mile (mi) 1.609 kilometer (km)
+Area
+acre 4,047 square meter (m2)
+acre 0.4047 hectare (ha)
+acre 0.4047 square hectometer (hm2)
+acre 0.004047 square kilometer (km2)
+square mile (mi2) 259.0 hectare (ha)
+square mile (mi2) 2.590 square kilometer (km2)
+Volume
+gallon (gal) 3.785 liter (L)
+gallon (gal) 0.003785 cubic meter (m3)
+Flow rate
+gallon per day (gal/d) 0.003785 cubic meter per day (m3/d)
+million gallons per day (Mgal/d) 0.04381 cubic meter per second (m3/s)
+Mass
+pound, avoirdupois (lb) 0.4536 kilogram (kg)
+
+=====PAGE 10=====
+viii
+International System of Units to U.S. customary units
+Length
+meter (m) 3.281 foot (ft)
+Volume
+milliliter (mL) 0.03381 fluid (fl. oz)
+Abbreviations
+cyanoHAB cyanobacteria harmful algal bloom
+DAF dissolved air flotation
+DDC depth-dilution coefficient
+ERDC Engineer Research and Development Center (USACE)
+FWCC Florida Fish and Wildlife Conservation Commission
+GIS geographic information system
+HAB harmful algal bloom
+HABITATS Harmful Algal Bloom Interception, Treatment, and Transformation System
+RAFT rapid air flotation technology
+USACE U.S. Army Corps of Engineers
+
+=====PAGE 11=====
+Societal Benefits of Cyanobacteria Harmful Algal Bloom
+Management in Lake Okeechobee in Florida—Potential
+Damages Avoided During the 2018 Event Under U.S. Army
+Corps of Engineers Harmful Algal Bloom Interception,
+Treatment, and Transformation System Scenarios
+By Inoussa Boubacar,1 Emily Pindilli,1 Ellie Brown,1 Benjamin Simon,2 Kristin Skrabis,2 and Ian Luby1
+Abstract on the vertical distribution of algae in the water column and
+the HABITATS version used. The study’s estimated societal
+benefit is undoubtedly a lower bound estimate because
+Freshwater harmful algal blooms (HABs) formed
+current scientific knowledge is inadequate to characterize, or
+by blue-green algae, or cyanobacteria, have emerged as a
+monetize, all the impacts.
+global environmental problem. Their negative impacts on
+aquatic ecosystems can affect the benefits nature provides to
+human society by reducing water quality; inhibiting aquatic
+Introduction
+recreation; killing fish, wildlife, and pets; and posing a risk to
+human health. To manage harmful algal blooms, the Engineer
+Research and Development Center of the U.S. Army Corps Cyanobacteria blooms form when cyanobacteria, which
+of Engineers is developing an advanced technology called are photosynthetic bacteria (also called blue-green algae) that
+the Harmful Algal Bloom Interception, Treatment, and are naturally present in freshwater, are stimulated to proliferate
+Transformation System (HABITATS), which has been tested by various factors such as sunlight, water temperature,
+in pilot demonstrations upstream of spillways at HAB-affected pH, weather patterns, salinity, water column stability, and
+waterbodies in Florida. anthropogenic modifications of aquatic environments,
+The U.S. Geological Survey and cooperators from the including nutrient enrichment (Paerl, 2009; Kitsiou and
+U.S. Department of the Interior Office of Policy Analysis Karydis, 2011; Merel and others, 2013). Thick accumulations
+investigated the societal benefits of HABITATS technology of cyanobacteria, commonly referred to as cyanobacteria
+by using data from an actual 2018 harmful algal bloom harmful algal blooms (cyanoHABs), have emerged as a global
+in Lake Okeechobee to characterize the observed societal human and animal health concern because of a range of issues,
+impacts and then comparing observed effects to hypothetical including toxin exposure, food-web disruptions, and aesthetic
+scenarios of HABITATS deployment. This study estimated degradation (Pindilli and Loftin, 2022). The societal impacts
+an economic value of $5.5 million in foregone recreation as a of eutrophication, an overabundance of nutrients in a body of
+result of closed boating ramp facilities and other restrictions water that contributes to cyanoHABs, have been estimated to
+on aquatic recreation such as fishing and swimming during cost the United States nearly $2.2 billion per year in terms of
+the 2018 cyanobacteria harmful algal bloom outbreak. The degradation (Dodds and others, 2009).
+change in housing sales prices that could have resulted from Management actions that prevent, mitigate, manage,
+murky water or bad odor during that outbreak was estimated treat, or otherwise reduce the incidence, extent, or duration
+as $2.3 million. The team also investigated drinking water of cyanoHABs will subsequently reduce the magnitude of
+contamination and human illness but did not find significant societal impacts. The Engineer Research and Development
+societal impacts in this case. If HABITATS had been Center (ERDC) of the U.S. Army Corps of Engineers is
+deployed, the avoided losses less the cost of management engaged in applied research on cyanoHABs, including
+could have provided net societal benefits that ranged between developing and deploying the Harmful Algal Bloom
+negative $2.1 million and positive $0.8 million, depending Interception, Treatment, and Transformation System
+(HABITATS). Using a scenario approach based on an actual
+1U.S. Geological Survey. 2018 cyanoHAB event that took place in Lake Okeechobee
+in southeast Florida, the U.S. Geological Survey (USGS)
+2U.S. Department of the Interior Office of Policy Analysis.
+
+=====PAGE 12=====
+2 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+team identified, quantified, and valued the societal benefits oxygen conditions, essentially suffocating some fish species.
+that HABITATS may provide in terms of avoided impacts As shown in figure 1, a die-off can reduce commercial fishing
+from a cyanoHAB event and compared the benefits to the stocks, decrease recreational fishing opportunities, and
+costs of deploying HABITATS. The study focused on the have further effects on biodiversity (for example, predatory
+societal impacts observed downstream in the Saint Lucie and bird populations may suffer). The USGS team used an
+Caloosahatchee Rivers when water containing cyanoHABs ecosystem services framework to consider and estimate the
+was released from the lake. With this retrospective analysis, societal impacts of cyanoHABs, including quantification and
+societal damages were estimated, and the potential reduction valuation. Relevant ecosystem services that were investigated
+in damages that may have been realized if HABITATS had included recreational fishing and boating, aesthetics, water
+been deployed was assessed. The many factors that limit our use, commercial fisheries and aquaculture, and human health.
+analysis are further detailed throughout the report. Our results
+should be interpreted as a lower bound estimate of net benefits
+for deploying HABITATS, based on avoided societal impacts Overview of the Harmful Algal
+that were feasible to value, and on pilot demonstrations of
+Bloom Interception, Treatment, and
+effectiveness and cost estimates for the system that the ERDC
+provided. These results cannot be extrapolated beyond the
+Transformation System
+study area and may not represent the values associated with
+events other than the 2018 cyanoHAB.
+The HABITATS management approach (as described by
+Page and others, 2020, 2021) is to remove algae and nutrients
+from large waterbodies while simultaneously stabilizing
+Overview of CyanoHAB Societal
+and recovering resources from the resulting biomass, with
+Impacts the objective of developing a rapidly deployable system for
+mitigating large HABs. HABITATS includes the following
+three steps:
+CyanoHABs have direct and indirect impacts on
+aquatic ecosystems. These translate into changes in • Interception.—Algae is collected from the surface
+ecosystem services, or the benefits nature provides to humans of a natural waterbody with a floating weir skimmer
+(Millennium Ecosystem Assessment, 2005). To estimate aided by booms that focus the surface algae to the
+changes in benefits to humans, or in other words, the societal collection point.
+impacts of cyanoHABs, consideration must be given to their
+• Treatment.—The algae-laden water is clarified by
+ecological effects, the resulting ecosystem service degradation,
+dissolved air flotation (DAF) and then by oxidation (if
+and the associated loss of value to people.
+needed), which creates clean water that can be directly
+CyanoHAB effects on the aquatic ecosystem have been
+returned to the environment, while simultaneously
+well documented. Blooms can reduce water clarity or form
+concentrating the algal biomass to minimize the
+thick mats that block sunlight, thereby affecting aquatic
+waste stream.
+vegetation, such as seagrass beds (Barnes and others, 2006).
+Reduced visibility impedes aquatic animals that rely on • Transformation.—The concentrated algal biomass
+vision, such as predatory fish (Lehtiniemi and others, 2005). waste stream is transformed into biocrude fuel and
+Excessive cyanobacterial growth can alter aquatic food webs fertilizer by means of hydrothermal liquefaction to
+(Tillmanns and others, 2008). Once cyanobacterial cells die, facilitate efficient resource recovery.
+their decomposition can deplete dissolved oxygen, resulting
+The first two steps (interception and treatment) can
+in hypoxia that can lead to changes in the structure and
+directly influence the magnitude or duration of a cyanoHAB
+diversity of benthic (bottom-dwelling) communities and fish
+event, reducing damages. The third step—transformation—
+populations (Barnes and others, 2006) and sometimes cause
+may provide co-benefits in terms of extraction of commodities
+mass die-offs. Extreme hypoxia can create both freshwater
+from a waste product (fig. 2). Details that are not described
+and nearshore marine “dead zones” under certain conditions
+here, such as set-up procedures, environmental permitting,
+(for examples, see Diaz and Rosenberg, 2008). Some
+treatment performance, water-quality improvement, testing of
+cyanobacterial blooms produce toxins (microcystin, anatoxins,
+effluent toxicity, algal toxin destruction, and other aspects, are
+and other cyanotoxins [Puschner and Humbert, 2007]) that
+described in full in Page and others (2020, 2021).
+can poison terrestrial wildlife or livestock and pose a risk to
+Two versions of HABITATS are referred to in this report
+human health.
+as basic and enhanced. Both versions are shore based, but the
+Dodds and others (2009) developed a generalized
+enhanced version includes additional equipment for collecting
+conceptual model of harmful algal bloom (HAB) effects on
+algae by floating it to the water’s surface prior to interception.
+ecosystem services (fig. 1). One pathway they used involved
+a cyanobacteria die-off, which led to reduced dissolved
+
+=====PAGE 13=====
+Overview of the Harmful Algal Bloom Interception, Treatment, and Transformation System 3
+Algal blooms
+Algal taste Dissolved
+Algal toxins Water clarity
+and odor oxygen
+Aesthetic
+Fish kills perceptions
+Water quality
+Biodiversity Recreation
+Livestock and Commercial Property
+human health fisheries/aquaculture Angling values
+Figure 1. Flowchart showing the impacts of harmful algal blooms, based on Dodds and others (2009, fig. 1). Ecosystem
+services of interest in the study by the U.S. Geological Survey team are demarcated in orange; the five services are angling
+(recreational fishing and boating), commercial fisheries/aquaculture, livestock and human health, property values, and
+recreation.
+Intercepting algae Treating algae-laden water Transforming algal biomass into biofuel
+Figure 2. Photographs showing an overview of the three key steps in the HABITATS approach for intercepting, treating, and
+transforming algae-laden waters. Brief descriptions of the steps are in the text. The first photograph shows the Lake Okeechobee
+test site at Moore Haven spillway. Photographs courtesy of Martin Page, U.S. Army Corps of Engineers, Engineer Research and
+Development Center, used with permission. They also appeared in Page and others (2020, figs. 1–1, 2–8, and 2–10).
+
+=====PAGE 14=====
+4 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Purpose and Scope Methods
+The purpose of this study by the USGS team was to To estimate the benefits of hypothetical HABITATS
+identify and assign a value to the societal benefits associated deployment scenarios at outlet points of Lake Okeechobee in
+with the deployment of HABITATS. We assessed the damages southeast Florida, the impacts of a cyanoHAB event under
+that would have been avoided as a result of the reduced baseline conditions (in other words, no management) were
+magnitude or duration of a cyanoHAB event attributable considered. Next, using the 2018 cyanoHAB event as a
+to the management approach. In addition, we evaluated the basis for analysis, each impact category was identified and
+value of potentially beneficial byproducts and compared the considered separately to quantify the physical and monetary
+sum of benefits with the costs of deploying the HABITATS effects. After delineating the estimation method for each
+management approach. Deployment costs include capital, category, the qualitative and quantitative impacts on aquatic
+operational, and maintenance costs, not technology ecosystems were described. Then, each impact category—
+development costs. CyanoHABs are heterogeneous in nature; recreation, aesthetics, water use, commercial fisheries and
+cyanoHABs in different settings have differing ecological aquaculture, and human health—was assessed. An important
+effects, and the associated societal impacts differ further caveat is that during the 2018 cyanoHAB bloom in the lake,
+based on peoples’ preferences for ecosystem services. This a red tide bloom also grew in the Gulf of Mexico (Tometich
+study is focused on a specific scenario of a HABs bloom in and Killer, 2018). To avoid overestimating the benefits of
+Lake Okeechobee in southeast Florida, where the ERDC HABITATS deployment, categories of impacts where the
+has been piloting research on the application of HABITATS effects of cyanoHAB and red tide blooms could not be
+at outflow points and for which societal impacts have been disaggregated (in other words, those effects that happened
+documented in 2018. The ERDC technology is designed to nearshore or in estuaries) were excluded.
+minimize disturbances to the ecosystem, and was developed The benefits of HABITATS are estimated by assessing
+in compliance with local permits (Page and others, 2020, the effectiveness of the management action on reducing the
+2021), but potential nontarget effects should continue to be magnitude or duration of the cyanoHAB and multiplying that
+considered if it is deployed in the future at larger scales. effectiveness factor by an estimate of the societal value of
+In 2018, a large cyanoHAB bloom (fig. 3) covered a large reducing the cyanoHAB. This is a damage-avoided approach
+percentage of Lake Okeechobee; cyanobacteria were released in which net value to society is determined by those expected
+through control structures downstream into waterways, outcomes that are avoided because of the intervention—a
+resulting in reduced tourism, nuisance odor, cyanotoxins common approach in ecosystem services valuation (de Groot
+such as microcystins, clarity issues, and impacts on sport and and others, 2002). For this study, we considered a basic
+commercial fisheries (Tometich and Killer, 2018). Data from shore-based HABITATS system (fig. 2) and an enhanced
+this event were used to characterize and quantify the societal shore-based HABITATS system with rapid air flotation
+impacts of cyanoHABs and the “what-if” benefits of avoided technology (RAFT), which is a system in which algae are
+damages in hypothetical scenarios of HABITATS deployment floated to the surface in the waterbody before interception
+at the lake outflow points during the event to treat water (Page and others, 2021). An alternative ship-based technology
+released downstream. The results of this analysis cannot be also under development (fig. 4; Page and others, 2021) was
+simply extrapolated to other cyanoHABs events because the previously determined to be more costly than the two on-shore
+site-specific ecological, economic, and societal conditions do systems analyzed in this study (Martin Page, U.S. Army Corps
+not represent national-level benefits of HABITATS. However, of Engineers, Engineer Research and Development Center,
+the use of realized impacts from the 2018 event is a first written commun., November 2024).
+indication of the societal benefits and the economic return To the extent that the actual effectiveness of large-scale
+on investment of deploying HABITATS. Additionally, the deployment of HABITATS is more or less than in the
+framework itself that was developed for this analysis can be pilot study, the associated societal benefits would also be
+duplicated in other settings. different. Additionally, the ecological or societal impacts
+of a cyanoHAB are not likely to be linear, and 50-percent
+effectiveness in removing algae may not translate to a
+50-percent societal benefit. The HABITATS pilot deployments
+were targeted at Lake Okeechobee’s outlets rather than the
+main body of the lake, and therefore, our analysis is limited
+to the impacts incurred in the Saint Lucie and Caloosahatchee
+Rivers downstream of those outlets. Other benefits may have
+accrued in Lake Okeechobee itself, but these are not captured
+in the analysis.
+
+=====PAGE 15=====
+Methods 5
+June 17, 2018 July 2, 2018 August 10, 2018
+September 17, 2018 October 17, 2018 November 11, 2018
+EXPLANATION
+[Gray is clouds and other invalid data;
+black indicates no detection of bloom]
+Cells per milliliter
+20,000 100,000 1,000,000 6,300,000
+Figure 3. Satellite images showing the dynamics of algal bloom formation in Lake Okeechobee in Florida from June to
+November 2018. The red areas of the heat map indicate high-density algae (more than 1 million cells per milliliter). The images
+are from the National Centers for Coastal Ocean Science of the National Oceanic and Atmospheric Administration, and
+they were derived from Copernicus Sentinel-3 data from the European Organisation for the Exploitation of Meteorological
+Satellites (EUMETSTAT). An archive of images of the 2018 event is at https://coastalscience.noaa.gov/science-areas/habs/
+hab-monitoring-system/cyanobacteria-algal-bloom-satellite-lake-okeechobee-fl/.
+
+=====PAGE 16=====
+6 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Figure 4. Aerial photograph of an interesting alternative-format shipboard HABITATS prototype being
+tested in Chautauqua Lake, New York, in September 2020. As described by Page and others (2021, p. 23), the
+“shipboard interception system consisted of two lead boats with two 50 ft [50-foot] tow booms connected to a
+floating weir skimmer intake on the front of a trailing DAF [dissolved air flotation] barge.” HABITATS, Harmful
+Algal Bloom Interception, Treatment, and Transformation System. Photograph courtesy of John Kennedy, New
+York State Department of Environmental Conservation; used with permission. It was also used in Page and
+others (2021, fig. 2–8).
+In addition to the benefits of avoided societal impacts, C is the HABITATS operating and
+om
+the co-benefits of ancillary products produced during the maintenance costs.
+HABITATS process were estimated. The costs of deploying
+HABITATS were also estimated for the specific deployment If the estimated net value is positive, the deployment
+scenario, as described in detail below. Finally, benefits, represents a positive return on investment. If it is negative, the
+co-benefits, and costs can be compared to derive an estimate costs outweigh the benefits. The cost estimation only considers
+of the net value of HABITATS as expressed in equation 1. the costs of HABITATS when deployed for a specific event,
+including amortized capital expenditures; the costs associated
+HABITATS net value=(Q × V × E%)+V −(C +C ), (1) with developing the technology are not included.
+s s ap ac om
+where
+Q is the quantity of societal impacts, Site and Event Description
+s
+V is the value of societal impacts,
+s During the last 15 years, Florida has had several major
+E% is the percentage of effectiveness of outbreaks of cyanoHABs as well as outbreaks of other algae
+HABITATS, (Court and others, 2021). In 2018, a significant cyanoHAB
+event affected freshwaters in south Florida, including Lake
+V is the HABITATS ancillary product value, Okeechobee. The bloom lasted several months and was linked
+ap
+to outflows from Lake Okeechobee into the Caloosahatchee
+C is the HABITATS amortized capital costs, and and Saint Lucie Rivers and their estuaries. Lake Okeechobee
+ac
+
+=====PAGE 17=====
+Site and Event Description 7
+is approximately 40 miles northwest of West Palm Beach at Lake Okeechobee at the junction with the Saint Lucie River
+the northern edge of the Everglades, approximately 30 miles (fig. 5), although testing was not conducted due to lack of
+west of the Atlantic coast, and 60 miles east of the Gulf of algae during the test period (Martin Page, U.S. Army Corps
+Mexico (fig. 5). Lake Okeechobee and its wetlands are at the of Engineers, Engineer Research and Development Center,
+center of the greater Everglades watershed, which extends written commun., November 2024). A second planned ERDC
+from the Kissimmee River through the Everglades and pilot demonstration was conducted along the shoreline to the
+into Florida Bay. The surface area of Lake Okeechobee is northeast of the Moore Haven lock and dam on the west side
+approximately 730 square miles, and the lake has 135 miles of Lake Okeechobee at the junction with the Caloosahatchee
+of shoreline (including several small islands) and an average River (fig. 7). Finally, pilot demonstrations were executed on
+depth of 9 feet (South Florida Water Management District, Saddle Creek spillway in Florida and Chautauqua Lake in
+2024). The Lake Okeechobee waterway is 154 miles New York (Page and others, 2021). On the basis of data for
+long and extends from the Atlantic Ocean at Stuart to the these pilot demonstrations and associated scalability analyses
+Gulf of Mexico at Fort Myers. The waterway runs through presented in the reports, impacts and costs were projected for
+Lake Okeechobee and includes the Caloosahatchee River to various HAB scenarios in which HABITATS would have been
+the west of the lake and the Saint Lucie Canal east of the lake. deployed at two outflow points as water discharged from Lake
+The hypothetical HABITATS and enhanced HABITATS Okeechobee into the Caloosahatchee and Saint Lucie Rivers
+with RAFT deployment scenarios used for our analysis are (fig. 5).
+based on data from 2019 and 2020 pilot demonstrations during The analysis of potential benefits from treatment is
+which shore-based HABITATS and HABITATS with flotation therefore focused on the Caloosahatchee River, which flows
+modules (enhanced HABITATS) were tested by the members through Glades and Lee Counties, and the Saint Lucie River,
+of the Engineer Research and Development Center (ERDC) which flows through Martin and Saint Lucie Counties, Florida.
+of the U.S. Army Corps of Engineers (USACE) in locations The two rivers as well as Lake Okeechobee provide natural
+at Lake Okeechobee (basic module) and at Chautauqua habitat for fish, wading birds, and other wildlife; serve as
+Lake in New York (enhanced HABITATS module). The first a water source for irrigation; and also support recreational
+ERDC demonstration (Page and others, 2020) was planned boating and sport and commercial fisheries (Coastal and
+for the Port Mayaca lock and dam (fig. 6) on the east side of Heartland National Estuary Partnership, 2024; Conservation
+82° 81°30' 81° 80°30' 80°
+27°30' AL GA SAINT LUCIE
+K OKEECHOBEE ATLANTIC
+FL issim OCEAN
+m
+e
+e
+R
+iv Port Saint Lucie
+Map area HIGHLANDS e r
+er
+DESOTO
+MART
+Sa
+IN
+int
+Lucie
+Riv
+27°
+Port Mayaca
+GLADES
+LAKE OKEECHOBEE
+CHARLOTTE
+Moore Haven PALM BEACH
+Caloosahatchee
+River
+West Palm Beach
+HENDRY
+Fort Myers
+LEE
+26°30'
+GULF OF COLLIER
+MEXICO
+BROWARD
+Base from U.S. Geological Survey National Hydrography Dataset, 1:100,000 0 10 20 30 MILES
+Universal Transverse Mercator, zone 17 north
+World Geodetic System of 1984 0 10 20 30 KILOMETERS
+Figure 5. Map showing the study area, Lake Okeechobee in Florida. Terms: AL, Alabama; FL, Florida; GA, Georgia.
+
+=====PAGE 18=====
+8 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Figure 6. Aerial photographs showing the planned shore-based HABITATS pilot demonstration site at the Port Mayaca lock
+and dam on the east side of Lake Okeechobee in Florida. Labels added to the photographs indicate where research was done.
+HABITATS, Harmful Algal Bloom Interception, Treatment, and Transformation System. The figure was supplied by Marissa
+Campobasso of the U.S. Army Corps of Engineers, Engineer Research and Development Center (written commun., June 2024,
+used with permission).
+Alliance of Saint Lucie County, 2024; South Florida Water In addition to limitations associated with quantifying
+Management District, 2024). The four counties are home to ecological impacts, there are also limitations on the
+more than 1.2 million people (U.S. Census Bureau, 2022) with methodology for the valuation of those impacts. This report
+more than 60 percent residing in Lee County. Figure 5 shows describes the types of likely impacts and documents data
+Lake Okeechobee and the surrounding area. availability and whether available methodology allows
+quantification and valuation in this case. Primary data
+collection, either on the ecological or economic valuation side,
+Benefits Estimation was beyond the scope of the analysis, and the analysis was not
+conducted at the time of the bloom.
+However, estimated values can be calculated by means
+Our analysis is focused on the set of ecological damages
+of benefits transfer approaches, which involve using existing
+connected to changes that occurred because of the 2018
+data from another study in a similar setting (Rosenberger
+cyanoHAB event. Those damages must be linked to ecosystem
+and Loomis, 2003). Benefits transfer is a second-best
+services and must be able to be valued. One complication
+approximation and most robust when applied to similar
+in attempting to assess damages and assign values is that
+settings (which can be done on the basis of the availability
+many impacts of excessive cyanobacteria growth on aquatic
+of primary studies in the general study area) and when
+ecosystems cannot be monetized because of inadequate
+primary data are incorporated in tandem with the functional
+scientific knowledge about the linkages between biophysical
+transfer (which can be done by integrating site-specific data
+processes and outcomes for ecosystems or ecosystem services.
+as described in the following sections). This estimate should
+Assessing ecological damage associated with cyanoHABs in
+be considered a lower bound as some damages are difficult
+Lake Okeechobee is further complicated by existing damage
+to estimate, because of a lack of knowledge or data on either
+because of many other causes, including major changes
+the physical processes or human values for the ecosystem
+in hydrology resulting from canal and land development
+services, or both.
+(Barnes and others, 2006; South Florida Water Management
+District, 2024).
+
+=====PAGE 19=====
+Benefits Estimation 9
+Figure 7. Aerial photographs showing the shore-based HABITATS pilot demonstration site at the Moore Haven lock and dam
+on the west side of Lake Okeechobee in Florida. HABITATS, Harmful Algal Bloom Interception, Treatment, and Transformation
+System. The figure was supplied by Marissa Campobasso of the U.S. Army Corps of Engineers, Engineer Research and
+Development Center (written commun., June 2024, used with permission).
+Quantifying Impacts on Recreation To estimate the impacts to recreational boating, the change in
+welfare of recreational boaters was estimated with and without
+One of Florida’s great attractions is outdoor recreation a cyanoHAB.
+in a variety of freshwater, coastal, and marine ecosystems To estimate boating impacts, we utilized boating trip data
+(Morgan and others, 2010). For example, recreational boating for the two rivers as well as the change in per trip value under
+is a lucrative element of Florida’s coastal lifestyle, with an scenario conditions (boating ramp availability with versus
+estimated annual economic value of $23.3 billion in 2018 without a cyanoHAB). The value represents the change in
+and an estimated 935,742 registered boats (National Marine consumer surplus with and without a cyanoHAB. Consumer
+Manufacturers Association, 2018). When cyanoHABs in Lake surplus is a standard measure of welfare that represents the
+Okeechobee flow downstream into the Caloosahatchee and additional value consumers receive from a good or service
+Saint Lucie Rivers, the impacts on recreation are far reaching above what they actually pay for the good (in other words, the
+and complex. Beachgoing, recreational fishing, and boating net benefit or willingness to pay above and beyond what is
+were identified as the main forms of aquatic recreation that actually paid).
+may be affected by a cyanoHAB in the study area. Boating trip data from the Florida Fish and Wildlife
+Recreational boating was fully evaluated and used as a Conservation Commission (FWCC; 2009) provided an
+stand-in for the three aquatic recreational activities. Although annual inventory (the most recent was from 2009) of boating
+anecdotal evidence suggests that the 2018 cyanoHAB trips by county from boating access facilities. In 2009, there
+affected beachgoers at the intersection of the rivers in this were a total of 1,015,100 boating trips in the four counties
+study and the ocean, because of a simultaneous marine red studied (Glades=13,600; Lee=620,900; Martin=176,200; and
+tide in the vicinity (Tometich and Killer, 2018), changes in Saint Lucie=204,400). The annual values were adjusted by
+beach visitation are not directly attributable to the cyanoHAB using a monthly weight so adjustments could be made for
+event alone. Recreational fishing in the Caloosahatchee and seasonality and attributed losses during the 3-month period
+Saint Lucie Rivers may take place from boats or the shore. of the cyanoHAB event. The monthly weight is a correction
+This study’s assessment of recreational boating includes factor that takes the natural month-to-month variability in
+recreational fishing from boats. To avoid double counting, no recreational boating into account. This factor was derived
+further recreational fishing impact assessments were made. based on information from J. Eash (Caloosahatchee Regional
+
+=====PAGE 20=====
+10 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Park and Alva Community Park, written commun., 2021) as Quantifying Impacts on Aesthetics
+well as published reports by Sidman and others (2006) and
+Alvarez and others (2019). For the analysis in this study of the Many people live near the water to enjoy the various
+impacts of the 2018 cyanoHAB event, data were collected for amenities it provides. Proximity to water, and the quality of
+July, August, and September. Table 1 provides the monthly that water, can have a positive (or negative) effect on property
+weights used to adjust annual data to monthly boating trips values as they relate to peoples’ preferences (in other words,
+and the resulting monthly boating trips by county for July, water with bad odor would be a disamenity and likely have
+August, and September. a negative impact on housing value [Michael, Boyle, and
+To estimate the change in value per boat trip because of Bouchard, 2000]). A widely used approach to estimate the
+a cyanoHAB, the study used findings from Alvarez and others impact of environmental amenities, including water view on
+(2019) on recreational boaters in Lee County, which estimated neighboring properties, is hedonic property price analysis.
+the difference between value when all boat ramps are available The hedonic price model is derived from Lancaster’s (1966)
+(without a cyanoHAB) versus value when boat ramps in the consumer theory and Rosen’s (1974) theoretical framework.
+river are closed (with a cyanoHAB). Value, in this case, is a The model incorporates the effects of location, structure, and
+measure of consumer surplus, the preferred measure of human neighborhood-related housing attributes on property prices
+welfare; consumer surplus represents what an individual is (Malpezzi, 2002). More specifically, hedonic price models
+willing to pay above and beyond what is actually paid. Alvarez yield point estimates that serve as the basis for establishing
+and others (2019) calculated the change in value to be $17.26 the relation between property prices and nontraded attributes,
+per boat trip in 2018 U.S. dollars. This value is consistent with including environmental quality.
+other values reported in the literature (English and others, Hedonic models have used a variety of empirical
+2018). This value was used for all the counties in the study measures of water quality (Bin and Czajkowski, 2013). These
+area since they are similar in demographics and recreational include the following:
+opportunities (median household income ranges from $39,000
+• Total suspended solids (Poor, Pessagno, and Paul,
+to $65,000 per year (U.S. Census Bureau, 2022). The per trip
+2007; Page and others, 2021);
+value is multiplied by the number of trips in each county for
+each month for which data were collected (table 1). • Dissolved oxygen (Phaneuf and others, 2008);
+The total loss of value of recreational boating for all
+• Chlorophyll-a (Carey and Leftwich, 2007),
+four counties for July, August, and September in 2018 is
+which quantifies components of photosynthetic
+approximately $5.5 million (substitution effects were not
+microorganisms; and
+within the scope of this analysis). This result represents
+the estimated impact of the cyanoHAB on the value of
+• Secchi disk depth (Krysel and others, 2003;
+recreational boating (including recreational fishing from a
+Kashian, Eiswerth, and Skidmore, 2006; Bin and
+boat) because of the 2018 cyanoHAB event.
+Czajkowski, 2013).
+Table 1. Monthly boating trips and monthly value of lost consumer surplus caused by boat ramp closures in Glades, Lee, Martin, and
+Saint Lucie Counties, Florida, by county, for July, August, and September 2018.
+[Monthly weighting factors in footnotes were calculated on the basis of data from Sidman and others (2006), Alvarez and others (2019), and J. Eash
+(Caloosahatchee Regional Park and Alva Community Park, written commun., 2021). Values as applied to annual boat visits were obtained from Florida Fish and
+Wildlife Conservation Commission (FWCC; 2009). Values represent visits multiplied by per visit consumer surplus ($17.26) from Alvarez and others (2019).
+Values are given in thousands of 2018 U.S. dollars ($); $, dollar]
+Glades County Lee County Martin County Saint Lucie County Total value
+Total visita-
+Month of visitation
+Visits Value ($) Visits Value ($) Visits Value ($) Visits Value ($) tion
+($)
+July1 1,204 20.8 54,980 948.9 15,602 269.3 18,100 312.4 89,887 1,551.4
+August2 1,225 21.1 55,928 965.3 15,871 273.9 18,412 317.8 91,436 1,578.2
+September3 1,869 32.3 85,315 1,472.5 24,211 417.9 28,085 484.8 139,479 2,407.4
+Total 4,298 74.2 196,223 3,386.8 55,685 961.1 64,597 1,114.9 320,803 5,537.1
+1July=8.85.
+2August=9.01.
+3September=13.74.
+
+=====PAGE 21=====
+Benefits Estimation 11
+The subjective perception of water clarity is a key ht tps://geoda ta.dep.sta te.fl.us/ datasets/F DEP::florida- national-
+influence on a homebuyer’s decision (Michael, Boyle, and hydrography- dataset-n hd- waterbodies- 100k/ about) was used
+Bouchard, 2000; Bin and Czajkowski, 2013) and has been to draw the six buffer categories around the two rivers. Land
+shown to capture public perception of water quality (Bin and parcels identified from the Florida Department of Revenue
+Czajkowski, 2013). For this analysis, in accordance with the (2022) data were then sorted into their corresponding distance
+literature, we assumed that changes in water clarity, measured buffer categories. If a parcel was in multiple distance buffers,
+by the Secchi depth, resulted in changes in the overall value of it was assigned to the buffer closest to the water.
+the property (Lancaster, 1966; Rosen, 1974; Palmquist, 1991; Data were collected on a total of 1,943 single-family
+Freeman, 1993; Michael, Boyle, and Bouchard, 2000). residential home sales during the period of July through
+To estimate the change in property value attributable September of 2018. Summary statistics for these data are
+to the 2018 cyanoHAB event, primary data on property shown in table 2. Because the minimum sale prices of $0 in
+sales for the counties of interest during the period of interest Lee and Saint Lucie Counties and $100 in Martin County
+were combined with estimated changes in value associated in the dataset are not likely to have been market-driven (in
+with a cyanoHAB event derived from a previous hedonics other words, sales were probably made between family
+study (Florida Realtors, 2015) done in the same area. The members and thus were not representative of market values),
+data used for the analysis are from sales of waterfront and the 723 parcels with sale prices less than $20,000 were
+near-waterfront properties in Glades, Martin, Lee, and Saint removed. After adjustment, the final sample consisted of
+Lucie Counties from July to September 2018, provided by the 1,220 single-family residential home sales (table 3).
+Florida Department of Revenue (2022). Focus was kept on A previous study (Florida Realtors, 2015) was used
+actual sales in 2018 rather than all property values since the to estimate the part of the sale that was potentially affected
+impact of cyanoHABs is temporary, and sales prices are likely because of the 2018 cyanoHAB event. The Florida Realtors’
+to recover in future years. If cyanoHABs are either persistent (2015) study developed a hedonic model to measure the
+or expected to be persistent year after year, then societal effect of changes in water quality, as measured by Secchi disk
+impacts would be longer lived. depth, on waterfront and near-waterfront properties. It was
+Distance from the water has an impact on how much assumed that the effect of water quality on property prices
+changes in water quality will influence property value. declines along a gradient that is related to distance from the
+Consistent with the existing literature, six distance buffer water. For example, waterfront properties are more sensitive
+categories were examined, ranging from waterfront to water-quality changes than properties 1 or 2 miles away.
+(<0.05 mile) to 2 miles around the Caloosahatchee and The study assumed the impacts of the cyanoHAB would have
+Saint Lucie Rivers. The Florida National Hydrography a similar effect on housing values as those from the study
+Dataset in a GIS (geographic information system; of water clarity; the extent that a cyanoHAB might have
+Table 2. Summary statistics for single-family property sales in Glades, Lee, Martin, and Saint Lucie Counties, Florida, during July–
+September 2018.
+[Authors’ calculations were based on data from the Florida Department of Revenue (2022). $, U.S. dollars]
+County Number of sales Minimum price ($) Maximum price ($) Median price ($) Standard deviation
+Glades 6 77,000 340,000 122,500 93,925
+Lee 1,501 0 4,500,000 127,500 265,852
+Martin 34 100 620,000 217,500 178,428
+Saint Lucie 402 0 4,733,100 164,750 906,961
+Table 3. Number of single-family property sales in Glades, Lee, Martin, and Saint Lucie Counties, Florida, by county and distance from
+the water, during July–September 2018.
+[Authors’ calculations were based on data from the Florida Department of Revenue (2022)]
+County Waterfront 1/8 mile 1/4 mile 1/2 mile 1 mile 2 miles Total
+Glades 0 2 0 2 2 0 6
+Lee 16 34 58 120 255 433 916
+Martin 0 0 3 1 4 12 20
+Saint Lucie 0 6 9 22 78 163 278
+Total 16 42 70 145 339 608 1,220
+
+=====PAGE 22=====
+12 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+additional impacts (for example, nuisance odor could increase Quantifying Impacts on Water Use
+impacts) or fewer impacts (for example, the perception of
+cyanoHABs not being an ongoing issue could reduce the Lakes and rivers may be the source of water for
+impact) will affect the actual change in property value as a municipal drinking water or for agricultural uses (watering
+result of a cyanoHAB. livestock or irrigating crops), among other uses. To assess
+The percentage change in property sales prices was the effect of cyanoHABs on water use in our study area in
+estimated from the results of a hedonic property value 2018, the first step was to determine the water uses of the
+study by Florida Realtors (2015). The estimated values are Caloosahatchee and Saint Lucie Rivers. A cyanoHAB in
+shown in table 4. Those estimates are consistent with other drinking water could result in large societal impacts, as it
+hedonic study findings in the literature; for example, Bin and did in 2014 in Toledo, Ohio, when drinking water treatment
+Czajkowski (2013) found the mean willingness to pay for cost an estimated $4 million (Bingham and others, 2015).
+water clarity is approximately 3.8 percent of the mean housing However, drinking water in our study area is typically sourced
+value in Martin County, Florida. from underground aquifers, which would not be affected by
+To calculate the change in sales price, which represents cyanoHABs.
+loss value as a result of the 2018 cyanoHAB on single-family The U.S. Environmental Protection Agency website
+property sales by county and by distance from the water, each (EPA; 2021) was queried to identify water utilities that serve
+property sale price (available in appendix 1) is multiplied communities in our study area’s four counties of interest and
+by the percentage change in property prices resulting from whether they draw surface water from the Caloosahatchee and
+an additional foot of Secchi disk depth (see table 4). Table 5 Saint Lucie Rivers. Thirty-two water treatment plants were
+summarizes the results by county and distance from the water. identified, of which only two draw some part of their water
+The total estimate of realty-related economic losses in all four supply from surface water sources. On the basis of the small
+counties caused by the 2018 cyanoHAB was approximately proportion of treatment plants that use surface water and the
+$2.3 million, with most of the loss value accruing in Lee and alternative sources of water supply, the USGS team assumed
+Saint Lucie Counties. that the 2018 cyanoHAB event would not have affected the
+availability of drinking water and (or) affected water treatment
+protocols significantly.
+Table 4. Percentage change in sales prices for single-family The USGS team also considered potential effects on
+properties in Florida resulting from an additional foot of Secchi agricultural water uses, including irrigation and livestock
+disk depth, by river and distance from the water. water supply. In the study area, agriculture is a significant
+contributor to the local economy. Table 6 provides agrarian
+[Data are from Florida Realtors (2015)] information from the 2017 Census of Agriculture by the
+U.S. Department of Agriculture National Agricultural
+Distance from Caloosahatchee River, Saint Lucie River,
+Statistics Service (NASS; 2019), indicating that the market
+water in percent in percent
+value of agricultural products ranges from $78.2 million
+Waterfront 2.47 5.41 (Glades County) to $139.6 million (Saint Lucie County).
+1/8 mile 1.93 4.21 Surface water is a substantial source of irrigation water in
+1/4 mile 1.50 3.28 the region and is almost exclusively relied upon by farmers in
+Saint Lucie and Martin Counties. The significant contribution
+1/2 mile 0.91 1.99
+of surface water for agricultural irrigation is highlighted in
+1 mile 0.34 0.73
+table 7.
+2 miles 0.045 0.10
+Table 5. Aggregate losses in single-family property sales for Glades, Lee, Martin, and Saint Lucie Counties, Florida, by county and
+distance from the water along the Caloosahatchee and Saint Lucie Rivers, during the 2018 cyanoHAB.
+[Values are given in thousands of 2018 U.S. dollars ($). cyanoHAB, cyanobacteria harmful algal bloom]
+Distance from water Glades County ($) Lee County ($) Martin County ($) Saint Lucie County ($) Total ($)
+Waterfront 0.0 326.1 0.0 0.0 326.1
+1/8 mile 8.9 202.2 0.0 56.4 267.6
+1/4 mile 0.0 356.1 23.1 111.4 490.6
+1/2 mile 2.3 324.2 4.5 178.6 509.7
+1 mile 0.8 229.1 7.0 344.1 580.9
+2 miles 0.0 49.4 4.4 71.1 125.0
+Total 12.1 1,487.1 39.1 761.7 2,299.9
+
+=====PAGE 23=====
+Benefits Estimation 13
+Table 6. Summary of 2017 county profiles from the Census of Agriculture for Glades, Lee, Martin, and Saint Lucie Counties, Florida.
+[Data are from the Census of Agriculture by the U.S. Department of Agriculture National Agricultural Statistics Service (NASS; 2019). Values are given in
+millions of 2017 U.S. dollars ($). %, percent]
+Number of Irrigated farmland Share of farmland
+County Farmland (acres) Market value of products sold ($)
+farms (acres) irrigated (%)
+Glades 354 428,689 65,779 15 78.2
+Lee 800 87,189 10,472 12 104.4
+Martin 594 153,732 28,836 19 112.6
+Saint Lucie 415 225,971 48,211 21 139.6
+Total 2,163 895,581 153,298 67 434.8
+Table 7. Agricultural water withdrawals in Glades, Lee, Martin, and Saint Lucie Counties, Florida, by county in 2010.
+[Data are from the U.S. Geological Survey (USGS; 2019). Values include water withdrawn for crop irrigation and nonirrigation uses associated with agricultural
+and farming operations such as livestock watering, washing of dairy and farm equipment, augmenting or flushing ponds used for fish farming, and other farm
+uses. As per the State-level statistics, the water used for crop irrigation accounted for 98 percent of the water withdrawn in this category, and the nonirrigation
+uses accounted for the remaining 2 percent. %, percent]
+Surface water Total water
+County Share of surface water (%)
+(million gallons per day) (million gallons per day)
+Glades 114 153 75
+Lee 10 53 20
+Martin 42 46 90
+Saint Lucie 53 59 90
+CyanoHAB incidents can affect crop irrigation through According to the South Florida Water Management District,
+diverse pathways. The decision to continue to use surface Florida farmers do not alter their irrigation practices during
+water for irrigation or to treat the water prior to irrigation will cyanoHAB events. Therefore, neither additional treatment
+result in different potential impacts. An emerging body of costs nor reduced yields as a result of dry farming would
+evidence indicates that food crops are able to bioaccumulate be expected at this time. As mentioned, bioaccumulation
+cyanotoxins. This could result in consumer exposure and of cyanotoxins on crops may reduce crop yields and cause
+potential human health effects (Krimsky and others, 2019; human health issues; however, this is still an emerging area
+Xiang and others, 2019). Another issue is that crop absorption of research, and the actual impacts are not yet well quantified.
+of microcystin and other freshwater cyanobacterial toxins We therefore did not estimate and monetize a societal impact
+can hinder plant growth and lower crop yield (Machado and related to agricultural water use.
+others, 2017; Krimsky and others, 2019). Prolonged use of Finally, the use of surface water with cyanoHABs for
+cyanotoxin-contaminated water can also alter the nutritional livestock watering is another use that may result in societal
+content of vegetable products (Machado and others, 2017). impacts. Potential impacts include livestock mortality or
+Continued use of untreated surface water for crop irrigation morbidity resulting from cyanoHABs exposure. Animal
+could, therefore, lead to impacts on human health, crop yield, poisoning attributable to cyanotoxins was first reported by
+and nutritional deficits. If, instead, farmers treat the surface Francis (1878). Dogs and livestock account for most reported
+water, these impacts may be avoided, although additional cyanotoxin poisoning in domestic animals (Wood, 2016).
+treatment costs will be incurred. Alternatively, farmers could Symptoms can include lethargy, staggering, respiratory
+dry farm (not irrigate) during the period of the cyanoHAB paralysis, convulsions, pale mucous membranes, bloody
+or find an alternative source of water. Dry farming may have diarrhea, and death (Sallenave, 2021).
+impacts on crop yields. The impacts of cyanoHAB blooms on animals remain
+To quantify the potential impacts of cyanoHAB incidents poorly documented at both the national and local levels. Data
+on the agricultural use of water, the actual behavior of farmers from the One Health Harmful Algal Bloom System run by the
+and regulatory requirements in the region must be considered. U.S. Centers for Disease Control and Prevention showed that
+Florida does not have guidelines restricting agricultural a total of 413 cases of domestic animal illnesses attributable
+irrigation while cyanobacteria or cyanotoxins are in the water to cyanoHABs were reported nationally during 2016–18
+(Lisa Krimsky, University of Florida, written commun., 2022). (Roberts and others, 2020). The data are aggregated at the
+
+=====PAGE 24=====
+14 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+national level and do not allow estimations for only our study lease parcels were occupied by a farmer (Jill Fleiger, Florida
+area. The Florida Department of Agriculture and Consumer Department of Agriculture and Consumer Services—
+Services’ Division of Animal Industry was asked to identify Aquaculture Division, written commun., 2021).
+data on animal illness or death that could be associated with To investigate the economic significance of aquaculture
+the cyanoHAB event in 2018 from the agency’s records. operations and the potential impacts of cyanoHABs in the
+Although it is possible that there were societal impacts in Caloosahatchee Estuary, we used FWCC (2021) data for the
+terms of livestock mortality or morbidity, or both, the existing gulf coast during 2015–19, which spans two recent cyanoHAB
+data were unable to distinguish and quantify those impacts. events in 2016 and 2018. Figures 9 and 10 highlight the
+significance of aquaculture production in pounds and 2018
+U.S. dollars, respectively. As figures 9 and 10 show, the
+Quantifying Impacts on Commercial Fisheries
+2015–19 shellfish aquaculture operations were characterized
+and Aquaculture
+by an initial decline in oyster and clam production, followed
+by a rebound in 2018. Nothing in these data clearly indicates
+Both aquaculture stocks and wild populations in fresh that the 2018 cyanoHAB event, in particular, had an adverse
+and estuarine waters can be affected by cyanobacteria bloom economic impact on aquaculture around the Caloosahatchee
+events. Fish exposed to toxic or nontoxic cyanobacterial cells River and downstream estuary. Even in cases where landing
+may experience abnormal development and reduced growth volumes decreased in 2018, there is not enough evidence to
+and reproduction (Bury, Eddy, and Codd, 1995; Kamjunke and attribute reduced landing volumes to cyanoHABs (natural
+others, 2002; Malbrouck and Kestemont, 2006). Additionally, variation and weather patterns, among other exogenous
+cyanoHABs in freshwater are often associated with increased factors, all influence annual and longer term landings).
+fish mortality. Fish exposed to cyanotoxins during their entire The cause of reduced volumes in other years has yet to be
+life cycle are the most affected (Benayache and others, 2019), determined (Justin Wallheiser, Florida Fish and Wildlife
+but oxygen depletion resulting from dense algal blooms can Conservation Commission, written commun., 2021) and could
+also kill fish (Wood, 2016). be attributed to many other factors apart from cyanoHABs.
+To determine the potential impact of cyanoHABs
+on commercial fisheries and aquaculture from the 2018
+cyanoHAB event, commercial fisheries landings, freshwater
+commercial fishing licenses, and the location of aquaculture
+farms were investigated. The Florida Fish and Wildlife
+Conservation Commission (FWCC; 2021) does not keep data
+on freshwater commercial landings, and freshwater shellfish
+are not commercially harvested in Florida (Krimsky and
+others, 2019). Freshwater fishing is predominantly recreational
+(Lorenzen and others, 2017), and a low overall number
+of freshwater commercial fishing licenses is issued each
+year in each of the study area’s four counties. The number
+of freshwater commercial fishing licenses by county from
+2017 to 2019 (fig. 8) ranged from 10 each in Glades and Lee
+Counties to 2 in Martin County. On the basis of this study’s
+data analysis, including the FWCC decision not to keep
+records of freshwater commercial landings, the impacts and
+associated loss values that cyanoHABs had on commercial
+freshwater fisheries in 2018 were not significant.
+CyanoHABs could also have potential economic impacts
+on aquaculture in estuarine, nearshore marine, or freshwater
+environments, even though aquaculture is not widespread in
+our study area. Data from the FWCC (2021) show aquaculture
+production along the Atlantic and gulf coasts, where
+aquaculture is dominated by oysters and hard clams. On the
+Atlantic coast, around the Saint Lucie River and downstream
+estuary, there are no aquaculture farms. On the gulf coast in
+2021, two aquaculture use zones had 56 leases and 5 other
+leases near Pine Island, and 1 individual lease around the
+Caloosahatchee Estuary in Lee County (Florida Department of
+Agriculture and Consumer Services, 2021). However, not all
+sesnecil
+fo
+rebmuN
+12
+10
+8
+6
+4
+2
+0
+Glades Lee Martin St. Lucie
+County
+EXPLANATION
+Licenses issued in 2017
+Licenses issued in 2018
+Licenses issued in 2019
+Figure 8. Bar chart showing the number of freshwater
+commercial fishing licenses issued in Glades, Lee, Martin, and
+Saint Lucie Counties, Florida, by county, in 2017–19.
+
+=====PAGE 25=====
+Benefits Estimation 15
+In addition to shellfish, tilapia, an economically valuable
+freshwater fish species, can also be raised in aquaculture
+farms. Tilapia farms in Florida rely on freshwater well
+systems and do not pull water from surface waters (Jill
+Fleiger, Florida Department of Agriculture and Consumer
+Services—Aquaculture Division, written commun., 2021).
+Thus, cyanoHABs from Lake Okeechobee would not affect
+farmed tilapia.
+Finally, wild-caught commercial shellfish fisheries were
+investigated for evidence of potential impacts of cyanoHABs
+by obtaining landing volumes from the FWCC (2021)
+database by county and by species for the period 2015–19
+(figs. 11, 12, and 13). This timeframe includes the most recent
+cyanoHAB years (2016 and 2018) and allows comparison
+of landing volumes across multiple years. The volume of
+commercial shellfish landings fluctuated in Lee County
+(fig. 11) and Martin County (fig. 12) and has been declining
+in Saint Lucie County (fig. 13). These seemingly random
+sdnuop
+ni
+,noitcudorP
+60,000
+EXPLANATION 50,000
+Oysters
+40,000
+Clams
+30,000
+20,000
+10,000
+0
+2015 2016 2017 2018 2019
+Year
+Figure 9. Bar chart showing the volumes of oysters and clams
+produced in aquaculture operations on Florida’s gulf coast during
+2015–19. Volumes are given in pounds.
+srallod
+8102
+ni
+,eulaV
+350,000
+EXPLANATION
+300,000
+Oysters
+250,000
+Clams
+200,000
+150,000
+100,000
+50,000
+0
+2015 2016 2017 2018 2019
+Year
+Figure 10. Bar chart showing the values of oysters and clams
+produced in aquaculture operations on Florida’s gulf coast during
+2015–19. Values are given in 2018 U.S. dollars.
+sdnuop
+fo
+snoillim
+ni
+,sgnidnaL
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+2015 2016 2017 2018 2019
+Year
+Figure 11. Bar chart showing landing volumes of shellfish caught
+by commercial fishers in Lee County, Florida, during 2015–19.
+Volumes are given in millions of pounds.
+sdnuop
+ni
+,sgnidnaL
+14,000
+12,000
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+2015 2016 2017 2018 2019
+Year
+Figure 12. Bar chart showing landing volumes of shellfish caught
+by commercial fishers in Martin County, Florida, during 2015–19.
+Volumes are given in pounds.
+sdnuop
+ni
+,sgnidnaL
+200,000
+180,000
+160,000
+140,000
+120,000
+100,000
+80,000
+60,000
+40,000
+20,000
+0
+2015 2016 2017 2018 2019
+Year
+Figure 13. Bar chart showing landing volumes of shellfish caught
+by commercial fishers in Saint Lucie County, Florida, during
+2015–19. Volumes are given in pounds.
+
+=====PAGE 26=====
+16 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+fluctuations of aggregated shellfish volumes do not show a
+consistent pattern of decline during the cyanoHAB years of
+2016 and 2018.
+The trends in landing volumes for individual species
+(figs. 14, 15, 16, and 17) also show inconsistent patterns.
+Crabs and lobsters are harvested in three counties (Lee,
+Martin, and Saint Lucie), but shrimp and oysters are specific
+to Lee County. The 2018 landing volumes of crabs and
+lobsters show remarkable variations across the three counties.
+For example, Lee County on the gulf coast had variable
+increases and decreases in both crab and lobster landings; in
+the 2018 HAB year, landing volumes actually increased. On
+the Atlantic coast in both Martin and Saint Lucie Counties,
+crab and lobster landings were also variable and lacked a
+consistent pattern in relation to cyanoHABs years. On the
+gulf coast in Lee County, shrimp and oysters had variable
+trends characterized by two consecutive years of increased
+landings followed by two consecutive years of contraction.
+Like variations in landing volumes of lobsters and crabs, the
+variations in the landing volumes of shrimp and oysters were
+not consistent with cyanoHAB events in 2016 and 2018.
+Even in cases where landing volumes decreased in
+2018, there is not enough evidence to attribute reduced
+landing volumes to cyanoHABs. Although it is possible
+that cyanoHAB outbreaks could alter food web dynamics
+(Tillmanns and others, 2008) and cause nonlethal population
+effects resulting in reduced harvests in later years, at this time
+any linkage between landing volumes and the 2018 event
+is unknown. Natural variation, weather patterns, and other
+external factors could all influence annual and longer term
+landings. For example, variable fresh-water releases from
+Lake Okeechobee disturb the natural salinity gradients in the
+estuarine environment (Barnes and others, 2006; Buzzelli
+and others, 2017). Changes in the salinity regime negatively
+affect many species that live in the estuary (Doering and
+Chamberlain, 1998, as cited in Barnes and others, 2006).
+The Florida Fish and Wildlife Conservation Commission
+confirmed that the cause of reduced volumes has yet to be
+determined and could be attributed to many other factors
+apart from cyanoHABs (Justin Wallheiser, Florida Fish
+and Wildlife Conservation Commission, written commun.,
+2021). In addition, the Florida Department of Agriculture and
+Consumer Service has no evidence of closures of shellfish
+harvesting areas caused by cyanobacteria blooms (Jill
+Fleiger, Florida Department of Agriculture and Consumer
+Service—Aquaculture Office, written commun., 2021). After
+investigating multiple sources of data as detailed in this
+section, no evidence supported the hypothesis that the 2018
+cyanoHAB had a significant impact on commercial fisheries
+and aquaculture in our four-county study area.
+,raey
+suoiverp
+morf
+egnahC
+tnecrep
+ni
+1,400
+1,200
+1,000
+800
+600
+400
+200
+0
+–200
+2016 2017 2018 2019
+Year
+EXPLANATION
+Lee
+Martin
+St. Lucie
+Figure 14. Bar chart showing percentage change from previous
+year of commercial landing volumes of crabs in Lee, Martin, and
+Saint Lucie Counties, Florida, by county, during 2016–19.
+,raey
+suoiverp
+morf
+egnahC
+tnecrep
+ni
+2,500
+2,000
+1,500
+1,000
+500
+0
+–500
+2016 2017 2018 2019
+Year
+EXPLANATION
+Lee
+Martin
+St. Lucie
+Figure 15. Bar chart showing percentage change from previous
+year of commercial landing volumes of lobsters in Lee, Martin,
+and Saint Lucie Counties, Florida, by county, during 2016–19.
+
+=====PAGE 27=====
+Aggregate Value of CyanoHAB Impacts and Benefit of HABITATS Use 17
+The study by the USGS team focused on the exposure
+that may have occurred during recreation but found that
+available data were insufficient to quantify the economic
+costs of impacts of the 2018 cyanoHABs outbreak on human
+health. In Florida, most data are from self-reported exposures
+and illnesses, which gives rise to several challenges when
+quantifying human health impacts. Krimsky and others (2019)
+identified the following key factors that may hinder the
+evaluation of human health impacts from cyanotoxins:
+• a limited understanding of exposure dose, duration, and
+frequency;
+• symptoms that are not specific to cyanoHAB
+exposures;
+• a lack of clinical laboratory tests for exposure that are
+approved by the U.S. Food and Drug Administration;
+• a lack of health care professionals who are adequately
+trained in diagnosing HAB-related illnesses; and
+• a lack of data on Floridians’ actual exposure to
+cyanotoxins because of limited ability to detect and
+quantify many cyanotoxins.
+An alternative approach to assessing human health
+impacts has been used for freshwater lakes, but because
+results may not be similar for rivers, we did not pursue the
+topic further.
+Aggregate Value of CyanoHAB Impacts
+and Benefit of HABITATS Use
+To determine the benefit of deploying HABITATS
+for a cyanoHAB event similar to the outbreak in 2018, the
+effectiveness of HABITATS in reducing the cyanoHAB must
+be considered along with the impacts on ecosystem services.
+To summarize the preceding sections, our analysis identified
+several categories of possible impacts of cyanoHABs on
+ecosystem services of value to people. This report provides
+quantitative estimates of recreation (boating) and aesthetics
+as an amenity, which influences property sales prices. Water
+use and commercial fishing were also considered, but little
+Quantifying Impacts on Human Health
+evidence was found that there were any impacts in these
+services. With existing information, no specific impacts on
+Cyanobacterial toxins negatively affect human health
+human health were identified. Based on our assessment of
+and can cause serious symptoms such as abdominal pain,
+the 2018 cyanoHAB event in Lake Okeechobee, the societal
+nausea, vomiting, diarrhea, sore throat, cough, headache,
+impact on aesthetics (property values) was $2.3 million and
+blistering of the mouth, atypical pneumonia, and elevated liver
+the impact on aquatic recreation was $5.5 million, for a total
+enzymes (Carmichael, 2001). Exposure to cyanotoxins may
+of $7.8 million. This represents a value for this single 3-month
+happen in several ways (Carmichael, 2001); particularly by
+event for the downstream impacts in the Caloosahatchee and
+ingesting contaminated drinking water, food, or water during
+Saint Lucie Rivers and should be considered as a lower bound
+recreational activities (Funari and Testai, 2008); or after skin
+because certain categories of impacts, as described earlier, are
+contact with cyanotoxins (Codd and others, 1999).
+not currently quantifiable.
+,raey
+suoiverp
+morf
+egnahC
+tnecrep
+ni
+80
+60
+40
+20
+0
+–20
+–40
+2016 2017 2018 2019
+Year
+Figure 16. Bar chart showing percentage change from previous
+year of commercial landing volumes of shrimp, in Lee County,
+Florida, during 2016–19.
+,raey
+suoiverp
+morf
+egnahC
+tnecrep
+ni
+40
+20
+0
+–20
+–40
+–60
+–80
+–100
+2016 2017 2018 2019
+Year
+Figure 17. Bar chart showing percentage change from previous
+year of commercial landing volumes of oysters in Lee County,
+Florida, during 2016–19.
+
+=====PAGE 28=====
+18 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+In terms of assessing effectiveness of HABITATS in Multiplying the performance effectiveness by the value of
+reducing the cyanoHAB, one of the most critical parameters impacts yields the benefit estimate for deploying HABITATS.
+is the algal depth-dilution coefficient (DDC). Page and others Table 9 provides the results for each of the scenarios by river
+(2021, p. 105) defined algal depth dilution as follows: and the total benefits for basic HABITATS and enhanced
+HABITATS.
+The previous HABITATS report identified several
+Aggregate benefits range from $1.8 million (basic
+critical parameters for assessing the environmental
+HABITATS when DDC=0.25) to about $6.8 million (enhanced
+impact of HABITATS for the spillway scenario, but
+HABITATS when DDC=3). The enhanced HABITATS system
+one of the most impactful parameters identified was
+has the potential to increase the performance per module, per
+the algae depth dilution coefficient (DDC), which was
+table 9, particularly when algae are distributed throughout the
+an exponential coefficient used to describe the change
+water column (low DDC value).
+in algae concentration with depth. For cases where
+algae are perfectly distributed in the water column,
+meaning the concentration at the water surface is
+equal to the concentration at the bottom of the water Value of Ancillary Products from the
+column, the DDC is equal to zero. … A model was
+HABITATS Process
+developed to compare HABITATS performance for
+various DDCs … . A high DDC indicates that most
+of the algae is concentrated at the water surface, and Recent scientific advances offer an opportunity to convert
+at greater depths, very few algae are present. A high pollution in streams into useful byproducts with applications
+DDC would therefore represent a surface HAB in such as biofertilizers, biofuels, bioplastics, hydrocolloids,
+an otherwise clear water body. Conversely, a low biochar, and biochemicals (Kim and others, 2015; Corcoran
+DDC would represent the Saddle Creek scenario, and Hunt, 2021). Although the conversion of cyanoHAB
+in which the algae was well dispersed in the water biomass into feedstock is not the primary purpose of the
+column. Thus, two water bodies with similar surface HABITATS approach, the byproducts may help offset the
+concentrations could have vastly different amounts system’s significant energy demands by creating biofuel, with
+of algae in the water body, and deployment of a long-term goal of energy neutrality (Page and others, 2021).
+HABITATS would also have very different impacts Observed data from the pilot studies were used to simulate
+because it targets water near the surface. the expected value of biofuel production. Enough biocrude
+should be produced to offset the energy used for hydrothermal
+The pilot deployment of HABITATS was used to
+liquefaction, if a continuous flow reactor is used for heat
+simulate assumed effectiveness at low and high DDC values,
+recovery (Page and others, 2021). For this study, the value of
+in other words, with varying dispersions of algae in the water
+biocrude was defined as $2.50 per gallon multiplied by the
+column. The expected performance differs for the two outflow
+engineering estimates of gallons of biocrude per day (Martin
+points; therefore, the reduction in cyanoHABs for each
+Page, U.S. Army Corps of Engineers, Engineer Research
+river is different (Page and others, 2021). In addition to the
+and Development Center, written comm., March 2022), for
+basic HABITATS module, the enhanced HABITATS, which
+90 days (the length of the 2018 cyanoHAB outbreak in Lake
+added rapid air floatation technology, was also considered.
+Okeechobee, Florida). The results of the simulation for the
+Performance assumptions for each scenario are provided in
+quantities and economic values of biocrude that might have
+table 8.
+been produced are summarized in table 10.
+Table 8. Estimated percentage of algae removed by basic HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal
+Bloom Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology; %, percent]
+High DDC scenario
+Low DDC scenario
+(Most of the algae concentrated at the water
+(Algae distributed throughout the water column)
+River surface)
+HABITATS
+HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS+RAFT (DDC=3)
+(DDC=2)
+Caloosahatchee River 23% 66% 76% 87%
+Saint Lucie River 24% 66% 76% 87%
+
+=====PAGE 29=====
+Cost of Deploying HABITATS 19
+Table 9. Estimated total economic benefits of deploying basic HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Values are given in millions of 2018 U.S. dollars ($); data may not add to totals shown because of independent
+rounding. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment,
+and Transformation System; RAFT, rapid air flotation technology]
+High DDC scenario
+Low DDC scenario
+(Most of the algae concentrated at the water
+(Algae distributed throughout the water column)
+River surface)
+HABITATS
+HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+(DDC=0.25)
+Caloosahatchee River $1.2 $3.2 $3.8 $4.3
+Saint Lucie River $0.7 $1.9 $2.2 $2.5
+Total $1.8 $5.1 $6.0 $6.8
+Table 10. Estimated quantity and economic value of biocrude production by basic HABITATS and enhanced HABITATS under
+scenarios of low and high depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Values are given in 2018 USD, U.S. dollar; $, dollar; data may not add to totals shown because of independent
+rounding. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment,
+and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+(Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+River HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Gallons Gallons Gallons Gallons
+2018 USD 2018 USD 2018 USD 2018 USD
+per day per day per day per day
+Caloosahatchee 1,021 $229,641 3,007 $676,658 3,523 $792,622 3,982 $896,054
+River
+Saint Lucie River 354 $79,699 1,039 $233,796 1,215 $273,464 1,372 $308,737
+Total 1,375 $309,340 4,046 $910,454 4,738 $1,066,086 5,355 $1,204,791
+In addition, the cost engineering model developed by Cost of Deploying HABITATS
+Page and others (2021) identified two resources that could be
+recovered from the treatment of algal biomass after the toxins
+To assess the costs of deploying HABITATS, the
+have been neutralized (for test protocol, see Page and others,
+following standard cost categories were considered: capital
+2021). These two resources, nitrogen and phosphorus, can be
+expenditures and operating and maintenance expenditures.
+used to produce biofertilizer. Although these resources have
+Capital expenditures are those costs incurred from the initial
+potential value, additional costs would be associated with
+production of the equipment and are considered “one-time.”
+bringing them to market, such as refinement and distribution
+Capital expenditures are amortized for the design life of
+costs, and demand has not been demonstrated in the region.
+the equipment. A 20-year design life for all equipment and
+Tables 11 and 12 provide the production volume in pounds per
+a 5-percent discount rate were assumed. Operating and
+day and the value of total nitrogen and total phosphorus for
+maintenance expenditures are ongoing costs and vary with
+each scenario; the value for total nitrogen and total phosphorus
+the duration of use. Our cost analysis relies on findings from
+is $2.72 per pound ($5 per kilogram), and the daily estimate is
+the ERDC pilot studies and assumptions for the duration of
+multiplied by 90 because of the 90-day duration of the 2018
+deployment, based on the actual 2018 cyanoHAB in Lake
+cyanoHAB outbreak in Lake Okeechobee, Florida.
+Okeechobee, Florida. In 2018, the cyanoHAB lasted for
+3 months and the study assumed that HABITATS would be
+required for the entire duration.
+
+=====PAGE 30=====
+20 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 11. Estimated quantity and economic value of nitrogen production by basic HABITATS and enhanced HABITATS under scenarios
+of low and high depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Values are given in 2018 USD, U.S. dollars ($). Data may not add to totals shown because of independent rounding
+of kilograms converted to pounds. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom
+Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+(Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+HABITATS+RAFT
+River HABITATS (DDC=0.25) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+(DDC=1.4)
+Pounds Pounds Pounds Pounds per
+2018 USD 2018 USD 2018 USD 2018 USD
+per day per day per day day
+Caloosahatchee 800.4 $163,290 2,357.1 $481,149 2,760.7 $563,607 3,122.3 $637,155
+River
+Saint Lucie River 277.8 $56,671 813.6 $166,245 952.6 $194,451 1,076 $219,532
+Total 1,078.2 $219,961 3,173 $647,394 3,715.4 $758,058 4,198.3 $856,687
+Table 12. Estimated quantity and economic value of phosphorus production by basic HABITATS and enhanced HABITATS under
+scenarios of low and high depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Values are given in 2018 USD, U.S. dollars ($). Data may not add to totals shown because of independent rounding
+of kilograms converted to pounds. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom
+Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+(Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+River HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Pounds 2018 USD Pounds per 2018 USD Pounds 2018 USD Pounds per 2018 USD
+per day day per day day
+Caloosahatchee 304.3 $61,878 893 $182,330 1,047.4 $213,578 1,184.1 $241,448
+River
+Saint Lucie River 105.8 $21,475 308.7 $62,998 361.6 $73,687 407.9 $83,191
+Total 410.1 $83,354 1201.7 $245,328 1,406.8 $287,264 1,589.8 $324,639
+In most cases, including Lake Okeechobee, HABITATS The operating and maintenance expenditures for
+cannot treat the entire waterbody and must selectively focus HABITATS include labor, chemicals, equipment maintenance,
+on the areas of the water column where contaminants are deployment, and energy costs. These costs are estimated under
+most concentrated (Page and others, 2021). Our scenario, the assumption that HABITATS is deployed for a 90-day
+developed in collaboration with the ERDC team, assumes period with a 1-week setup and tear down, with the equipment
+that HABITATS will treat the top 10 percent of a 10-foot operating at 24 hours per day. A summary of operating and
+water column characterized by varying algal dispersion with maintenance expenditures is provided in table 14.
+depth-dilution coefficients in four scenarios of 0.25, 1.4, 2, Combining the capital and operating expenditures
+and 3 (this represents the range of depth dilution, as the actual yields the total cost of HABITATS deployment under each
+depth dilution during the event is unknown). of the four DDC scenarios, as per our assumptions. Table 15
+The capital expenditures of interest for HABITATS cover summarizes the results.
+the costs of weir skimmers, booms, the DAF, ozone (O ), These estimates can vary with time and across space
+3
+screw press, anaerobic membrane bioreactor, hydrothermal because of the variable components of the total costs, which
+liquefaction equipment, and peripherals (hoses, tanks, depend on several factors, including the algal dispersion in
+gravel, fittings). The total capital expenditure is amortized the water column, the amount of water to be treated, and the
+for a 20-year design life on an annual basis with a 5-percent time required for the HABITATS deployment. In addition,
+discount rate. A summary of capital expenditures is provided the scalability of the HABITATS process might lead to cost
+in table 13. reductions because of economies of scale if the frequency of
+equipment usage increased as more HABITATS modules were
+deployed.
+
+=====PAGE 31=====
+Cost of Deploying HABITATS 21
+Table 13. Estimated capital expenditures for deploying basic HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Costs were provided by Martin Page and Marissa Campobasso (U.S. Army Corps of Engineers, Engineer Research and
+Development Center, written commun., 2020). Values are given in thousands of 2018 U.S. dollars ($). Terms: cyanoHAB, cyanobacteria harmful algal bloom;
+DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+River (Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Caloosahatchee River $500 $682 $729 $771
+Saint Lucie River $174 $236 $253 $267
+Total $674 $918 $982 $1,038
+Table 14. Estimated operating and maintenance expenditures for deploying basic HABITATS and enhanced HABITATS under scenarios
+of low and high depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Costs were provided by Martin Page and Marissa Campobasso (U.S. Army Corps of Engineers, Engineer Research and
+Development Center, written commun., 2020). Values are given in thousands of 2018 U.S. dollars ($). Terms: cyanoHAB, cyanobacteria harmful algal bloom;
+DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+River (Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Caloosahatchee River $2,619 $4,334 $4,778 $5,175
+Saint Lucie River $1,265 $1,856 $2,008 $2,143
+Total $3,884 $6,190 $6,786 $7,318
+Table 15. Estimated total costs for deploying basic HABITATS and enhanced HABITATS under scenarios of low and high depth-dilution
+coefficients in a simulation based on the 2018 cyanoHAB event in Florida, by deployment site.
+[The enhanced HABITATS added RAFT. Costs were provided by Martin Page and Marissa Campobasso (U.S. Army Corps of Engineers, Engineer Research
+and Development Center, written commun., 2020). Values are given in millions of 2018 U.S. dollars ($). Terms: cyanoHAB, cyanobacteria harmful algal bloom;
+DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment, and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+River (Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Caloosahatchee River $3.12 $5.02 $5.51 $5.95
+Saint Lucie River $1.44 $2.09 $2.26 $2.41
+Total $4.56 $7.11 $7.77 $8.36
+
+=====PAGE 32=====
+22 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Net Benefits Additional costs may be incurred because of a cyanoHAB
+but were not included in our analysis. For example, there may
+be an ongoing cost related to the surveillance and monitoring
+To understand the social return on investment, the
+of cyanoHABs and their toxins. Dodds and others (2009)
+benefits of HABITATS can be compared to the costs
+made no reference to such costs in their comprehensive
+of HABITATS. The results of our analysis—given the
+analysis of the costs of eutrophication damage to freshwaters
+limitations, assumptions, and highlighted caveats—are
+in the United States, and according to Hamilton and others
+provided in table 16.
+(2013), it is rare to find itemized cyanoHAB monitoring costs
+The net societal benefits are estimated to vary between
+that are independent of routine water-quality monitoring costs.
+negative $2.1 million and $0.83 million under four different
+Another often-considered impact is the change in revenues
+DDC scenarios associated with a percentage of algal removal
+for local restaurants and hotels. Our query of data from the
+that varies from a low of 25 percent (with HABITATS
+Florida Office of Economic and Demographic Research (2022)
+when DDC=0.25) to a high of 87 percent (with enhanced
+indicated that restaurant and lodging sales by county showed
+HABITATS when DDC=3). Any positive net benefits in any
+no clear pattern; therefore, there did not appear to be any
+of the scenarios assumes the marketability and sale or use of
+major impacts on these sectors.
+ancillary products (biocrude, nitrogen, and phosphorus).
+Overall, it was estimated that HABITATS deployment
+in Lake Okeechobee would provide between negative $2.1
+million (HABITATS alone when algae are well dispersed
+Discussion
+throughout the water column) and $0.8 million (enhanced
+HABITATS when algae are concentrated at the surface)
+Our results should be considered a lower bound of in net societal benefits, depending on the percentage of
+the net societal benefits, given the limitations of this study. algae removed (see table 16). Our conclusion is informed
+A major limitation is data availability because the impacts by discussions and monetization of relevant costs such
+of cyanoHABs are often not accurately documented and as HABITATS capital expenditures and operating and
+reported (Codd and others, 1999; Hamilton and others, 2013). maintenance expenses, as well as benefits derived from
+As such, we could not monetize some impact categories, avoided impacts, including effects on aesthetics (via
+including the full suite of effects on ecosystems, human residential property prices) and aquatic recreation (via boat
+health, livestock, and water use for agricultural irrigation. ramp closures). This study also explored the economic impacts
+For example, wide-ranging ecosystem damage from of cyanoHABs on other sectors. For commercial fisheries,
+cyanoHABs may exist, particularly in estuarine habitats no clear evidence suggested a linkage between fisheries
+such as seagrass beds that support many freshwater and yields and the 2018 cyanoHAB event. For human health and
+marine animal species, but current scientific knowledge of livestock morbidity and water use for agricultural irrigation,
+ecosystem processes is inadequate to characterize or monetize insufficient data and gaps in current scientific understanding
+all the impacts. Similarly, damage to crops and human did not allow economic valuation of potentially significant
+health from microcystin-contaminated irrigation water is an impacts. In these areas, either no evidence of impact was
+emerging issue that is presently not well understood. These found, or data were insufficient to quantify the impacts.
+limitations have no bearing on the validity of our results. The Further investigation of these aspects could be useful, as
+data compiled for this analysis are instructive, regardless, data become available and the impacts of cyanoHABs are
+because they provide conservative estimates of the benefits of better understood.
+deploying HABITATS that can add perspective to the debate
+on the economic implications of cyanoHAB management.
+Table 16. Estimated net societal benefits from deploying basic HABITATS and enhanced HABITATS under scenarios of low and high
+depth-dilution coefficients in a simulation based on the 2018 cyanoHAB event in Florida.
+[The enhanced HABITATS added RAFT. Values are given in millions of 2018 U.S. dollars ($). Data may not add to net benefits shown because of independent
+rounding. Terms: cyanoHAB, cyanobacteria harmful algal bloom; DDC, depth-dilution coefficient; HABITATS, Harmful Algal Bloom Interception, Treatment,
+and Transformation System; RAFT, rapid air flotation technology]
+Low DDC scenario High DDC scenario
+Cost-benefit analysis (Algae distributed throughout the water column) (Most of the algae concentrated at the water surface)
+HABITATS (DDC=0.25) HABITATS+RAFT (DDC=1.4) HABITATS (DDC=2) HABITATS+RAFT (DDC=3)
+Deployment benefits $1.83 $5.14 $5.97 $6.80
+Ancillary product benefits $0.61 $1.80 $2.11 $2.39
+Total costs $4.56 $7.11 $7.77 $8.36
+Net benefits –$2.11 –$0.16 $0.31 $0.83
+
+=====PAGE 33=====
+References Cited 23
+Conclusions Fourth, the benefits provided by enhanced HABITATS
+appear significantly greater than benefits from HABITATS
+alone, irrespective of the algal distribution in the water
+Healthy waterbodies support many ecosystem functions
+column. However, the difference in benefits, because it is
+that provide humans with ecosystem goods and services of
+mostly explained by algal removal capability, becomes
+value. The provision of these benefits can be hampered by
+smaller as more algae are concentrated at the water surface
+impaired water quality. The 2018 cyanobacteria harmful algal
+(associated with higher DDCs), thus increasing efficiency
+bloom (cyanoHAB) event in Lake Okeechobee, Florida, was
+of HABITATS alone. Table 9 highlights the differential
+considered one of the most far-reaching and long-lasting
+benefits of the HABITATS process. At a lower DDC when
+bloom events in the past 15 years, and it had several societal
+algae are distributed throughout the water column, aggregate
+impacts downstream, as estimated in this analysis. Use of
+benefits rise from $1.8 million with HABITATS alone to
+a system such as the Harmful Algal Bloom Interception,
+$5.1 million with enhanced HABITATS, a difference of $3.3
+Treatment, and Transformation System (HABITATS) or
+million. In comparison, at a higher DDC when algae are near
+enhanced HABITATS (which added rapid air flotation
+the surface, aggregate benefits are estimated at $6.0 million
+technology) that could prevent or mitigate these damages
+with HABITATS alone and $6.8 million with enhanced
+would provide a societal benefit. This study completed
+HABITATS, a difference of only $0.8 million.
+a before-the-event analysis comparison of the costs of
+This analysis is a good indication of positive return
+HABITATS to the benefits that would accrue (or, to put it
+on investment given the promising results from use of
+another way, the damages that would be avoided); our results
+HABITATS and enhanced HABITATS.
+suggest near positive net societal benefits for both HABITATS
+and enhanced HABITATS in most cases—the exception being
+the case where basic HABITATS alone is deployed to remove
+algae that are distributed throughout the water column rather References Cited
+than close to the surface.
+Four major observations can be derived from our results.
+Alvarez, S., Lupi, F., Solís, D., and Thomas, M., 2019, Valuing
+First, as summarized in tables 1 and 5, the impacts on aquatic
+provision scenarios of coastal ecosystem services—The
+recreation are at least twice as large as the property value
+case of boat ramp closures due to harmful algae blooms in
+impacts. Table 1, which summarizes the impacts on recreation,
+Florida: Water, v. 11, no. 6, article 1250, 16 p., accessed
+shows a total value of $5.5 million, compared to $2.3 million
+September 2021 at https://doi.org/ 10.3390/ w11061250.
+in realty-related economic losses (table 5). This result is
+not surprising given the importance of fishing and other Barnes, T., Rumbold, D., and Salvato, M., 2006,
+aquatic recreational activities in the region and the fact that a Caloosahatchee Estuary and Charlotte Harbor
+temporary cyanoHAB bloom may not have lasting effects on conceptual model: South Florida Water Management
+property values. District Final Report, 42 p., accessed January 2022 at
+Second, our disaggregated results indicate differences in https://ww w.researc hgate.net/p ublication/3 35079311_
+impacts among the counties in our study area, with the value CALOOSAHATCHEE_ ESTUARY_ AND_ CHARLOTTE_
+of impacts in Lee County being at least 50 times greater than HARBOR_ CONCEPTUAL_ MODEL.
+in Glades County. These estimates are specific to a particular
+place and time, the 2018 bloom in our four-county study area, Benayache, N.-Y., Nguyen-Quang, T., Hushchyna, K.,
+and could vary greatly for other places and times depending on McLellan, K., Afri-Mehennaoui, F.-Z., and Bouaïcha, N.,
+the extent of a given cyanoHAB event. There is no intention of 2019, An overview of cyanobacteria harmful algal bloom
+deploying HABITATS for just one part of the study area; the (CyanoHAB) issues in freshwater ecosystems, in Gökçe,
+monetized values alone do not fully represent the benefits of D., ed., Limnology—Some new aspects of inland water
+avoiding cyanoHABs. ecology: IntechOpen, accessed June 2021 at https://doi.org/
+Third, the HABITATS process is more effective when 10.5772/ intechopen.84155.
+algae are predominantly concentrated at the water surface (in
+Bin, O., and Czajkowski, J., 2013, The impact of technical
+other words, with a high depth-dilution coefficient [DDC])
+and non-technical measures of water quality on
+as opposed to the case of a bloom well dispersed in the water
+coastal waterfront property values in South Florida:
+column (in other words, with a low DDC). When harmful
+Marine Resource Economics, v. 28, no. 1, p. 43–63,
+algal blooms occur mainly near the surface, HABITATS
+accessed September 2021 at https://doi.org/ 10.5950/
+is most effective (Page and others, 2021). Algae present
+0738- 1360- 28.1.43.
+on the surface are relatively easier to channel towards the
+HABITATS interceptor system, which reduces the volume of
+water to be treated and facilitates the removal of biomass for
+increased environmental benefits.
+
+=====PAGE 34=====
+24 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Bingham, M., Sinha, S.K., and Lupi, F., 2015, Economic Corcoran, A.A., and Hunt, R.W., 2021, Capitalizing on
+benefits of reducing harmful algal blooms in Lake Erie: harmful algal blooms—From problems to products: Algal
+International Joint Commission, prepared by Environmental Research, v. 55, article 102265, accessed April 2022 at
+Consulting & Technology, 67 p., accessed June 2021 at https://doi.org/ 10.1016/ j.algal.2021.102265.
+https://l egacyfiles .ijc.org/t inymce/u ploaded/P ublications/
+Court, C., Ferreira, J., Ropicki, A., Qiao, X., and Saha, B.,
+Economic-B enefits- Due- to- Reduction-i n- HABs- October-
+2021, Quantifying the socio-economic impacts of harmful
+2015.pdf.
+algal blooms in southwest Florida in 2018: Gainesville, Fla.,
+Bury, N.R., Eddy, F.B., and Codd, G.A., 1995, The University of Florida, Institute of Food and Agricultural
+effects of the cyanobacterium Microcystis aeruginosa, Sciences, Food and Resource Economics Department, 48
+the cyanobacterial hepatotoxin microcystin-LR, and p., accessed June 2021 at https: //sarasota. wateratlas .usf.edu/
+ammonia on growth rate and ionic regulation of upload/ documents/H armfulAlgalBlooms-S WFla2018-
+brown trout: Journal of Fish Biology, v. 46, no. 6, 072621.pdf.
+p. 1042–1054, accessed December 2021 at https://doi.org/
+de Groot, R.S., Wilson, M.A., and Boumans, R.M.J., 2002,
+10.1111/ j.1095- 8649.1995.tb01408.x.
+A typology for the classification, description and valuation
+Buzzelli, C., Doering, P., Wan, Y., Coley, Y., Sun, D., Chen, of ecosystem functions, goods and services: Ecological
+Z., Thomas, C., Medellin, D., and Edwards, T., 2017, Economics, v. 41, no. 3, p. 393–408, accessed June 2021 at
+Assessment of the responses of the Caloosahatchee https://doi.org/ 10.1016/ S0921- 8009(02)00089- 7.
+River Estuary to low freshwater inflow in the dry
+Diaz, R.J., and Rosenberg, R., 2008, Spreading dead zones
+season: West Palm Beach, Florida, South Florida Water
+and consequences for marine ecosystems: Science,
+Management District, 211 p., accessed January 2022 at
+v. 321, no. 5891, p. 926–929, accessed January 2022 at
+ht tps://www.s fwmd.gov/ sites/ default/fi les/ documents/
+https://doi.org/ 10.1126/ science.1156401.
+cre_ mfl_ science_s ummary.pdf.
+Dodds, W.K., Bouska, W.W., Eitzmann, J.L., Pilger, T.J.,
+Carey, R.T., and Leftwich, R.W., Jr., 2007, Water quality
+Pitts, K.L., Riley, A.J., Schloesser, J.T., and Thornbrugh,
+and housing value on Lake Greenwood—A hedonic
+D.J., 2009, Eutrophication of U.S. freshwaters—Analysis
+study on chlorophyll-A levels and the 1999 algal bloom:
+of potential economic damages: Environmental Science &
+Clemson, South Carolina, USA, Strom Thurmond
+Technology, v. 43, no. 1, p. 12–19, accessed June 2021 at
+Institute, Clemson University, accessed September 2021
+https://doi.org/ 10.1021/ es801217q.
+at http://w ww.saluda reedy.org/ resInDepthReports/
+hedonic_ paper.pdf.
+Doering, P.H., and Chamberlain, R.H., 1998, Water quality
+in the Caloosahatchee Estuary, San Carlos Bay, and Pine
+Carmichael, W.W., 2001, Health effects of toxin-producing
+Island Sound, Florida, in Treat, S.F., ed., Proceedings of
+cyanobacteria—“The cyanoHABs”: Human and Ecological
+the Charlotte Harbor Public Conference and Technical
+Risk Assessment—An International Journal, v. 7, no. 5,
+Symposium—March 1997: South Florida Water
+p. 1393–1407, accessed October 2021 at https://doi.org/
+Management District and Charlotte Harbor National Estuary
+10.1080/ 20018091095087.
+Program Technical Report 98–02, p. 229–240, accessed
+Coastal and Heartland National Estuary Partnership, 2024, January 2022 at h ttps://palm m.digital. flvc.org/ islandora/
+Caloosahatchee River Basin: Coastal and Heartland object/f gcu%3A26031/ datastream/O BJ/ view/ Proceedings_
+National Estuary Partnership website, accessed October 23, of_ the_ Charlotte_H arbor_ Public_ Conference_a nd_
+2024, at htt ps://chnep. wateratlas .usf.edu/ waterbodies/ Technical_S ymposium_ _ March_ 1997.pdf.
+basins/ 1/ caloosahatchee-r iver- basin.
+English, E., von Haefen, R.H., Herriges, J., Leggett, C.,
+Codd, G., Bell, S., Kaya, K., Ward, C., Beattie, K., and Lupi, F., McConnell, K., Welsh, M., Domanski, A., and
+Metcalf, J., 1999, Cyanobacterial toxins, exposure routes Meade, N., 2018, Estimating the value of lost recreation
+and human health: European Journal of Phycology, v. 34, days from the Deepwater Horizon oil spill: Journal of
+no. 4, p. 405–415, accessed October 2021 at https://doi.org/ Environmental Economics and Management, v. 91,
+10.1080/ 09670269910001736462. p. 26–45, accessed September 2021 at https://doi.org/
+10.1016/ j.jeem.2018.06.010.
+Conservation Alliance of Saint Lucie County, 2024, State
+of the North Fork of the St. Lucie River: Conservation Florida Department of Agriculture and Consumer Services,
+Alliance of Saint Lucie County website, accessed 2021, Shellfish harvesting area and aquaculture lease map:
+October 23, 2024, at http://www .conserva tionallianc eslc.org/ Florida Department of Agriculture and Consumer Services
+state- of- the- north- fork- of- the- st- lucie-r iver.html. website, accessed November 2021 at ht tps://www. fdacs.gov/
+Agriculture-I ndustry/ Aquaculture/S hellfish- Harvesting-
+Area- and- Aquaculture-L ease- Map.
+
+=====PAGE 35=====
+References Cited 25
+Florida Department of Revenue, 2022, Property valuations and Kashian, R., Eiswerth, M.E., and Skidmore, M., 2006,
+tax data [dataset]: Florida Department of Revenue website, Lake rehabilitation and the value of shoreline real
+accessed April 2022 at Florida Dept. of Revenue - Property estate—Evidence from Delavan, Wisconsin: The Review
+Tax - Data Portal (https://floridarevenue.com/). of Regional Studies, v. 36, no. 2, p. 221–238, accessed
+September 2021 at https://doi.org/ 10.52324/ 001c.8319.
+Florida Fish and Wildlife Conservation Commission [FWCC],
+2009, The Florida boating access facilities inventory and Kim, J.K., Kottuparambil, S., Moh, S.H., Lee, T.K., Kim,
+economic study including a pilot study for Lee County, RFP Y.-J., Rhee, J.-S., Choi, E.-M., Kim, B.H., Yu, J.Y., Yarish,
+No. FWC 04/05–23: Tallahassee, Fla., USA, Florida Fish C., and Han, T., 2015, Potential applications of nuisance
+and Wildlife Conservation Commission, 237 p., accessed microalgae blooms: Journal of Applied Phycology, v. 27,
+September 2021 at https://myfwc.com/m edia/1 7541/ p. 1223–1234, accessed June 2021 at https://doi.org/
+boatingacce ssfaciliti esinventor y2009.pdf. 10.1007/ s10811- 014- 0410- 7.
+Florida Fish and Wildlife Conservation Commission [FWCC], Kitsiou, D., and Karydis, M., 2011, Coastal marine
+2021, Commercial fisheries landings in Florida: Florida Fish eutrophication assessment—A review on data analysis:
+and Wildlife Conservation Commission website, accessed Environment International, v. 37, no. 4, p. 778–801,
+December 2021 at http://myfwc.com/r esearch/s altwater/ accessed January 2022 at https://doi.org/ 10.1016/
+fishstats/ commercial-fi sheries/ landings- in- florida/ . j.envint.2011.02.004.
+Florida Office of Economic and Demographic Research, Krimsky, L., Staugler, B., Flewelling, L., Reich, A., Rosen,
+2022, Expenditures and revenues reported by Florida’s B., Stumpf, R., and Whiting, D., 2019, State of the science
+county governments: Florida Office of Economic and for harmful algae bloom in Florida—Karenia brevis and
+Demographic Research website, accessed April 2022 Microcystis—A Summary from the Florida Harmful Algal
+at htt p://edr.sta te.fl.us/ Content/l ocal-g overnment/d ata/ Bloom State of the Science Symposium: Florida Sea
+revenues- expenditures/c ntyfiscal.cfm. Grant, accessed June 2021 at https:// www.flseag rant.org/
+wp- content/u ploads/ HABs- consensus- document-
+Florida Realtors, 2015, The impact of water quality
+02132020.pdf.
+on Florida’s home values: Florida Realtors final
+report March 2015, accessed September 2021 at Krysel, C., Boyer, E.M., Parson, C., and Welle, P.,
+ht tps://www.fl oridarea ltors.org/ sites/ default/fi les/ 2018- 11/ 2003, Lakeshore property values and water quality—
+FR_ WaterQuality_F inal_ Mar2015_ 1.pdf. Evidence from property sales in the Mississippi
+headwaters region: Mississippi Headwaters Board and
+Francis, G., 1878, Poisonous Australian lake: Nature, v. 18,
+Bemidji State University, accessed September 2021 at
+p. 11–12, accessed October 2021 at https://doi.org/ 10.1038/
+https://w ww.missis sippiheadw aters.org/fi les/ bsu_ study.pdf.
+018011d0.
+Lancaster, K.J., 1966, A new approach to consumer theory:
+Freeman, A.M., III, 1993, The measurement of environmental
+Journal of Political Economy, v. 74, no. 2, p. 132–157,
+and resource values—Theory and methods: Washington,
+accessed June 2021 at https://doi.org/ 10.1086/ 259131.
+D.C., Resources for the Future, 538 p.
+Lehtiniemi, M., Engström-Öst, J., and Viitasalo, M., 2005,
+Funari, E., and Testai, E., 2008, Human health risk assessment
+Turbidity decreases anti-predator behaviour in pike
+related to cyanotoxins exposure: Critical Reviews in
+larvae, Esox lucius: Environmental Biology of Fishes,
+Toxicology, v. 38, no. 2, p. 97–125, accessed October 2021
+v. 73, p. 1–8, accessed January 2022 at https://doi.org/
+at https://doi.org/ 10.1080/ 10408440701749454.
+10.1007/ s10641- 004- 5568- 4.
+Hamilton, D., Wood, S., Dietrich, D., and Puddick, J., 2013,
+Lorenzen, K., Ainsworth, C.H., Baker, S.M., Barbieri, L.R.,
+Costs of harmful blooms of freshwater cyanobacteria,
+Camp, E.V., Dotson, J.R., and Lester, S.E., 2017, Climate
+in Sharma, N.K., Rai, A.K., and Stal, L.J., eds.,
+change impacts on Florida’s fisheries and aquaculture
+Cyanobacteria—An economic perspective: New York, John
+sectors and options for adaptation, chap. 14 of Chassignet,
+Wiley & Sons, p. 245–256.
+E.P., Jones, J.W., Misra, V., and Obeysekera, J., eds.,
+Florida’s climate—Changes, variations, & impacts:
+Kamjunke, N., Schmidt, K., Pflugmacher, S., and Mehner,
+Gainesville, Fla., Florida Climate Institute, p. 427–455,
+T., 2002, Consumption of cyanobacteria by roach (Rutilus
+accessed March 2022 at https://doi.org/10.17125/
+rutilus)—Useful or harmful to the fish?: Freshwater
+fci2017.ch14.
+Biology, v. 47, no. 2, p. 243–250, accessed January 2022 at
+https://doi.org/ 10.1046/ j.1365- 2427.2002.00800.x.
+
+=====PAGE 36=====
+26 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Machado, J., Azevedo, J., Freitas, M., Pinto, E., Almeida, Page, M., MacAllister, B., Campobasso, M., Urban,
+A., Vasconcelos, V., and Campos, A., 2017, Analysis of A., Thomas, C., Cender, C., Arnett, C., White, C.,
+the use of microcystin-contaminated water in the growth Martinez-Guerra, E., Boyd, A., Goa, E., Kennedy, A.,
+and nutritional quality of the root-vegetable, Daucus Biber, T., Pokrzywinski, K., Grasso, C., Fernando, B.,
+carota: Environmental Science and Pollution Research Veinotte, C., Riley, J., Gonzalez, A., Miller, J., Gunderson,
+International, v. 24, p. 752–764, accessed March 2022 at K., Schideman, L., Zhang, Y., Sharma, B.K., Levy, D.,
+https://doi.org/ 10.1007/ s11356- 016- 7822- 7. Colona, B., Pinelli, D., Karst-Riddoch, T., and Lovins, W.,
+2021, Optimizing the Harmful Algal Bloom Interception,
+Malbrouck, C., and Kestemont, P., 2006, Effects of
+Treatment, and Transformation System (HABITATS):
+microcystins on fish: Environmental Toxicology and
+U.S. Army Corps of Engineers, Engineer Research and
+Chemistry, v. 25, no. 1, p. 72–86, accessed October 2021 at
+Development Center, Technical Report ERDC TR–21–18,
+https://doi.org/ 10.1897/ 05- 029R.1.
+accessed August 2021 at https://doi.org/ 10.21079/
+11681/ 42223.
+Malpezzi, S., 2002, Hedonic pricing models—A selective and
+applied review, chap. 5 of O’Sullivan, T., and Gibb, K., eds.,
+Page, M., MacAllister, B., Urban, A., Veinotte, C., MacAllister,
+Housing economics and public policy: Blackwell Science
+I., Pokrzywinski, K., Riley, J., Martinez-Guerra, E., White,
+Ltd., accessed September 2021 at https://doi.org/ 10.1002/
+C., Grasso, C., Kennedy, A., Thomas, C., Billing, J.,
+9780470690680.ch5.
+Schmidt, A., Levy, D., Colona, B., Pinelli, D., and John, C.,
+2020, Harmful Algal Bloom Interception, Treatment, and
+Merel, S., Walker, D., Chicana, R., Snyder, S., Baurès, E.,
+Transformation System, “HABITATS”— Pilot Research
+and Thomas, O., 2013, State of knowledge and concerns
+Study Phase I—Summer 2019: U.S. Army Corps of
+on cyanobacterial blooms and cyanotoxins: Environment
+Engineers, Engineer Research and Development Center,
+International, v. 59, p. 303–327, accessed June 2021 at
+Technical Report ERDC TR–20–1, accessed March 2021 at
+https://doi.org/ 10.1016/ j.envint.2013.06.013.
+https://doi.org/ 10.21079/ 11681/ 35214.
+Michael, H.J., Boyle, K.J., and Bouchard, R., 2000, Does
+Palmquist, R.B., 1991, Hedonic methods, in Braden,
+the measurement of environmental quality affect implicit
+J.B., and Kolstad, C.D., eds., Measuring the demand
+prices estimated from hedonic models?: Land Economics,
+for environmental quality: Amsterdam, North Holland,
+v. 76, no. 2, p. 283–298, accessed September 2021 at
+Elsevier Science, v. 198, p. 77–120.
+https://doi.org/ 10.2307/ 3147229.
+Phaneuf, D.J., Smith, V.K., Palmquist, R.B., and Pope, J.C.,
+Millennium Ecosystem Assessment, 2005, Ecosystems
+2008, Integrating property value and local recreation
+and human well-being—Synthesis: Washington,
+models to value ecosystem services in urban watersheds:
+D.C., Island Press, 137 p., accessed August 9, 2021,
+Land Economics, v. 84, no. 3, p. 361–381, accessed
+at http:// www.millen niumasses sment.org/ documents/
+September 2021 at https://doi.org/ 10.3368/ le.84.3.361.
+d ocument.356 .aspx.pdf.
+Pindilli, E.J., and Loftin, K., 2022, What’s it worth?
+Morgan, K.L., Larkin, S.L., and Adams, C.M., 2010, Red tides
+Estimating the potential value of early warnings of
+and participation in marine-based activities—Estimating
+cyanobacterial harmful algal blooms for managing
+the response of southwest Florida residents: Harmful
+freshwater reservoirs in Kansas, United States: Frontiers in
+Algae, v. 9, no. 3, p. 333–341, accessed September 2021 at
+Environmental Science, v. 10, article 805165, accessed May
+https://doi.org/ 10.1016/ j.hal.2009.12.004.
+2022 at https://doi.org/ 10.3389/ fenvs.2022.805165.
+National Marine Manufacturers Association, 2018,
+Poor, P., Pessagno, K., and Paul, R.W., 2007, Exploring
+Economic impact infographics by state—Florida: National
+the hedonic value of ambient water quality—A local
+Marine Manufacturers Association website, accessed
+watershed-based study: Ecological Economics, v. 60, no. 4,
+September 2021 at h ttps://www .nmma.org/ statistics/
+p. 797–806, accessed September 2021 at https://doi.org/
+publications/e conomic-i mpact-i nfographics.
+10.1016/ j. ecolecon.20 06.02.013.
+Paerl, H.W., 2009, Controlling eutrophication along the
+Puschner, B., and Humbert, J.-F., 2007, Cyanobacterial
+freshwater–marine continuum—Dual nutrient (N and
+(blue-green algae) toxins, in Gupta, R.C., ed., Veterinary
+P) reductions are essential: Estuaries and Coasts, v. 32,
+toxicology (2d ed.): New York, Academic Press,
+p. 593–601, accessed June 2021 at https://doi.org/ 10.1007/
+p. 714–724, accessed January 2022 at https://doi.org/
+s12237- 009- 9158- 8.
+10.1016/ B978- 012370467- 2/ 50156- 5.
+
+=====PAGE 37=====
+References Cited 27
+Roberts, V.A., Vigar, M., Backer, L., Veytsel, G.E., Hilborn, U.S. Census Bureau, 2022, QuickFacts Glades County,
+E.D., Hamelin, E.I., Vanden Esschert, K.L., Lively, Lee County, Martin County, St. Lucie County, Florida:
+J.Y., Cope, J.R., Hlavsa, M.C., and Yoder, J.S., 2020, U.S. Census Bureau website, accessed June 2022 at
+Surveillance for harmful algal bloom events and associated htt ps://www.c ensus.gov/ quickfacts/f act/t able/U S/
+human and animal illnesses — One Health Harmful Algal PST045221.
+Bloom System, United States, 2016–2018: Morbidity and
+U.S. Department of Agriculture National Agricultural Statistics
+Mortality Weekly Report, v. 69, no. 50, p. 1889–1894,
+Service [NASS], 2019, Census of agriculture—2017 state
+accessed October 2021 at https://doi.org/ 10.15585/
+and county profiles—Florida [dataset]: U.S. Department of
+mmwr.mm6950a2.
+Agriculture National Agricultural Statistics Service website,
+Rosen, S., 1974, Hedonic prices and implicit markets— accessed February 2022 at https: //www.nass .usda.gov/
+Product differentiation in pure competition: Journal Publications/A gCensus/ 2017/ Online_ Resources/
+of Political Economy, v. 82, no. 1, p. 34–55, accessed County_ Profiles/ Florida/ .
+September 2021 at https://doi.org/ 10.1086/ 260169.
+U.S. Environmental Protection Agency [EPA], 2021, Drinking
+Rosenberger, R.S., and Loomis, J.B., 2003, Benefit transfer, water mapping application to protect source waters
+in Champ, P.A., Boyle, K.J., and Brown, T.C., eds., A (DWMAPS): U.S. Environmental Protection Agency
+primer on nonmarket valuation: Boston, Kluwer Academic website, accessed November 2021 at https://www.epa.gov/
+Publishers, p. 445–482, accessed September 2021 at so urcewaterp rotection/d rinking- water- mapping-a pplication-
+https://doi.org/ 10.1007/ 978- 94- 007- 0826- 6_ 12. protect-s ource- waters- dwmaps.
+Sallenave, R., 2021, Cyanobacteria (blue-green algae) in our U.S. Geological Survey [USGS], 2019, Historical
+waters—Agricultural best management practices (BMPs) water-use in Florida—Historical water-use in Florida—
+to increase resilience to algal blooms: New Mexico State Counties—1965–2010: U.S. Geological Survey web page,
+University Water Publications, Guide W–106, accessed accessed November 2021 at h ttps://www .usgs.gov/ centers/
+February 2022 at ht tps://aces. nmsu.edu/ pubs/ _ w/ W106/ cfwsc/ science/h istorical-w ater- use- florida.
+welcome.html.
+Wood, R., 2016, Acute animal and human poisonings
+Sidman, C., Swett, R., Fik, T., Fann, S., and Sargent, from cyanotoxin exposure—A review of the literature:
+B., 2006, A recreational boating characterization of Environment International, v. 91, p. 276–282,
+Sarasota County (revised January 2007): Gainesville, accessed October 2021 at https://doi.org/ 10.1016/
+Florida, USA, University of Florida, Florida Sea Grant j.envint.2016.02.026.
+Publication TP–152, 80 p., accessed September 2021
+Xiang, L., Li, Y.-W., Liu, B.-L., Zhao, H.-M., Li, H.,
+at https:// www.flseag rant.org/w p- content/u ploads/
+Cai, Q.-Y., Mo, C.-H., Wong, M.-H., and Li, Q.X.,
+flsgps06001.pdf.
+2019, High ecological and human health risks from
+South Florida Water Management District, 2024, Lake microcystins in vegetable fields in southern China:
+Okeechobee: South Florida Water Management Environment International, v. 133, part A, article 105142,
+District website, accessed October 11, 2024, at accessed February 2022 at https://doi.org/ 10.1016/
+ht tps://www. sfwmd.gov/ our- work/ lake-o keechobee. j.envint.2019.105142.
+Tillmanns, A.R., Wilson, A.E., Pick, F.R., and Sarnelle,
+O., 2008, Meta-analysis of cyanobacterial effects on
+zooplankton population growth rate—Species-specific
+responses: Fundamental and Applied Limnology, v. 171,
+no. 4, p. 285–295, accessed January 2022 at https://doi.org/
+10.1127/ 1863- 9135/ 2008/ 0171- 0285.
+Tometich, A., and Killer, E., 2018, Florida’s toxic algae
+crisis—Are Gulf and freshwater seafood safe to eat?:
+Fort Myers News-Press, accessed August 10, 2018, at
+https://www.news- press.com/ story/ life/f ood/ 2018/ 08/
+10/ florida- seafood- safe- eat- red- tide- blue- green- algae-
+cyanobacteria-c rabs- fish- healthy/9 35329002/ .
+
+=====PAGE 38=====
+
+
+=====PAGE 39=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 29
+Appendix 1. Changes in Property Values in Four Counties in Florida
+Table 1.1. Single-family property sales during July–
+This appendix contains four tables (tables 1.1, 1.2, 1.3,
+September 2018 in Glades County, Florida, sorted into buffer
+and 1.4) showing the changes in sales prices of single-family
+categories of distance from the water.
+properties in relation to distance from the water along the
+Caloosahatchee River in Glades and Lee Counties and along
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+the Saint Lucie River in Martin and Saint Lucie Counties
+in Florida. The data shown here were used for the analysis
+Distance from
+Sale price ($) % change Value ($)
+of the impact of cyanobacteria harmful algal blooms water (mi)
+(cyanoHABs) on waterfront property values and are from
+0.125 125,000 1.93 2,412.50
+actual sales of waterfront and near-waterfront properties in
+0.125 340,000 1.93 6,562.00
+Glades, Martin, Lee, and Saint Lucie Counties from July
+to September 2018; the data were provided by the Florida 0.5 77,000 0.91 700.70
+Department of Revenue (2022). In the analysis, sales prices 0.5 179,900 0.91 1,637.09
+of properties in six distance buffer categories were examined, 1 120,000 0.34 408.00
+ranging from waterfront (<0.05 mile) to 2 miles around the
+1 120,000 0.34 408.00
+Caloosahatchee and Saint Lucie Rivers. The Florida National
+Hydrography Dataset in a geographic information system
+(ht tps://geoda ta.dep.sta te.fl.us/ datasets/F DEP::florida- national-
+hydrography- dataset-n hd- waterbodies- 100k/ about) was used
+to draw the six buffer categories around the two rivers. Land
+parcels identified from the Florida Department of Revenue
+Table 1.2. Single-family property sales during July–
+(2022) data were then sorted into their corresponding distance
+September 2018 in Martin County, Florida, sorted into buffer
+buffer categories. The sales data—shown below sorted into
+categories of distance from the water.
+the buffer categories—were collected on a total of 1,943
+single-family residential home sales during the period of July [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+through September of 2018. Summary statistics for these
+data are shown in table 2 of the main text in the section on Distance from
+Sale price ($) % change Value ($)
+“Quantifying Impacts on Aesthetics,” which also contains a water (mi)
+detailed description of analysis methodology. 0.25 200,000 3.28 6,560.00
+0.25 225,000 3.28 7,380.00
+0.25 280,000 3.28 9,184.00
+Reference Cited
+0.5 225,000 1.99 4,477.50
+1 207,500 0.73 1,514.75
+Florida Department of Revenue, 2022, Property valuations and 1 223,000 0.73 1,627.90
+tax data [dataset]: Florida Department of Revenue website,
+1 225,000 0.73 1,642.50
+accessed April 2022 at Florida Dept. of Revenue - Property
+1 304,000 0.73 2,219.20
+Tax - Data Portal (https://floridarevenue.com/).
+2 212,000 0.1 212.00
+2 290,000 0.1 290.00
+2 295,000 0.1 295.00
+2 295,000 0.1 295.00
+2 320,000 0.1 320.00
+2 350,000 0.1 350.00
+2 350,000 0.1 350.00
+2 385,000 0.1 385.00
+2 405,000 0.1 405.00
+2 440,000 0.1 440.00
+2 486,000 0.1 486.00
+2 620,000 0.1 620.00
+
+=====PAGE 40=====
+30 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.3. Single-family property sales during July– Table 1.3. Single-family property sales during July–
+September 2018 in Saint Lucie County, Florida, sorted into buffer September 2018 in Saint Lucie County, Florida, sorted into buffer
+categories of distance from the water. categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+0.125 75,000 4.21 3,157.50 1 140,000 0.73 1,022.00
+0.125 160,000 4.21 6,736.00 1 175,000 0.73 1,277.50
+0.125 160,000 4.21 6,736.00 1 175,000 0.73 1,277.50
+0.125 210,000 4.21 8,841.00 1 195,700 0.73 1,428.61
+0.125 350,000 4.21 14,735.00 1 64,600 0.73 471.58
+0.125 385,000 4.21 16,208.50 1 110,600 0.73 807.38
+0.25 115,000 3.28 3,772.00 1 118,500 0.73 865.05
+0.25 149,000 3.28 4,887.20 1 119,900 0.73 875.27
+0.25 210,000 3.28 6,888.00 1 120,000 0.73 876.00
+0.25 237,000 3.28 7,773.60 1 120,000 0.73 876.00
+0.25 275,000 3.28 9,020.00 1 122,700 0.73 895.71
+0.25 300,000 3.28 9,840.00 1 130,000 0.73 949.00
+0.25 430,000 3.28 14,104.00 1 132,600 0.73 967.98
+0.25 755,000 3.28 24,764.00 1 134,000 0.73 978.20
+0.25 925,000 3.28 30,340.00 1 135,000 0.73 985.50
+0.5 115,000 1.99 2,288.50 1 140,700 0.73 1,027.11
+0.5 120,100 1.99 2,389.99 1 140,800 0.73 1,027.84
+0.5 125,000 1.99 2,487.50 1 145,000 0.73 1,058.50
+0.5 154,000 1.99 3,064.60 1 150,000 0.73 1,095.00
+0.5 155,000 1.99 3,084.50 1 151,800 0.73 1,108.14
+0.5 170,400 1.99 3,390.96 1 155,000 0.73 1,131.50
+0.5 174,857 1.99 3,479.65 1 157,000 0.73 1,146.10
+0.5 185,000 1.99 3,681.50 1 157,500 0.73 1,149.75
+0.5 189,700 1.99 3,775.03 1 158,000 0.73 1,153.40
+0.5 191,500 1.99 3,810.85 1 160,000 0.73 1,168.00
+0.5 199,000 1.99 3,960.10 1 170,000 0.73 1,241.00
+0.5 206,000 1.99 4,099.40 1 177,000 0.73 1,292.10
+0.5 207,000 1.99 4,119.30 1 178,000 0.73 1,299.40
+0.5 220,000 1.99 4,378.00 1 179,900 0.73 1,313.27
+0.5 223,000 1.99 4,437.70 1 180,000 0.73 1,314.00
+0.5 239,000 1.99 4,756.10 1 180,000 0.73 1,314.00
+0.5 239,000 1.99 4,756.10 1 186,000 0.73 1,357.80
+0.5 250,000 1.99 4,975.00 1 189,000 0.73 1,379.70
+0.5 270,000 1.99 5,373.00 1 189,900 0.73 1,386.27
+0.5 285,000 1.99 5,671.50 1 190,000 0.73 1,387.00
+0.5 325,000 1.99 6,467.50 1 190,100 0.73 1,387.73
+0.5 4,733,100 1.99 94,188.69 1 195,000 0.73 1,423.50
+1 32,500 0.73 237.25 1 199,000 0.73 1,452.70
+1 35,714 0.73 260.71 1 200,000 0.73 1,460.00
+1 135,000 0.73 985.50 1 204,000 0.73 1,489.20
+
+=====PAGE 41=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 31
+Table 1.3. Single-family property sales during July– Table 1.3. Single-family property sales during July–
+September 2018 in Saint Lucie County, Florida, sorted into buffer September 2018 in Saint Lucie County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+1 205,000 0.73 1,496.50 2 149,000 0.1 149.00
+1 210,000 0.73 1,533.00 2 92,000 0.1 92.00
+1 212,000 0.73 1,547.60 2 93,500 0.1 93.50
+1 220,900 0.73 1,612.57 2 100,000 0.1 100.00
+1 228,000 0.73 1,664.40 2 110,000 0.1 110.00
+1 229,000 0.73 1,671.70 2 111,000 0.1 111.00
+1 229,900 0.73 1,678.27 2 113,700 0.1 113.70
+1 235,000 0.73 1,715.50 2 117,000 0.1 117.00
+1 245,000 0.73 1,788.50 2 120,000 0.1 120.00
+1 245,000 0.73 1,788.50 2 123,800 0.1 123.80
+1 250,000 0.73 1,825.00 2 125,500 0.1 125.50
+1 260,200 0.73 1,899.46 2 126,000 0.1 126.00
+1 261,900 0.73 1,911.87 2 133,000 0.1 133.00
+1 266,200 0.73 1,943.26 2 134,000 0.1 134.00
+1 268,000 0.73 1,956.40 2 135,000 0.1 135.00
+1 274,000 0.73 2,000.20 2 135,000 0.1 135.00
+1 275,000 0.73 2,007.50 2 136,100 0.1 136.10
+1 275,000 0.73 2,007.50 2 144,000 0.1 144.00
+1 280,500 0.73 2,047.65 2 144,900 0.1 144.90
+1 195,500 0.73 1,427.15 2 145,000 0.1 145.00
+1 236,900 0.73 1,729.37 2 147,000 0.1 147.00
+1 239,900 0.73 1,751.27 2 147,500 0.1 147.50
+1 290,000 0.73 2,117.00 2 148,000 0.1 148.00
+1 294,000 0.73 2,146.20 2 150,000 0.1 150.00
+1 315,000 0.73 2,299.50 2 150,000 0.1 150.00
+1 335,000 0.73 2,445.50 2 150,000 0.1 150.00
+1 395,000 0.73 2,883.50 2 150,000 0.1 150.00
+1 510,000 0.73 3,723.00 2 150,000 0.1 150.00
+1 4,733,100 0.73 34,551.63 2 152,000 0.1 152.00
+1 4,733,100 0.73 34,551.63 2 152,100 0.1 152.10
+1 4,733,100 0.73 34,551.63 2 153,000 0.1 153.00
+1 4,733,100 0.73 34,551.63 2 155,000 0.1 155.00
+1 4,733,100 0.73 34,551.63 2 158,000 0.1 158.00
+1 4,733,100 0.73 34,551.63 2 160,000 0.1 160.00
+1 4,733,100 0.73 34,551.63 2 164,500 0.1 164.50
+2 75,000 0.1 75.00 2 165,000 0.1 165.00
+2 82,300 0.1 82.30 2 165,000 0.1 165.00
+2 129,500 0.1 129.50 2 167,000 0.1 167.00
+2 130,000 0.1 130.00 2 168,000 0.1 168.00
+2 148,000 0.1 148.00 2 168,000 0.1 168.00
+
+=====PAGE 42=====
+32 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.3. Single-family property sales during July– Table 1.3. Single-family property sales during July–
+September 2018 in Saint Lucie County, Florida, sorted into buffer September 2018 in Saint Lucie County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+2 169,714 0.1 169.71 2 217,500 0.1 217.50
+2 170,000 0.1 170.00 2 219,000 0.1 219.00
+2 170,000 0.1 170.00 2 220,000 0.1 220.00
+2 170,000 0.1 170.00 2 221,000 0.1 221.00
+2 172,000 0.1 172.00 2 223,000 0.1 223.00
+2 173,000 0.1 173.00 2 224,500 0.1 224.50
+2 175,000 0.1 175.00 2 224,900 0.1 224.90
+2 175,000 0.1 175.00 2 225,000 0.1 225.00
+2 175,000 0.1 175.00 2 225,000 0.1 225.00
+2 175,000 0.1 175.00 2 233,000 0.1 233.00
+2 176,000 0.1 176.00 2 233,000 0.1 233.00
+2 176,000 0.1 176.00 2 234,900 0.1 234.90
+2 177,000 0.1 177.00 2 234,900 0.1 234.90
+2 179,500 0.1 179.50 2 235,000 0.1 235.00
+2 180,000 0.1 180.00 2 236,000 0.1 236.00
+2 180,000 0.1 180.00 2 239,900 0.1 239.90
+2 185,000 0.1 185.00 2 240,000 0.1 240.00
+2 185,000 0.1 185.00 2 240,000 0.1 240.00
+2 185,000 0.1 185.00 2 244,900 0.1 244.90
+2 185,000 0.1 185.00 2 245,000 0.1 245.00
+2 187,500 0.1 187.50 2 249,900 0.1 249.90
+2 188,000 0.1 188.00 2 250,000 0.1 250.00
+2 189,000 0.1 189.00 2 251,000 0.1 251.00
+2 189,900 0.1 189.90 2 254,500 0.1 254.50
+2 189,900 0.1 189.90 2 259,900 0.1 259.90
+2 191,000 0.1 191.00 2 260,900 0.1 260.90
+2 192,000 0.1 192.00 2 262,500 0.1 262.50
+2 195,000 0.1 195.00 2 268,000 0.1 268.00
+2 196,600 0.1 196.60 2 268,000 0.1 268.00
+2 197,000 0.1 197.00 2 270,000 0.1 270.00
+2 199,000 0.1 199.00 2 271,000 0.1 271.00
+2 199,800 0.1 199.80 2 275,000 0.1 275.00
+2 205,000 0.1 205.00 2 275,000 0.1 275.00
+2 206,500 0.1 206.50 2 278,000 0.1 278.00
+2 207,000 0.1 207.00 2 290,000 0.1 290.00
+2 207,900 0.1 207.90 2 296,500 0.1 296.50
+2 208,000 0.1 208.00 2 307,000 0.1 307.00
+2 209,300 0.1 209.30 2 307,500 0.1 307.50
+2 215,000 0.1 215.00 2 310,000 0.1 310.00
+2 215,000 0.1 215.00 2 320,000 0.1 320.00
+
+=====PAGE 43=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 33
+Table 1.3. Single-family property sales during July–
+September 2018 in Saint Lucie County, Florida, sorted into buffer
+categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from
+Sale price ($) % change Value ($)
+water (mi)
+2 329,000 0.1 329.00
+2 337,200 0.1 337.20
+2 377,000 0.1 377.00
+2 380,000 0.1 380.00
+2 392,000 0.1 392.00
+2 420,000 0.1 420.00
+2 425,000 0.1 425.00
+2 444,000 0.1 444.00
+2 450,000 0.1 450.00
+2 550,000 0.1 550.00
+2 626,000 0.1 626.00
+2 655,000 0.1 655.00
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 160,000 0.1 160.00
+2 163,000 0.1 163.00
+2 172,000 0.1 172.00
+2 172,000 0.1 172.00
+2 183,900 0.1 183.90
+2 184,000 0.1 184.00
+2 210,000 0.1 210.00
+2 213,000 0.1 213.00
+2 230,000 0.1 230.00
+2 231,900 0.1 231.90
+2 245,000 0.1 245.00
+2 245,000 0.1 245.00
+2 273,000 0.1 273.00
+2 273,600 0.1 273.60
+2 350,000 0.1 350.00
+2 369,000 0.1 369.00
+2 4,733,100 0.1 4,733.10
+2 4,733,100 0.1 4,733.10
+2 195,000 0.1 195.00
+2 195,000 0.1 195.00
+
+=====PAGE 44=====
+34 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water. categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+0.05 131,000 2.47 3,235.70 0.13 245,000 1.93 4,728.50
+0.05 159,900 2.47 3,949.53 0.13 273,000 1.93 5,268.90
+0.05 185,000 2.47 4,569.50 0.13 310,000 1.93 5,983.00
+0.05 300,000 2.47 7,410.00 0.13 312,000 1.93 6,021.60
+0.05 325,000 2.47 8,027.50 0.13 320,000 1.93 6,176.00
+0.05 340,000 2.47 8,398.00 0.13 433,500 1.93 8,366.55
+0.05 365,000 2.47 9,015.50 0.13 355,000 1.93 6,851.50
+0.05 500,000 2.47 12,350.00 0.13 360,000 1.93 6,948.00
+0.05 652,500 2.47 16,116.75 0.13 370,500 1.93 7,150.65
+0.05 682,000 2.47 16,845.40 0.13 375,000 1.93 7,237.50
+0.05 725,000 2.47 17,907.50 0.25 415,800 1.5 6,237.00
+0.05 954,000 2.47 23,563.80 0.25 315,000 1.5 4,725.00
+0.05 1,050,000 2.47 25,935.00 0.25 245,000 1.5 3,675.00
+0.05 1,134,000 2.47 28,009.80 0.25 150,000 1.5 2,250.00
+0.05 1,200,000 2.47 29,640.00 0.25 20,000 1.5 300.00
+0.05 4,500,000 2.47 111,150.00 0.25 33,600 1.5 504.00
+0.13 78,500 1.93 1,515.05 0.25 80,000 1.5 1,200.00
+0.13 91,000 1.93 1,756.30 0.25 100,000 1.5 1,500.00
+0.13 101,929 1.93 1,967.23 0.25 107,000 1.5 1,605.00
+0.13 115,000 1.93 2,219.50 0.25 120,000 1.5 1,800.00
+0.13 222,500 1.93 4,294.25 0.25 125,000 1.5 1,875.00
+0.13 351,400 1.93 6,782.02 0.25 138,000 1.5 2,070.00
+0.13 925,000 1.93 17,852.50 0.25 145,000 1.5 2,175.00
+0.13 535,000 1.93 10,325.50 0.25 159,100 1.5 2,386.50
+0.13 575,000 1.93 11,097.50 0.25 177,000 1.5 2,655.00
+0.13 740,500 1.93 14,291.65 0.25 180,000 1.5 2,700.00
+0.13 812,000 1.93 15,671.60 0.25 189,200 1.5 2,838.00
+0.13 144,500 1.93 2,788.85 0.25 194,667 1.5 2,920.01
+0.13 155,000 1.93 2,991.50 0.25 199,000 1.5 2,985.00
+0.13 158,500 1.93 3,059.05 0.25 225,000 1.5 3,375.00
+0.13 179,000 1.93 3,454.70 0.25 228,000 1.5 3,420.00
+0.13 179,000 1.93 3,454.70 0.25 245,000 1.5 3,675.00
+0.13 190,000 1.93 3,667.00 0.25 268,000 1.5 4,020.00
+0.13 200,000 1.93 3,860.00 0.25 283,000 1.5 4,245.00
+0.13 210,000 1.93 4,053.00 0.25 283,000 1.5 4,245.00
+0.13 215,000 1.93 4,149.50 0.25 285,000 1.5 4,275.00
+0.13 228,000 1.93 4,400.40 0.25 285,000 1.5 4,275.00
+0.13 236,900 1.93 4,572.17 0.25 295,000 1.5 4,425.00
+0.13 239,000 1.93 4,612.70 0.25 300,000 1.5 4,500.00
+0.13 239,900 1.93 4,630.07 0.25 300,000 1.5 4,500.00
+
+=====PAGE 45=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 35
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+0.25 305,000 1.5 4,575.00 0.5 128,000 0.91 1,164.80
+0.25 328,000 1.5 4,920.00 0.5 129,000 0.91 1,173.90
+0.25 340,000 1.5 5,100.00 0.5 130,000 0.91 1,183.00
+0.25 340,000 1.5 5,100.00 0.5 130,000 0.91 1,183.00
+0.25 340,000 1.5 5,100.00 0.5 135,000 0.91 1,228.50
+0.25 345,000 1.5 5,175.00 0.5 137,000 0.91 1,246.70
+0.25 345,000 1.5 5,175.00 0.5 138,634 0.91 1,261.57
+0.25 380,000 1.5 5,700.00 0.5 140,000 0.91 1,274.00
+0.25 397,000 1.5 5,955.00 0.5 150,000 0.91 1,365.00
+0.25 415,000 1.5 6,225.00 0.5 150,000 0.91 1,365.00
+0.25 417,000 1.5 6,255.00 0.5 150,000 0.91 1,365.00
+0.25 425,000 1.5 6,375.00 0.5 155,000 0.91 1,410.50
+0.25 460,000 1.5 6,900.00 0.5 155,583 0.91 1,415.81
+0.25 462,000 1.5 6,930.00 0.5 158,000 0.91 1,437.80
+0.25 465,010 1.5 6,975.15 0.5 158,000 0.91 1,437.80
+0.25 470,000 1.5 7,050.00 0.5 159,000 0.91 1,446.90
+0.25 485,000 1.5 7,275.00 0.5 160,000 0.91 1,456.00
+0.25 560,000 1.5 8,400.00 0.5 163,000 0.91 1,483.30
+0.25 725,000 1.5 10,875.00 0.5 165,000 0.91 1,501.50
+0.25 795,000 1.5 11,925.00 0.5 167,000 0.91 1,519.70
+0.25 800,000 1.5 12,000.00 0.5 169,900 0.91 1,546.09
+0.25 826,500 1.5 12,397.50 0.5 170,000 0.91 1,547.00
+0.25 830,000 1.5 12,450.00 0.5 171,000 0.91 1,556.10
+0.25 850,000 1.5 12,750.00 0.5 176,000 0.91 1,601.60
+0.25 1,017,500 1.5 15,262.50 0.5 22,825 0.91 207.71
+0.25 1,680,000 1.5 25,200.00 0.5 38,400 0.91 349.44
+0.25 2,075,183 1.5 31,127.75 0.5 117,000 0.91 1,064.70
+0.25 770,800 1.5 11,562.00 0.5 138,000 0.91 1,255.80
+0.5 40,285 0.91 366.59 0.5 159,000 0.91 1,446.90
+0.5 45,000 0.91 409.50 0.5 180,000 0.91 1,638.00
+0.5 61,419 0.91 558.91 0.5 225,000 0.91 2,047.50
+0.5 65,000 0.91 591.50 0.5 265,000 0.91 2,411.50
+0.5 79,100 0.91 719.81 0.5 300,000 0.91 2,730.00
+0.5 80,000 0.91 728.00 0.5 185,500 0.91 1,688.05
+0.5 81,650 0.91 743.02 0.5 190,000 0.91 1,729.00
+0.5 82,000 0.91 746.20 0.5 193,000 0.91 1,756.30
+0.5 90,000 0.91 819.00 0.5 194,950 0.91 1,774.05
+0.5 122,500 0.91 1,114.75 0.5 200,000 0.91 1,820.00
+0.5 123,000 0.91 1,119.30 0.5 215,000 0.91 1,956.50
+0.5 125,000 0.91 1,137.50 0.5 220,000 0.91 2,002.00
+
+=====PAGE 46=====
+36 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+0.5 223,500 0.91 2,033.85 0.5 390,000 0.91 3,549.00
+0.5 225,000 0.91 2,047.50 0.5 392,000 0.91 3,567.20
+0.5 228,135 0.91 2,076.03 0.5 392,000 0.91 3,567.20
+0.5 228,500 0.91 2,079.35 0.5 398,500 0.91 3,626.35
+0.5 235,000 0.91 2,138.50 0.5 410,000 0.91 3,731.00
+0.5 235,000 0.91 2,138.50 0.5 420,000 0.91 3,822.00
+0.5 238,000 0.91 2,165.80 0.5 425,000 0.91 3,867.50
+0.5 252,000 0.91 2,293.20 0.5 435,000 0.91 3,958.50
+0.5 259,000 0.91 2,356.90 0.5 440,000 0.91 4,004.00
+0.5 260,000 0.91 2,366.00 0.5 440,000 0.91 4,004.00
+0.5 265,000 0.91 2,411.50 0.5 455,000 0.91 4,140.50
+0.5 272,000 0.91 2,475.20 0.5 530,200 0.91 4,824.82
+0.5 273,999 0.91 2,493.39 0.5 555,000 0.91 5,050.50
+0.5 275,000 0.91 2,502.50 0.5 569,000 0.91 5,177.90
+0.5 275,000 0.91 2,502.50 0.5 604,500 0.91 5,500.95
+0.5 283,000 0.91 2,575.30 0.5 615,000 0.91 5,596.50
+0.5 287,500 0.91 2,616.25 0.5 665,000 0.91 6,051.50
+0.5 290,000 0.91 2,639.00 0.5 430,000 0.91 3,913.00
+0.5 290,000 0.91 2,639.00 0.5 370,000 0.91 3,367.00
+0.5 300,000 0.91 2,730.00 0.5 335,000 0.91 3,048.50
+0.5 300,018 0.91 2,730.16 0.5 735,000 0.91 6,688.50
+0.5 301,000 0.91 2,739.10 0.5 1,200,000 0.91 10,920.00
+0.5 305,000 0.91 2,775.50 0.5 1,165,000 0.91 10,601.50
+0.5 315,000 0.91 2,866.50 0.5 785,000 0.91 7,143.50
+0.5 316,000 0.91 2,875.60 0.5 765,000 0.91 6,961.50
+0.5 320,000 0.91 2,912.00 0.5 750,000 0.91 6,825.00
+0.5 325,000 0.91 2,957.50 0.5 739,900 0.91 6,733.09
+0.5 330,000 0.91 3,003.00 0.5 750,000 0.91 6,825.00
+0.5 333,000 0.91 3,030.30 1 42,000 0.34 142.80
+0.5 335,000 0.91 3,048.50 1 60,000 0.34 204.00
+0.5 340,000 0.91 3,094.00 1 80,000 0.34 272.00
+0.5 347,500 0.91 3,162.25 1 90,000 0.34 306.00
+0.5 349,000 0.91 3,175.90 1 20,100 0.34 68.34
+0.5 350,000 0.91 3,185.00 1 21,019 0.34 71.46
+0.5 358,000 0.91 3,257.80 1 29,900 0.34 101.66
+0.5 363,000 0.91 3,303.30 1 30,000 0.34 102.00
+0.5 365,000 0.91 3,321.50 1 30,000 0.34 102.00
+0.5 369,000 0.91 3,357.90 1 31,000 0.34 105.40
+0.5 379,000 0.91 3,448.90 1 32,119 0.34 109.20
+0.5 388,500 0.91 3,535.35 1 37,100 0.34 126.14
+
+=====PAGE 47=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 37
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+1 38,000 0.34 129.20 1 117,000 0.34 397.80
+1 40,000 0.34 136.00 1 119,900 0.34 407.66
+1 40,000 0.34 136.00 1 120,000 0.34 408.00
+1 45,000 0.34 153.00 1 120,000 0.34 408.00
+1 47,438 0.34 161.29 1 123,400 0.34 419.56
+1 51,400 0.34 174.76 1 123,500 0.34 419.90
+1 52,000 0.34 176.80 1 124,000 0.34 421.60
+1 52,000 0.34 176.80 1 124,000 0.34 421.60
+1 52,900 0.34 179.86 1 126,000 0.34 428.40
+1 55,000 0.34 187.00 1 127,500 0.34 433.50
+1 59,900 0.34 203.66 1 128,000 0.34 435.20
+1 60,000 0.34 204.00 1 130,000 0.34 442.00
+1 65,000 0.34 221.00 1 130,000 0.34 442.00
+1 65,000 0.34 221.00 1 132,000 0.34 448.80
+1 65,000 0.34 221.00 1 132,300 0.34 449.82
+1 65,026 0.34 221.09 1 133,000 0.34 452.20
+1 67,000 0.34 227.80 1 133,400 0.34 453.56
+1 69,000 0.34 234.60 1 135,000 0.34 459.00
+1 70,000 0.34 238.00 1 135,000 0.34 459.00
+1 75,000 0.34 255.00 1 135,000 0.34 459.00
+1 79,895 0.34 271.64 1 135,200 0.34 459.68
+1 80,000 0.34 272.00 1 139,700 0.34 474.98
+1 81,100 0.34 275.74 1 145,000 0.34 493.00
+1 83,100 0.34 282.54 1 145,000 0.34 493.00
+1 83,571 0.34 284.14 1 150,000 0.34 510.00
+1 83,576 0.34 284.16 1 150,000 0.34 510.00
+1 84,900 0.34 288.66 1 151,000 0.34 513.40
+1 85,000 0.34 289.00 1 151,200 0.34 514.08
+1 85,000 0.34 289.00 1 151,600 0.34 515.44
+1 86,000 0.34 292.40 1 154,000 0.34 523.60
+1 91,000 0.34 309.40 1 155,000 0.34 527.00
+1 91,550 0.34 311.27 1 155,000 0.34 527.00
+1 95,000 0.34 323.00 1 156,900 0.34 533.46
+1 99,000 0.34 336.60 1 158,000 0.34 537.20
+1 100,000 0.34 340.00 1 158,500 0.34 538.90
+1 100,000 0.34 340.00 1 160,000 0.34 544.00
+1 103,000 0.34 350.20 1 161,000 0.34 547.40
+1 105,000 0.34 357.00 1 163,000 0.34 554.20
+1 110,000 0.34 374.00 1 168,000 0.34 571.20
+1 115,500 0.34 392.70 1 168,900 0.34 574.26
+
+=====PAGE 48=====
+38 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+1 170,000 0.34 578.00 1 211,000 0.34 717.40
+1 170,000 0.34 578.00 1 212,000 0.34 720.80
+1 170,000 0.34 578.00 1 215,000 0.34 731.00
+1 170,000 0.34 578.00 1 215,000 0.34 731.00
+1 170,000 0.34 578.00 1 218,000 0.34 741.20
+1 172,500 0.34 586.50 1 220,000 0.34 748.00
+1 176,000 0.34 598.40 1 227,000 0.34 771.80
+1 176,500 0.34 600.10 1 229,900 0.34 781.66
+1 177,000 0.34 601.80 1 232,000 0.34 788.80
+1 178,200 0.34 605.88 1 237,150 0.34 806.31
+1 179,400 0.34 609.96 1 239,900 0.34 815.66
+1 180,000 0.34 612.00 1 240,000 0.34 816.00
+1 180,000 0.34 612.00 1 240,000 0.34 816.00
+1 180,000 0.34 612.00 1 243,000 0.34 826.20
+1 181,000 0.34 615.40 1 244,000 0.34 829.60
+1 181,999 0.34 618.80 1 245,000 0.34 833.00
+1 182,000 0.34 618.80 1 245,000 0.34 833.00
+1 187,500 0.34 637.50 1 245,000 0.34 833.00
+1 190,000 0.34 646.00 1 249,000 0.34 846.60
+1 190,000 0.34 646.00 1 250,000 0.34 850.00
+1 194,900 0.34 662.66 1 250,000 0.34 850.00
+1 195,000 0.34 663.00 1 250,000 0.34 850.00
+1 195,000 0.34 663.00 1 250,000 0.34 850.00
+1 180,000 0.34 612.00 1 250,000 0.34 850.00
+1 170,000 0.34 578.00 1 250,000 0.34 850.00
+1 160,000 0.34 544.00 1 250,000 0.34 850.00
+1 150,000 0.34 510.00 1 252,000 0.34 856.80
+1 135,000 0.34 459.00 1 256,000 0.34 870.40
+1 115,000 0.34 391.00 1 257,000 0.34 873.80
+1 124,000 0.34 421.60 1 257,000 0.34 873.80
+1 210,000 0.34 714.00 1 259,000 0.34 880.60
+1 195,000 0.34 663.00 1 262,000 0.34 890.80
+1 197,000 0.34 669.80 1 262,600 0.34 892.84
+1 197,000 0.34 669.80 1 265,000 0.34 901.00
+1 200,000 0.34 680.00 1 267,000 0.34 907.80
+1 202,000 0.34 686.80 1 268,000 0.34 911.20
+1 203,500 0.34 691.90 1 275,000 0.34 935.00
+1 207,000 0.34 703.80 1 275,000 0.34 935.00
+1 209,900 0.34 713.66 1 275,000 0.34 935.00
+1 210,000 0.34 714.00 1 275,000 0.34 935.00
+
+=====PAGE 49=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 39
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+1 275,000 0.34 935.00 1 425,000 0.34 1,445.00
+1 275,000 0.34 935.00 1 385,000 0.34 1,309.00
+1 275,000 0.34 935.00 1 385,000 0.34 1,309.00
+1 277,500 0.34 943.50 1 385,000 0.34 1,309.00
+1 282,920 0.34 961.93 1 390,000 0.34 1,326.00
+1 288,000 0.34 979.20 1 399,900 0.34 1,359.66
+1 292,500 0.34 994.50 1 410,000 0.34 1,394.00
+1 295,000 0.34 1,003.00 1 420,000 0.34 1,428.00
+1 295,000 0.34 1,003.00 1 420,000 0.34 1,428.00
+1 295,000 0.34 1,003.00 1 422,000 0.34 1,434.80
+1 300,000 0.34 1,020.00 1 426,000 0.34 1,448.40
+1 300,000 0.34 1,020.00 1 450,000 0.34 1,530.00
+1 300,000 0.34 1,020.00 1 450,000 0.34 1,530.00
+1 307,500 0.34 1,045.50 1 450,000 0.34 1,530.00
+1 311,000 0.34 1,057.40 1 455,000 0.34 1,547.00
+1 315,000 0.34 1,071.00 1 462,000 0.34 1,570.80
+1 316,000 0.34 1,074.40 1 465,000 0.34 1,581.00
+1 323,500 0.34 1,099.90 1 470,000 0.34 1,598.00
+1 325,000 0.34 1,105.00 1 471,000 0.34 1,601.40
+1 325,000 0.34 1,105.00 1 490,000 0.34 1,666.00
+1 330,000 0.34 1,122.00 1 525,000 0.34 1,785.00
+1 339,900 0.34 1,155.66 1 537,500 0.34 1,827.50
+1 345,000 0.34 1,173.00 1 543,800 0.34 1,848.92
+1 350,000 0.34 1,190.00 1 550,000 0.34 1,870.00
+1 354,000 0.34 1,203.60 1 555,000 0.34 1,887.00
+1 355,000 0.34 1,207.00 1 555,158 0.34 1,887.54
+1 358,200 0.34 1,217.88 1 560,500 0.34 1,905.70
+1 365,000 0.34 1,241.00 1 575,000 0.34 1,955.00
+1 365,000 0.34 1,241.00 1 585,000 0.34 1,989.00
+1 367,500 0.34 1,249.50 1 595,000 0.34 2,023.00
+1 375,000 0.34 1,275.00 1 600,000 0.34 2,040.00
+1 375,000 0.34 1,275.00 1 606,000 0.34 2,060.40
+1 235,000 0.34 799.00 1 610,000 0.34 2,074.00
+1 245,000 0.34 833.00 1 620,000 0.34 2,108.00
+1 254,900 0.34 866.66 1 812,500 0.34 2,762.50
+1 271,001 0.34 921.40 1 900,000 0.34 3,060.00
+1 285,000 0.34 969.00 1 1,200,000 0.34 4,080.00
+1 310,000 0.34 1,054.00 1 2,075,183 0.34 7,055.62
+1 350,000 0.34 1,190.00 1 2,075,183 0.34 7,055.62
+1 380,000 0.34 1,292.00 1 2,075,183 0.34 7,055.62
+
+=====PAGE 50=====
+40 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+1 490,000 0.34 1,666.00 2 86,000 0.05 38.70
+1 575,000 0.34 1,955.00 2 87,028 0.05 39.16
+1 1,750,000 0.34 5,950.00 2 90,900 0.05 40.91
+2 29,000 0.05 13.05 2 91,500 0.05 41.18
+2 30,000 0.05 13.50 2 93,000 0.05 41.85
+2 30,800 0.05 13.86 2 93,600 0.05 42.12
+2 20,000 0.05 9.00 2 94,000 0.05 42.30
+2 20,100 0.05 9.05 2 94,511 0.05 42.53
+2 21,000 0.05 9.45 2 95,000 0.05 42.75
+2 35,000 0.05 15.75 2 97,500 0.05 43.88
+2 51,400 0.05 23.13 2 100,000 0.05 45.00
+2 71,500 0.05 32.18 2 100,000 0.05 45.00
+2 89,900 0.05 40.46 2 100,000 0.05 45.00
+2 100,000 0.05 45.00 2 101,000 0.05 45.45
+2 110,000 0.05 49.50 2 102,000 0.05 45.90
+2 38,000 0.05 17.10 2 105,000 0.05 47.25
+2 38,200 0.05 17.19 2 105,000 0.05 47.25
+2 38,500 0.05 17.33 2 106,000 0.05 47.70
+2 40,050 0.05 18.02 2 107,719 0.05 48.47
+2 42,000 0.05 18.90 2 108,000 0.05 48.60
+2 47,500 0.05 21.38 2 112,000 0.05 50.40
+2 47,900 0.05 21.56 2 114,000 0.05 51.30
+2 50,000 0.05 22.50 2 115,000 0.05 51.75
+2 50,100 0.05 22.55 2 115,000 0.05 51.75
+2 54,900 0.05 24.71 2 115,000 0.05 51.75
+2 55,000 0.05 24.75 2 115,000 0.05 51.75
+2 57,100 0.05 25.70 2 115,000 0.05 51.75
+2 67,847 0.05 30.53 2 115,100 0.05 51.80
+2 69,000 0.05 31.05 2 119,000 0.05 53.55
+2 69,100 0.05 31.10 2 120,000 0.05 54.00
+2 70,000 0.05 31.50 2 120,000 0.05 54.00
+2 70,200 0.05 31.59 2 120,646 0.05 54.29
+2 71,000 0.05 31.95 2 122,500 0.05 55.13
+2 72,000 0.05 32.40 2 123,000 0.05 55.35
+2 75,000 0.05 33.75 2 123,000 0.05 55.35
+2 77,000 0.05 34.65 2 125,000 0.05 56.25
+2 77,500 0.05 34.88 2 125,000 0.05 56.25
+2 80,400 0.05 36.18 2 127,500 0.05 57.38
+2 82,000 0.05 36.90 2 128,000 0.05 57.60
+2 85,419 0.05 38.44 2 129,905 0.05 58.46
+
+=====PAGE 51=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 41
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+2 130,000 0.05 58.50 2 157,500 0.05 70.88
+2 130,000 0.05 58.50 2 157,500 0.05 70.88
+2 130,000 0.05 58.50 2 159,500 0.05 71.78
+2 133,500 0.05 60.08 2 162,000 0.05 72.90
+2 135,000 0.05 60.75 2 162,697 0.05 73.21
+2 135,000 0.05 60.75 2 163,000 0.05 73.35
+2 135,000 0.05 60.75 2 165,000 0.05 74.25
+2 135,000 0.05 60.75 2 165,000 0.05 74.25
+2 136,800 0.05 61.56 2 165,000 0.05 74.25
+2 137,000 0.05 61.65 2 166,000 0.05 74.70
+2 137,000 0.05 61.65 2 167,000 0.05 75.15
+2 138,500 0.05 62.33 2 167,500 0.05 75.38
+2 139,900 0.05 62.96 2 168,500 0.05 75.83
+2 141,000 0.05 63.45 2 169,000 0.05 76.05
+2 142,000 0.05 63.90 2 169,900 0.05 76.46
+2 142,000 0.05 63.90 2 170,170 0.05 76.58
+2 146,000 0.05 65.70 2 171,000 0.05 76.95
+2 146,300 0.05 65.84 2 172,000 0.05 77.40
+2 146,500 0.05 65.93 2 174,000 0.05 78.30
+2 147,000 0.05 66.15 2 174,000 0.05 78.30
+2 149,053 0.05 67.07 2 174,900 0.05 78.71
+2 149,100 0.05 67.10 2 175,000 0.05 78.75
+2 149,400 0.05 67.23 2 175,000 0.05 78.75
+2 149,999 0.05 67.50 2 175,000 0.05 78.75
+2 150,000 0.05 67.50 2 175,000 0.05 78.75
+2 120,000 0.05 54.00 2 176,000 0.05 79.20
+2 128,000 0.05 57.60 2 176,500 0.05 79.43
+2 135,000 0.05 60.75 2 177,500 0.05 79.88
+2 145,000 0.05 65.25 2 177,900 0.05 80.06
+2 151,500 0.05 68.18 2 180,000 0.05 81.00
+2 160,000 0.05 72.00 2 180,000 0.05 81.00
+2 168,000 0.05 75.60 2 180,000 0.05 81.00
+2 175,000 0.05 78.75 2 180,000 0.05 81.00
+2 180,000 0.05 81.00 2 180,200 0.05 81.09
+2 152,000 0.05 68.40 2 180,300 0.05 81.14
+2 153,900 0.05 69.26 2 181,000 0.05 81.45
+2 155,000 0.05 69.75 2 182,000 0.05 81.90
+2 155,000 0.05 69.75 2 182,000 0.05 81.90
+2 155,000 0.05 69.75 2 182,000 0.05 81.90
+2 155,000 0.05 69.75 2 183,000 0.05 82.35
+
+=====PAGE 52=====
+42 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+2 185,000 0.05 83.25 2 203,700 0.05 91.67
+2 185,000 0.05 83.25 2 208,000 0.05 93.60
+2 185,000 0.05 83.25 2 214,500 0.05 96.53
+2 185,000 0.05 83.25 2 223,000 0.05 100.35
+2 185,000 0.05 83.25 2 200,000 0.05 90.00
+2 185,000 0.05 83.25 2 200,000 0.05 90.00
+2 185,000 0.05 83.25 2 200,000 0.05 90.00
+2 185,000 0.05 83.25 2 200,000 0.05 90.00
+2 186,000 0.05 83.70 2 200,000 0.05 90.00
+2 186,900 0.05 84.11 2 201,000 0.05 90.45
+2 188,000 0.05 84.60 2 201,000 0.05 90.45
+2 188,000 0.05 84.60 2 202,900 0.05 91.31
+2 189,000 0.05 85.05 2 203,000 0.05 91.35
+2 189,900 0.05 85.46 2 205,000 0.05 92.25
+2 190,000 0.05 85.50 2 205,000 0.05 92.25
+2 190,000 0.05 85.50 2 206,000 0.05 92.70
+2 190,000 0.05 85.50 2 206,000 0.05 92.70
+2 190,000 0.05 85.50 2 206,250 0.05 92.81
+2 190,200 0.05 85.59 2 206,500 0.05 92.93
+2 191,000 0.05 85.95 2 207,000 0.05 93.15
+2 192,000 0.05 86.40 2 207,071 0.05 93.18
+2 192,500 0.05 86.63 2 208,000 0.05 93.60
+2 193,000 0.05 86.85 2 208,000 0.05 93.60
+2 193,000 0.05 86.85 2 208,000 0.05 93.60
+2 193,000 0.05 86.85 2 210,000 0.05 94.50
+2 193,000 0.05 86.85 2 210,000 0.05 94.50
+2 195,000 0.05 87.75 2 210,000 0.05 94.50
+2 195,000 0.05 87.75 2 211,000 0.05 94.95
+2 195,000 0.05 87.75 2 211,200 0.05 95.04
+2 195,000 0.05 87.75 2 212,000 0.05 95.40
+2 196,000 0.05 88.20 2 214,000 0.05 96.30
+2 197,500 0.05 88.88 2 215,000 0.05 96.75
+2 197,900 0.05 89.06 2 216,500 0.05 97.43
+2 199,000 0.05 89.55 2 218,980 0.05 98.54
+2 199,900 0.05 89.96 2 219,000 0.05 98.55
+2 183,000 0.05 82.35 2 219,900 0.05 98.96
+2 185,398 0.05 83.43 2 219,900 0.05 98.96
+2 190,000 0.05 85.50 2 219,900 0.05 98.96
+2 195,000 0.05 87.75 2 220,000 0.05 99.00
+2 200,000 0.05 90.00 2 222,000 0.05 99.90
+
+=====PAGE 53=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 43
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+2 224,220 0.05 100.90 2 246,500 0.05 110.93
+2 224,900 0.05 101.21 2 250,000 0.05 112.50
+2 225,000 0.05 101.25 2 250,000 0.05 112.50
+2 225,000 0.05 101.25 2 251,000 0.05 112.95
+2 225,000 0.05 101.25 2 251,000 0.05 112.95
+2 225,000 0.05 101.25 2 252,000 0.05 113.40
+2 225,000 0.05 101.25 2 252,000 0.05 113.40
+2 225,000 0.05 101.25 2 252,000 0.05 113.40
+2 225,000 0.05 101.25 2 254,000 0.05 114.30
+2 225,000 0.05 101.25 2 254,990 0.05 114.75
+2 225,000 0.05 101.25 2 255,000 0.05 114.75
+2 227,000 0.05 102.15 2 255,000 0.05 114.75
+2 227,800 0.05 102.51 2 256,000 0.05 115.20
+2 228,000 0.05 102.60 2 256,353 0.05 115.36
+2 228,400 0.05 102.78 2 258,000 0.05 116.10
+2 229,900 0.05 103.46 2 259,999 0.05 117.00
+2 230,000 0.05 103.50 2 260,000 0.05 117.00
+2 230,500 0.05 103.73 2 260,000 0.05 117.00
+2 234,000 0.05 105.30 2 262,500 0.05 118.13
+2 234,900 0.05 105.71 2 264,000 0.05 118.80
+2 235,000 0.05 105.75 2 264,900 0.05 119.21
+2 235,900 0.05 106.16 2 265,000 0.05 119.25
+2 237,000 0.05 106.65 2 265,000 0.05 119.25
+2 237,500 0.05 106.88 2 267,000 0.05 120.15
+2 237,900 0.05 107.06 2 267,000 0.05 120.15
+2 238,000 0.05 107.10 2 268,000 0.05 120.60
+2 239,000 0.05 107.55 2 268,000 0.05 120.60
+2 240,000 0.05 108.00 2 270,000 0.05 121.50
+2 240,000 0.05 108.00 2 270,400 0.05 121.68
+2 240,000 0.05 108.00 2 271,000 0.05 121.95
+2 240,000 0.05 108.00 2 272,000 0.05 122.40
+2 240,000 0.05 108.00 2 272,500 0.05 122.63
+2 240,000 0.05 108.00 2 273,000 0.05 122.85
+2 242,000 0.05 108.90 2 273,400 0.05 123.03
+2 243,500 0.05 109.58 2 275,000 0.05 123.75
+2 244,000 0.05 109.80 2 275,000 0.05 123.75
+2 245,000 0.05 110.25 2 275,000 0.05 123.75
+2 245,000 0.05 110.25 2 275,000 0.05 123.75
+2 245,000 0.05 110.25 2 275,000 0.05 123.75
+2 245,000 0.05 110.25 2 277,000 0.05 124.65
+
+=====PAGE 54=====
+44 Societal Benefits of CyanoHAB Management in Lake Okeechobee—Potential Damages Avoided Under Scenarios
+Table 1.4. Single-family property sales during July– Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent] [Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from Distance from
+Sale price ($) % change Value ($) Sale price ($) % change Value ($)
+water (mi) water (mi)
+2 278,000 0.05 125.10 2 363,000 0.05 163.35
+2 280,000 0.05 126.00 2 363,000 0.05 163.35
+2 280,000 0.05 126.00 2 365,000 0.05 164.25
+2 280,000 0.05 126.00 2 368,000 0.05 165.60
+2 289,000 0.05 130.05 2 369,900 0.05 166.46
+2 289,000 0.05 130.05 2 375,000 0.05 168.75
+2 290,000 0.05 130.50 2 375,000 0.05 168.75
+2 290,000 0.05 130.50 2 378,000 0.05 170.10
+2 295,100 0.05 132.80 2 379,990 0.05 171.00
+2 296,100 0.05 133.25 2 380,000 0.05 171.00
+2 298,000 0.05 134.10 2 380,000 0.05 171.00
+2 298,000 0.05 134.10 2 380,500 0.05 171.23
+2 298,500 0.05 134.33 2 382,500 0.05 172.13
+2 300,000 0.05 135.00 2 390,000 0.05 175.50
+2 305,000 0.05 137.25 2 392,000 0.05 176.40
+2 307,500 0.05 138.38 2 395,000 0.05 177.75
+2 308,000 0.05 138.60 2 400,000 0.05 180.00
+2 310,000 0.05 139.50 2 407,000 0.05 183.15
+2 312,000 0.05 140.40 2 410,000 0.05 184.50
+2 315,000 0.05 141.75 2 410,000 0.05 184.50
+2 315,000 0.05 141.75 2 420,000 0.05 189.00
+2 320,000 0.05 144.00 2 420,000 0.05 189.00
+2 322,000 0.05 144.90 2 425,500 0.05 191.48
+2 324,900 0.05 146.21 2 435,000 0.05 195.75
+2 325,000 0.05 146.25 2 435,750 0.05 196.09
+2 325,000 0.05 146.25 2 441,533 0.05 198.69
+2 325,000 0.05 146.25 2 450,000 0.05 202.50
+2 328,500 0.05 147.83 2 458,000 0.05 206.10
+2 335,000 0.05 150.75 2 465,000 0.05 209.25
+2 336,000 0.05 151.20 2 469,400 0.05 211.23
+2 337,500 0.05 151.88 2 470,000 0.05 211.50
+2 340,000 0.05 153.00 2 490,900 0.05 220.91
+2 342,500 0.05 154.13 2 495,500 0.05 222.98
+2 345,000 0.05 155.25 2 515,000 0.05 231.75
+2 347,500 0.05 156.38 2 530,000 0.05 238.50
+2 352,500 0.05 158.63 2 539,900 0.05 242.96
+2 353,000 0.05 158.85 2 540,000 0.05 243.00
+2 358,000 0.05 161.10 2 550,000 0.05 247.50
+2 360,000 0.05 162.00 2 555,000 0.05 249.75
+2 360,000 0.05 162.00 2 599,999 0.05 270.00
+
+=====PAGE 55=====
+Appendix 1. Changes in Property Values in Four Counties in Florida 45
+Table 1.4. Single-family property sales during July–
+September 2018 in Lee County, Florida, sorted into buffer
+categories of distance from the water.—Continued
+[Sale prices and values are in 2018 U.S. dollars ($). mi, mile; %, percent]
+Distance from
+Sale price ($) % change Value ($)
+water (mi)
+2 600,000 0.05 270.00
+2 610,000 0.05 274.50
+2 675,000 0.05 303.75
+2 700,000 0.05 315.00
+2 700,000 0.05 315.00
+2 700,000 0.05 315.00
+2 725,000 0.05 326.25
+2 727,000 0.05 327.15
+2 729,900 0.05 328.46
+2 737,500 0.05 331.88
+2 775,000 0.05 348.75
+2 880,000 0.05 396.00
+2 1,165,000 0.05 524.25
+2 2,075,183 0.05 933.83
+2 2,075,183 0.05 933.83
+2 2,075,183 0.05 933.83
+2 2,075,183 0.05 933.83
+2 225,000 0.05 101.25
+2 232,000 0.05 104.40
+2 240,000 0.05 108.00
+2 252,000 0.05 113.40
+2 256,353 0.05 115.36
+2 267,000 0.05 120.15
+2 273,000 0.05 122.85
+2 278,500 0.05 125.33
+2 297,500 0.05 133.88
+2 315,000 0.05 141.75
+2 333,000 0.05 149.85
+2 355,000 0.05 159.75
+2 394,900 0.05 177.71
+2 435,000 0.05 195.75
+2 501,000 0.05 225.45
+For additional information, contact:
+2 623,500 0.05 280.58
+Center Director
+2 780,000 0.05 351.00 USGS Science and Decisions Center
+12201 Sunrise Valley Drive
+2 244,620 0.05 110.08
+Mail Stop 913
+2 375,000 0.05 168.75
+Reston, VA 20192
+https://www.usgs.gov/programs/science-and-decisions-center
+Publishing support provided by the
+USGS Science Publishing Network,
+Reston Publishing Service Center and
+Baltimore Publishing Service Center
+
+=====PAGE 56=====
+Boubacar
+and
+others—Societal
+Benefits
+of
+CyanoHAB
+Management
+in
+Lake
+Okeechobee—Potential
+Damages
+Avoided
+Under
+Scenarios—SIR
+2024–5091
+ISSN 2328-0328 (online)
+https://doi.org/ 10.3133/ sir20245091

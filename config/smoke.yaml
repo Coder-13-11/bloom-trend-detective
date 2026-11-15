@@ -1,0 +1,13 @@
+root: .
+output_dir: outputs/_smoke   # pipeline smoke test on partial data; NOT a result
+lake_map_csv: data/interim/fl_lake_map.csv
+cyan_raw_dir: data/raw/D03_cyan
+forecast_csv: data/raw/D01_forecasts/AllWeeks_CyanForecasts.csv
+min_valid_fraction: 0.5
+train_end: "2023-12-31"
+validation_year: 2024
+clim_prior_strength: 5
+alphas: [0.1, 0.3]
+bootstrap_alphas: [0.1]
+n_boot: 20
+seed: 1
