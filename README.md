@@ -2,7 +2,7 @@
 
 NASA Space Apps 2026 entry for **Be An Earth System Trend Detective!** Satellites say Florida's lakes are getting greener. This project tests whether that trend can be trusted, by cross-examining the satellite cyanobacteria index (CyAN) against independent field chlorophyll samples, lake by lake. It also provides NASA MERRA-2 temperature and rainfall trends, and asks whether the weekly bloom forecast is worth acting on.
 
-- Live site: `site/` (static; serve with `python3 -m http.server --directory site`)
+- Live site: https://coder-13-11.github.io/bloom-trend-detective/ (source in `site/`; serve locally with `python3 -m http.server --directory site`)
 - Slides: `submission/BloomTrendDetective_slides.pdf`
 - Project-page text: `submission/project_page.md`
 - Results: `research/results_crosscheck_v1.md`, `research/results_trends_v1.md`, `research/results_v1.md`

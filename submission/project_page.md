@@ -5,7 +5,7 @@ Challenge: **Be An Earth System Trend Detective!** Deadline: **Sun 15 Nov 2026, 
 Before pasting:
 - Replace every `[BRACKET]`.
 - Make sure every link opens without a login.
-- Demo = `submission/BloomTrendDetective_slides.pdf`: exactly 7 slides, including the title. Upload it somewhere public, such as the GitHub repo or Google Drive set to "anyone with link".
+- Demo = the slides PDF link below: exactly 7 slides, including the title.
 
 ---
 
@@ -29,11 +29,11 @@ Satellites say Florida's lakes are getting greener. Bloom Trend Detective asks w
 - That corrected our own first result. Field truth is the fairer judge.
 
 ## Demo
-[PUBLIC LINK TO BloomTrendDetective_slides.pdf] (7 slides)
+https://coder-13-11.github.io/bloom-trend-detective/BloomTrendDetective_slides.pdf (7 slides)
 
 ## Final Project
-Live tool: [PUBLIC URL, e.g. https://USERNAME.github.io/bloom-trend-detective/]
-Code, data manifest and tests: [PUBLIC REPO URL]
+Live tool: https://coder-13-11.github.io/bloom-trend-detective/
+Code, data manifest and tests: https://github.com/Coder-13-11/bloom-trend-detective
 
 ## Project Details
 
@@ -114,4 +114,4 @@ How we checked its work:
   - Coffer et al. (2021), *Water Research*, on how many years of imagery a trend needs.
   - Ho et al. (2019), *Nature*; Wilkinson et al. (2022), *Frontiers in Ecology and the Environment*; Mishra et al. (2023), *Science of the Total Environment*: the published disagreement over bloom trends.
 - **Software:** Plotly.js (MIT) for the charts and map outlines.
-- **Licence of our code:** [Apache-2.0 / MIT — choose one; Space Apps defaults to Apache-2.0].
+- **Licence of our code:** Apache-2.0.
